@@ -1,0 +1,37 @@
+name: Daily APMC Mandi Rates Sync
+
+on:
+  schedule:
+    # 06:00 UTC = 11:30 AM IST (morning mandi arrivals)
+    - cron: '0 6 * * *'
+    # 10:00 UTC = 03:30 PM IST (afternoon auction closing)
+    - cron: '0 10 * * *'
+  workflow_dispatch: # Allows manual 1-click trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Daily Sync Script
+        env:
+          DATAGOV_API_KEY: ${{ secrets.DATAGOV_API_KEY }}
+        run: |
+          python sync.py
+
+      - name: Commit & Push Updated Data
+        run: |
+          git config --global user.name "systemiclogics-beep"
+          git config --global user.email "systemiclogics-beep@users.noreply.github.com"
+          git add today.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update daily mandi rates [$(date +'%Y-%m-%d %H:%M')]" && git push)
