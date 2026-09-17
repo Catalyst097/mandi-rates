@@ -81,5 +81,4 @@ We may update our Privacy Policy periodically to reflect new features or legal r
 If you have any questions, suggestions, or concerns regarding this Privacy Policy or the data practices of BharatMandi, please contact us:
 
 * **Developer:** SystemicLogics
-* **Project Repository:** [github.com/systemiclogics-beep/bharat-mandi](https://github.com/systemiclogics-beep/bharat-mandi)
-* **Email:** `systemiclogics-beep@users.noreply.github.com`
+* **Email:** systemiclogics@gmail.com
