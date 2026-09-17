@@ -23,7 +23,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run Daily Sync Script
+      - name: Run Zero-Error Pipeline & Anomaly Tests
+        run: |
+          python -m unittest test_pipeline.py
+
+      - name: Run Daily Sync & Anomaly Shield Script
         env:
           DATAGOV_API_KEY: ${{ secrets.DATAGOV_API_KEY }}
         run: |

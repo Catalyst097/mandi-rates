@@ -826,6 +826,9 @@
       "change_amount": -25
     }
   ],
-  "generated_at": "16-09-2026 19:47:02",
-  "total": 48
+  "generated_at": "17-09-2026 14:39:26",
+  "total": 55,
+  "states_covered": 7,
+  "mandis_covered": 33,
+  "commodities_covered": 15
 }
