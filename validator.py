@@ -41,13 +41,16 @@ CROP_PRICE_BOUNDS: Dict[str, Tuple[float, float, float]] = {
     "Urad(Black Gram)": (250.0, 3000.0, 18000.0),
     "Masoor": (200.0, 2500.0, 14000.0),
 
-    # Spices
+    # Spices & Others
     "Garlic": (250.0, 1500.0, 45000.0),
     "Cumin Seed(Jeera)": (600.0, 8000.0, 80000.0),
     "Coriander(Seed)": (250.0, 2500.0, 25000.0),
     "Turmeric": (250.0, 3000.0, 28000.0),
+    "Red Chilli": (350.0, 4000.0, 45000.0),
+    "Ginger(Green)": (150.0, 1500.0, 25000.0),
 
-    # Vegetables
+    # Fruits & Vegetables
+    "Apple": (150.0, 1000.0, 30000.0),
     "Onion": (80.0, 200.0, 12000.0),
     "Potato": (80.0, 200.0, 8000.0),
     "Tomato": (80.0, 200.0, 12000.0),

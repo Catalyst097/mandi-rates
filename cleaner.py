@@ -103,6 +103,18 @@ COMMODITY_MAPPING: Dict[str, str] = {
     "urad(black gram)": "Urad(Black Gram)",
     "urad": "Urad(Black Gram)",
     "masoor": "Masoor",
+
+    # Fruits, Spices & Others
+    "apple": "Apple",
+    "seb": "Apple",
+    "ginger": "Ginger(Green)",
+    "ginger(green)": "Ginger(Green)",
+    "adrak": "Ginger(Green)",
+    "turmeric": "Turmeric",
+    "haldi": "Turmeric",
+    "red chilli": "Red Chilli",
+    "chilli(red)": "Red Chilli",
+    "mirchi": "Red Chilli",
 }
 
 STATE_MAPPING: Dict[str, str] = {
