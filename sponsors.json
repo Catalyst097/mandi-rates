@@ -1,6 +1,6 @@
 ﻿{
   "Maharashtra": {
-    "active": false,
+    "active": true,
     "title": "सह्याद्री ऍग्रो केंद्र",
     "subtitle": "कांदा व सोयाबीन बियाणे उपलब्ध",
     "phone": "9876543210",
@@ -18,12 +18,12 @@
     "end_date": "2026-12-31"
   },
   "ALL": {
-    "active": false,
+    "active": true,
     "title": "भारत मंडी पार्टनर",
     "subtitle": "यहाँ अपनी दुकान का विज्ञापन दें",
     "phone": "9876543210",
     "whatsapp": "9876543210",
-    "badge": "प्रचार",
+    "badge": "प्रचार / विज्ञापन",
     "end_date": "2026-12-31"
   }
 }
