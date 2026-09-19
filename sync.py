@@ -10,6 +10,7 @@ Scenario 2 auto-unit correction), and pre-commit integrity validation.
 import os
 import sys
 import json
+import re
 from datetime import datetime
 from fetcher import MandiDataFetcher
 from cleaner import DataCleaner
@@ -52,7 +53,13 @@ def run_pipeline():
         if orig_modal > 0 and orig_modal < 300 and validated["modal_price"] >= orig_modal * 50:
             unit_corrected_count += 1
 
-        validated["id"] = raw.get("id") or f"mandi_{i+1:04d}"
+        st = validated.get("state", "").strip().lower().replace(" ", "_")
+        mkt = validated.get("market", "").strip().lower().replace(" ", "_")
+        cmd = validated.get("commodity", "").strip().lower().replace(" ", "_")
+        var_s = validated.get("variety", "").strip().lower().replace(" ", "_")
+        slug = f"{st}_{mkt}_{cmd}_{var_s}"
+        slug = re.sub(r'[^a-zA-Z0-9_]', '', slug).strip('_')
+        validated["id"] = raw.get("id") or (f"mandi_{slug}" if slug else f"mandi_{i+1:04d}")
         validated["arrival_date"] = raw.get("arrival_date") or today_str
         validated["trend"] = raw.get("trend") or "stable"
         validated["change_amount"] = raw.get("change_amount", 0)
