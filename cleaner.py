@@ -119,9 +119,17 @@ COMMODITY_MAPPING: Dict[str, str] = {
 
 STATE_MAPPING: Dict[str, str] = {
     "chhattishgarh": "Chhattisgarh",
+    "chattisgarh": "Chhattisgarh",
     "nct of delhi": "Delhi",
+    "delhi": "Delhi",
     "orissa": "Odisha",
     "pondicherry": "Puducherry",
+    "jammu and kashmir": "Jammu and Kashmir",
+    "jammu & kashmir": "Jammu and Kashmir",
+    "andaman & nicobar": "Andaman and Nicobar",
+    "andaman and nicobar islands": "Andaman and Nicobar",
+    "dadra and nagar haveli": "Dadra and Nagar Haveli",
+    "daman and diu": "Daman and Diu",
 }
 
 
@@ -153,13 +161,20 @@ class DataCleaner:
 
     @staticmethod
     def clean_market(raw_market: str) -> str:
-        """Strips noisy market suffixes like (Grain Market), (Niphad Yard), (F&V)."""
+        """Strips noisy market prefixes (APMC, KUMS) and suffixes like (Grain Market), (Niphad Yard), (F&V)."""
         if not raw_market:
             return ""
         # Remove parenthetical content
         cleaned = re.sub(r'\(.*?\)', '', raw_market)
         # Remove extra punctuation and whitespace
         cleaned = re.sub(r'[\/\\#\-]', ' ', cleaned)
+        cleaned = " ".join(cleaned.split()).strip()
+
+        # Universally strip bureaucratic prefixes (case-insensitive)
+        cleaned = re.sub(r'^(apmc|kums|krishi\s+upaj\s+mandi\s+samiti)\s+', '', cleaned, flags=re.I)
+        # Universally strip yard/market suffixes
+        cleaned = re.sub(r'\s+(sub\s+yard|market\s+yard|grain\s+market|yard|market)$', '', cleaned, flags=re.I)
+
         return " ".join(cleaned.split()).strip().title()
 
     @staticmethod
@@ -180,4 +195,15 @@ class DataCleaner:
         cleaned["market"] = cls.clean_market(raw_record.get("market", ""))
         cleaned["district"] = cls.clean_market(raw_record.get("district", ""))
         cleaned["state"] = cls.clean_state(raw_record.get("state", ""))
+
+        # Multi-key defensive price parsing
+        for price_key in ["min_price", "max_price", "modal_price"]:
+            val = cleaned.get(price_key)
+            if val is not None:
+                try:
+                    num = int(float(str(val).replace(",", "").replace("₹", "").strip()))
+                    cleaned[price_key] = max(0, num)
+                except (ValueError, TypeError):
+                    cleaned[price_key] = 0
+
         return cleaned
