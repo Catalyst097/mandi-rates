@@ -30,8 +30,6 @@ jobs:
           python -m unittest test_pipeline.py
 
       - name: Run Daily Sync & Anomaly Shield Script
-        env:
-          DATAGOV_API_KEY: ${{ secrets.DATAGOV_API_KEY }}
         run: |
           python sync.py
 
