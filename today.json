@@ -197,7 +197,7 @@
     },
     {
       "state": "Madhya Pradesh",
-      "district": "Dindori",
+      "district": "Nashik",
       "market": "Dindori",
       "commodity": "Kodo Millet(Varagu)",
       "variety": "Kondo",
@@ -1367,7 +1367,7 @@
     },
     {
       "state": "Madhya Pradesh",
-      "district": "Dindori",
+      "district": "Nashik",
       "market": "Dindori",
       "commodity": "Paddy(Dhan)",
       "variety": "Other",
@@ -20087,7 +20087,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Kopargaon",
+      "district": "Ahilyanagar",
       "market": "Kopargaon",
       "commodity": "Bajra(Pearl Millet/Cumbu)",
       "variety": "Other",
@@ -20117,7 +20117,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Malegaon",
+      "district": "Nashik",
       "market": "Malegaon",
       "commodity": "Bajra(Pearl Millet/Cumbu)",
       "variety": "Other",
@@ -20267,7 +20267,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Shevgaon",
+      "district": "Ahilyanagar",
       "market": "Shevgaon",
       "commodity": "Bajra(Pearl Millet/Cumbu)",
       "variety": "Other",
@@ -20297,7 +20297,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahuri",
+      "district": "Ahilyanagar",
       "market": "Rahuri",
       "commodity": "Bajra(Pearl Millet/Cumbu)",
       "variety": "Other",
@@ -20312,7 +20312,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Shevgaon",
+      "district": "Ahilyanagar",
       "market": "Shevgaon",
       "commodity": "Bajra(Pearl Millet/Cumbu)",
       "variety": "Other",
@@ -20417,7 +20417,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Barshi",
+      "district": "Solapur",
       "market": "Barshi",
       "commodity": "Jowar(Sorghum)",
       "variety": "Other",
@@ -20537,7 +20537,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Dudhani",
+      "district": "Solapur",
       "market": "Dudhani",
       "commodity": "Jowar(Sorghum)",
       "variety": "Jowar ( White)",
@@ -20612,7 +20612,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Jamkhed",
+      "district": "Ahilyanagar",
       "market": "Jamkhed",
       "commodity": "Jowar(Sorghum)",
       "variety": "Other",
@@ -20627,7 +20627,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Jamkhed",
+      "district": "Ahilyanagar",
       "market": "Jamkhed",
       "commodity": "Jowar(Sorghum)",
       "variety": "Other",
@@ -20642,7 +20642,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karmala",
+      "district": "Solapur",
       "market": "Karmala",
       "commodity": "Jowar(Sorghum)",
       "variety": "Other",
@@ -20672,7 +20672,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Kopargaon",
+      "district": "Ahilyanagar",
       "market": "Kopargaon",
       "commodity": "Jowar(Sorghum)",
       "variety": "Other",
@@ -20702,7 +20702,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Malegaon",
+      "district": "Nashik",
       "market": "Malegaon",
       "commodity": "Jowar(Sorghum)",
       "variety": "Jowar ( White)",
@@ -20942,7 +20942,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Tasgaon",
+      "district": "Sangli",
       "market": "Tasgaon",
       "commodity": "Jowar(Sorghum)",
       "variety": "Other",
@@ -21002,7 +21002,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Barshi",
+      "district": "Solapur",
       "market": "Barshi",
       "commodity": "Jowar(Sorghum)",
       "variety": "Other",
@@ -21167,7 +21167,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Dudhani",
+      "district": "Solapur",
       "market": "Dudhani",
       "commodity": "Maize",
       "variety": "Other",
@@ -21227,7 +21227,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Kopargaon",
+      "district": "Ahilyanagar",
       "market": "Kopargaon",
       "commodity": "Maize",
       "variety": "Other",
@@ -21242,7 +21242,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Maize",
       "variety": "Other",
@@ -21257,7 +21257,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Maize",
       "variety": "Other",
@@ -21272,7 +21272,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Malegaon",
+      "district": "Nashik",
       "market": "Malegaon",
       "commodity": "Maize",
       "variety": "Yellow",
@@ -21392,7 +21392,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Shevgaon",
+      "district": "Ahilyanagar",
       "market": "Shevgaon",
       "commodity": "Maize",
       "variety": "Deshi Red",
@@ -21407,7 +21407,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Tasgaon",
+      "district": "Sangli",
       "market": "Tasgaon",
       "commodity": "Maize",
       "variety": "Other",
@@ -21452,7 +21452,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Maize",
       "variety": "Deshi Red",
@@ -21467,7 +21467,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahuri",
+      "district": "Ahilyanagar",
       "market": "Rahuri",
       "commodity": "Maize",
       "variety": "Other",
@@ -21602,7 +21602,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Roha",
+      "district": "Raigad",
       "market": "Roha",
       "commodity": "Paddy(Dhan)",
       "variety": "Other",
@@ -21692,7 +21692,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Vasai",
+      "district": "Palghar",
       "market": "Vasai",
       "commodity": "Paddy(Dhan)",
       "variety": "1009 Kar",
@@ -21707,7 +21707,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Alibagh",
+      "district": "Raigad",
       "market": "Alibagh",
       "commodity": "Paddy(Dhan)",
       "variety": "Other",
@@ -21737,7 +21737,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Mangaon",
+      "district": "Raigad",
       "market": "Mangaon",
       "commodity": "Paddy(Dhan)",
       "variety": "Other",
@@ -21767,7 +21767,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Murud",
+      "district": "Raigad",
       "market": "Murud",
       "commodity": "Paddy(Dhan)",
       "variety": "Other",
@@ -21857,7 +21857,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Ulhasnagar",
+      "district": "Thane",
       "market": "Ulhasnagar",
       "commodity": "Paddy(Dhan)",
       "variety": "Other",
@@ -22007,7 +22007,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Barshi",
+      "district": "Solapur",
       "market": "Barshi",
       "commodity": "Wheat",
       "variety": "Other",
@@ -22322,7 +22322,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Jamkhed",
+      "district": "Ahilyanagar",
       "market": "Jamkhed",
       "commodity": "Wheat",
       "variety": "Other",
@@ -22352,7 +22352,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karmala",
+      "district": "Solapur",
       "market": "Karmala",
       "commodity": "Wheat",
       "variety": "Other",
@@ -22412,7 +22412,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Kopargaon",
+      "district": "Ahilyanagar",
       "market": "Kopargaon",
       "commodity": "Wheat",
       "variety": "Other",
@@ -22427,7 +22427,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Wheat",
       "variety": "Maharashtra 2189",
@@ -22457,7 +22457,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Malegaon",
+      "district": "Nashik",
       "market": "Malegaon",
       "commodity": "Wheat",
       "variety": "Other",
@@ -22772,7 +22772,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Shevgaon",
+      "district": "Ahilyanagar",
       "market": "Shevgaon",
       "commodity": "Wheat",
       "variety": "Maharashtra 2189",
@@ -22802,7 +22802,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Tasgaon",
+      "district": "Sangli",
       "market": "Tasgaon",
       "commodity": "Wheat",
       "variety": "Other",
@@ -22847,7 +22847,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Ulhasnagar",
+      "district": "Thane",
       "market": "Ulhasnagar",
       "commodity": "Wheat",
       "variety": "Other",
@@ -22982,7 +22982,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Wheat",
       "variety": "Maharashtra 2189",
@@ -22997,7 +22997,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Wheat",
       "variety": "Maharashtra 2189",
@@ -23042,7 +23042,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahuri",
+      "district": "Ahilyanagar",
       "market": "Rahuri",
       "commodity": "Wheat",
       "variety": "Other",
@@ -23057,7 +23057,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Shevgaon",
+      "district": "Ahilyanagar",
       "market": "Shevgaon",
       "commodity": "Wheat",
       "variety": "Maharashtra 2189",
@@ -23867,7 +23867,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Lime",
       "variety": "Other",
@@ -24497,7 +24497,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Pimpalgaon Baswant",
+      "district": "Nashik",
       "market": "Pimpalgaon Baswant",
       "commodity": "Pomegranate",
       "variety": "Other",
@@ -24527,7 +24527,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Pomegranate",
       "variety": "Other",
@@ -24542,7 +24542,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Sangamner",
+      "district": "Ahilyanagar",
       "market": "Sangamner",
       "commodity": "Pomegranate",
       "variety": "Other",
@@ -24557,7 +24557,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Sangola",
+      "district": "Solapur",
       "market": "Sangola",
       "commodity": "Pomegranate",
       "variety": "Other",
@@ -24572,7 +24572,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Shrirampur",
+      "district": "Ahilyanagar",
       "market": "Shrirampur",
       "commodity": "Pomegranate",
       "variety": "Other",
@@ -24617,7 +24617,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Junnar",
+      "district": "Pune",
       "market": "Junnar",
       "commodity": "Pomegranate",
       "variety": "Other",
@@ -24917,7 +24917,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Palus",
+      "district": "Sangli",
       "market": "Palus",
       "commodity": "Goat",
       "variety": "Goat",
@@ -24932,7 +24932,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Palus",
+      "district": "Sangli",
       "market": "Palus",
       "commodity": "Hen",
       "variety": "Other",
@@ -25007,7 +25007,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Baramati",
+      "district": "Pune",
       "market": "Baramati",
       "commodity": "Groundnut",
       "variety": "Other",
@@ -25022,7 +25022,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Baramati",
+      "district": "Pune",
       "market": "Baramati",
       "commodity": "Groundnut",
       "variety": "Other",
@@ -25052,7 +25052,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Malegaon",
+      "district": "Nashik",
       "market": "Malegaon",
       "commodity": "Groundnut",
       "variety": "Other",
@@ -25427,7 +25427,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Baramati",
+      "district": "Pune",
       "market": "Baramati",
       "commodity": "Soyabean",
       "variety": "Yellow",
@@ -25442,7 +25442,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Baramati",
+      "district": "Pune",
       "market": "Baramati",
       "commodity": "Soyabean",
       "variety": "Yellow",
@@ -25457,7 +25457,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Barshi",
+      "district": "Solapur",
       "market": "Barshi",
       "commodity": "Soyabean",
       "variety": "Other",
@@ -25652,7 +25652,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Jamkhed",
+      "district": "Ahilyanagar",
       "market": "Jamkhed",
       "commodity": "Soyabean",
       "variety": "Yellow",
@@ -25667,7 +25667,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Jamkhed",
+      "district": "Ahilyanagar",
       "market": "Jamkhed",
       "commodity": "Soyabean",
       "variety": "Yellow",
@@ -25742,7 +25742,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Kopargaon",
+      "district": "Ahilyanagar",
       "market": "Kopargaon",
       "commodity": "Soyabean",
       "variety": "Other",
@@ -25757,7 +25757,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Soyabean",
       "variety": "Other",
@@ -25982,7 +25982,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Tasgaon",
+      "district": "Sangli",
       "market": "Tasgaon",
       "commodity": "Soyabean",
       "variety": "Yellow",
@@ -26102,7 +26102,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Soyabean",
       "variety": "Other",
@@ -26117,7 +26117,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Soyabean",
       "variety": "Other",
@@ -26147,7 +26147,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Baramati",
+      "district": "Pune",
       "market": "Baramati",
       "commodity": "Sunflower/Sunflower Seed",
       "variety": "Other",
@@ -26162,7 +26162,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Baramati",
+      "district": "Pune",
       "market": "Baramati",
       "commodity": "Sunflower/Sunflower Seed",
       "variety": "Other",
@@ -26192,7 +26192,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Baramati",
+      "district": "Pune",
       "market": "Baramati",
       "commodity": "Gur(Jaggery)",
       "variety": "Other",
@@ -26222,7 +26222,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Nira",
+      "district": "Pune",
       "market": "Nira",
       "commodity": "Gur(Jaggery)",
       "variety": "Other",
@@ -26342,7 +26342,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Beans",
       "variety": "Other",
@@ -26372,7 +26372,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Panvel",
+      "district": "Raigad",
       "market": "Panvel",
       "commodity": "Beans",
       "variety": "Other",
@@ -26402,7 +26402,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Beans",
       "variety": "Other",
@@ -26582,7 +26582,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Dudhani",
+      "district": "Solapur",
       "market": "Dudhani",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -26987,7 +26987,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Tasgaon",
+      "district": "Sangli",
       "market": "Tasgaon",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -27077,7 +27077,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahuri",
+      "district": "Ahilyanagar",
       "market": "Rahuri",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -27182,7 +27182,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Barshi",
+      "district": "Solapur",
       "market": "Barshi",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -27272,7 +27272,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Dudhani",
+      "district": "Solapur",
       "market": "Dudhani",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -27287,7 +27287,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Dudhani",
+      "district": "Solapur",
       "market": "Dudhani",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -27377,7 +27377,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Jamkhed",
+      "district": "Ahilyanagar",
       "market": "Jamkhed",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -27392,7 +27392,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Jamkhed",
+      "district": "Ahilyanagar",
       "market": "Jamkhed",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -27422,7 +27422,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karmala",
+      "district": "Solapur",
       "market": "Karmala",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -27557,7 +27557,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Shevgaon",
+      "district": "Ahilyanagar",
       "market": "Shevgaon",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -27647,7 +27647,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Barshi",
+      "district": "Solapur",
       "market": "Barshi",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -27827,7 +27827,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Barshi",
+      "district": "Solapur",
       "market": "Barshi",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -27932,7 +27932,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Dudhani",
+      "district": "Solapur",
       "market": "Dudhani",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Green (Whole)",
@@ -27947,7 +27947,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Dudhani",
+      "district": "Solapur",
       "market": "Dudhani",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Green (Whole)",
@@ -28052,7 +28052,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Jamkhed",
+      "district": "Ahilyanagar",
       "market": "Jamkhed",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -28112,7 +28112,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Kopargaon",
+      "district": "Ahilyanagar",
       "market": "Kopargaon",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Green (Whole)",
@@ -28127,7 +28127,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -28142,7 +28142,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -28502,7 +28502,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -28532,7 +28532,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahuri",
+      "district": "Ahilyanagar",
       "market": "Rahuri",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -28607,7 +28607,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Green Peas",
       "variety": "Other",
@@ -28817,7 +28817,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Barshi",
+      "district": "Solapur",
       "market": "Barshi",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -28922,7 +28922,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Dudhani",
+      "district": "Solapur",
       "market": "Dudhani",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -28937,7 +28937,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Dudhani",
+      "district": "Solapur",
       "market": "Dudhani",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -29387,7 +29387,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Barshi",
+      "district": "Solapur",
       "market": "Barshi",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -29402,7 +29402,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Bengal Gram(Gram)",
       "variety": "Other",
@@ -29777,7 +29777,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Beetroot",
       "variety": "Other",
@@ -29972,7 +29972,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Bhindi(Ladies Finger)",
       "variety": "Other",
@@ -29987,7 +29987,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Bhindi(Ladies Finger)",
       "variety": "Other",
@@ -30017,7 +30017,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Murbad",
+      "district": "Thane",
       "market": "Murbad",
       "commodity": "Bhindi(Ladies Finger)",
       "variety": "Other",
@@ -30062,7 +30062,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Palus",
+      "district": "Sangli",
       "market": "Palus",
       "commodity": "Bhindi(Ladies Finger)",
       "variety": "Other",
@@ -30077,7 +30077,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Panvel",
+      "district": "Raigad",
       "market": "Panvel",
       "commodity": "Bhindi(Ladies Finger)",
       "variety": "Other",
@@ -30092,7 +30092,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Pen",
+      "district": "Raigad",
       "market": "Pen",
       "commodity": "Bhindi(Ladies Finger)",
       "variety": "Other",
@@ -30122,7 +30122,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Bhindi(Ladies Finger)",
       "variety": "Other",
@@ -30182,7 +30182,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Vita",
+      "district": "Sangli",
       "market": "Vita",
       "commodity": "Bhindi(Ladies Finger)",
       "variety": "Other",
@@ -30227,7 +30227,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Bhindi(Ladies Finger)",
       "variety": "Other",
@@ -30377,7 +30377,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Bitter Gourd",
       "variety": "Other",
@@ -30392,7 +30392,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Bitter Gourd",
       "variety": "Other",
@@ -30452,7 +30452,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Palus",
+      "district": "Sangli",
       "market": "Palus",
       "commodity": "Bitter Gourd",
       "variety": "Other",
@@ -30467,7 +30467,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Panvel",
+      "district": "Raigad",
       "market": "Panvel",
       "commodity": "Bitter Gourd",
       "variety": "Other",
@@ -30497,7 +30497,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Bitter Gourd",
       "variety": "Other",
@@ -30587,7 +30587,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Bitter Gourd",
       "variety": "Other",
@@ -30662,7 +30662,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Bottle Gourd",
       "variety": "Other",
@@ -30677,7 +30677,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Bottle Gourd",
       "variety": "Other",
@@ -30737,7 +30737,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Panvel",
+      "district": "Raigad",
       "market": "Panvel",
       "commodity": "Bottle Gourd",
       "variety": "Other",
@@ -30752,7 +30752,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Pen",
+      "district": "Raigad",
       "market": "Pen",
       "commodity": "Bottle Gourd",
       "variety": "Other",
@@ -30782,7 +30782,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Bottle Gourd",
       "variety": "Other",
@@ -30812,7 +30812,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Bottle Gourd",
       "variety": "Other",
@@ -30917,7 +30917,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Ghoti",
+      "district": "Nashik",
       "market": "Ghoti",
       "commodity": "Brinjal",
       "variety": "Other",
@@ -30992,7 +30992,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Brinjal",
       "variety": "Other",
@@ -31007,7 +31007,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Brinjal",
       "variety": "Other",
@@ -31082,7 +31082,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Palus",
+      "district": "Sangli",
       "market": "Palus",
       "commodity": "Brinjal",
       "variety": "Other",
@@ -31097,7 +31097,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Pen",
+      "district": "Raigad",
       "market": "Pen",
       "commodity": "Brinjal",
       "variety": "Other",
@@ -31127,7 +31127,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Brinjal",
       "variety": "Other",
@@ -31202,7 +31202,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Vaduj",
+      "district": "Satara",
       "market": "Vaduj",
       "commodity": "Brinjal",
       "variety": "Other",
@@ -31217,7 +31217,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Vita",
+      "district": "Sangli",
       "market": "Vita",
       "commodity": "Brinjal",
       "variety": "Other",
@@ -31262,7 +31262,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Brinjal",
       "variety": "Other",
@@ -31367,7 +31367,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Ghoti",
+      "district": "Nashik",
       "market": "Ghoti",
       "commodity": "Cabbage",
       "variety": "Other",
@@ -31442,7 +31442,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Cabbage",
       "variety": "Other",
@@ -31457,7 +31457,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Cabbage",
       "variety": "Other",
@@ -31532,7 +31532,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Palus",
+      "district": "Sangli",
       "market": "Palus",
       "commodity": "Cabbage",
       "variety": "Other",
@@ -31562,7 +31562,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Cabbage",
       "variety": "Other",
@@ -31667,7 +31667,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Cabbage",
       "variety": "Other",
@@ -31847,7 +31847,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Panvel",
+      "district": "Raigad",
       "market": "Panvel",
       "commodity": "Carrot",
       "variety": "Other",
@@ -31877,7 +31877,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Carrot",
       "variety": "Other",
@@ -31937,7 +31937,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Carrot",
       "variety": "Other",
@@ -32027,7 +32027,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Ghoti",
+      "district": "Nashik",
       "market": "Ghoti",
       "commodity": "Cauliflower",
       "variety": "Other",
@@ -32087,7 +32087,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Cauliflower",
       "variety": "Other",
@@ -32102,7 +32102,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Cauliflower",
       "variety": "Other",
@@ -32177,7 +32177,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Palus",
+      "district": "Sangli",
       "market": "Palus",
       "commodity": "Cauliflower",
       "variety": "Other",
@@ -32207,7 +32207,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Cauliflower",
       "variety": "Other",
@@ -32312,7 +32312,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Cauliflower",
       "variety": "Other",
@@ -32417,7 +32417,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Ghoti",
+      "district": "Nashik",
       "market": "Ghoti",
       "commodity": "Chilly Capsicum",
       "variety": "Other",
@@ -32462,7 +32462,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Chilly Capsicum",
       "variety": "Other",
@@ -32477,7 +32477,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Chilly Capsicum",
       "variety": "Other",
@@ -32537,7 +32537,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Palus",
+      "district": "Sangli",
       "market": "Palus",
       "commodity": "Chilly Capsicum",
       "variety": "Other",
@@ -32567,7 +32567,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Chilly Capsicum",
       "variety": "Other",
@@ -32657,7 +32657,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Chilly Capsicum",
       "variety": "Other",
@@ -32837,7 +32837,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Ghoti",
+      "district": "Nashik",
       "market": "Ghoti",
       "commodity": "Cucumbar(Kheera)",
       "variety": "Other",
@@ -32912,7 +32912,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Cucumbar(Kheera)",
       "variety": "Other",
@@ -32927,7 +32927,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Cucumbar(Kheera)",
       "variety": "Other",
@@ -32972,7 +32972,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Palus",
+      "district": "Sangli",
       "market": "Palus",
       "commodity": "Cucumbar(Kheera)",
       "variety": "Other",
@@ -32987,7 +32987,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Panvel",
+      "district": "Raigad",
       "market": "Panvel",
       "commodity": "Cucumbar(Kheera)",
       "variety": "Other",
@@ -33017,7 +33017,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Cucumbar(Kheera)",
       "variety": "Other",
@@ -33092,7 +33092,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Cucumbar(Kheera)",
       "variety": "Other",
@@ -33197,7 +33197,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Drumstick",
       "variety": "Other",
@@ -33242,7 +33242,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Palus",
+      "district": "Sangli",
       "market": "Palus",
       "commodity": "Drumstick",
       "variety": "Other",
@@ -33257,7 +33257,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Drumstick",
       "variety": "Other",
@@ -33287,7 +33287,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Drumstick",
       "variety": "Other",
@@ -33497,7 +33497,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Garlic",
       "variety": "Other",
@@ -33557,7 +33557,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Garlic",
       "variety": "Other",
@@ -33692,7 +33692,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Ginger(Green)",
       "variety": "Other",
@@ -33737,7 +33737,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Palus",
+      "district": "Sangli",
       "market": "Palus",
       "commodity": "Ginger(Green)",
       "variety": "Other",
@@ -33767,7 +33767,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Ginger(Green)",
       "variety": "Other",
@@ -33857,7 +33857,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Ginger(Green)",
       "variety": "Other",
@@ -34007,7 +34007,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Green Chilli",
       "variety": "Other",
@@ -34022,7 +34022,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Green Chilli",
       "variety": "Other",
@@ -34082,7 +34082,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Palus",
+      "district": "Sangli",
       "market": "Palus",
       "commodity": "Green Chilli",
       "variety": "Other",
@@ -34112,7 +34112,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Green Chilli",
       "variety": "Other",
@@ -34187,7 +34187,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Vaduj",
+      "district": "Satara",
       "market": "Vaduj",
       "commodity": "Green Chilli",
       "variety": "Other",
@@ -34202,7 +34202,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Vita",
+      "district": "Sangli",
       "market": "Vita",
       "commodity": "Green Chilli",
       "variety": "Other",
@@ -34247,7 +34247,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Green Chilli",
       "variety": "Other",
@@ -34412,7 +34412,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Guar",
       "variety": "Other",
@@ -34427,7 +34427,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Guar",
       "variety": "Other",
@@ -34487,7 +34487,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Panvel",
+      "district": "Raigad",
       "market": "Panvel",
       "commodity": "Guar",
       "variety": "Other",
@@ -34517,7 +34517,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Guar",
       "variety": "Other",
@@ -34592,7 +34592,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Guar",
       "variety": "Other",
@@ -34697,7 +34697,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Panvel",
+      "district": "Raigad",
       "market": "Panvel",
       "commodity": "Little Gourd(Kundru)",
       "variety": "Other",
@@ -34727,7 +34727,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Little Gourd(Kundru)",
       "variety": "Other",
@@ -34817,7 +34817,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Methi(Leaves)",
       "variety": "Other",
@@ -34862,7 +34862,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Methi(Leaves)",
       "variety": "Other",
@@ -34967,7 +34967,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Chandwad",
+      "district": "Nashik",
       "market": "Chandwad",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35027,7 +35027,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Dindori",
+      "district": "Nashik",
       "market": "Dindori",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35087,7 +35087,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Jamkhed",
+      "district": "Ahilyanagar",
       "market": "Jamkhed",
       "commodity": "Onion",
       "variety": "Local",
@@ -35102,7 +35102,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Kalvan",
+      "district": "Nashik",
       "market": "Kalvan",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35132,7 +35132,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Onion",
       "variety": "Halva",
@@ -35147,7 +35147,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Onion",
       "variety": "Fursungi",
@@ -35177,7 +35177,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Kopargaon",
+      "district": "Ahilyanagar",
       "market": "Kopargaon",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35192,7 +35192,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35267,7 +35267,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Nampur",
+      "district": "Nashik",
       "market": "Nampur",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35297,7 +35297,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Newasa",
+      "district": "Ahilyanagar",
       "market": "Newasa",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35312,7 +35312,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Pimpalgaon Baswant",
+      "district": "Nashik",
       "market": "Pimpalgaon Baswant",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35342,7 +35342,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Onion",
       "variety": "Other",
@@ -35372,7 +35372,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Sangamner",
+      "district": "Ahilyanagar",
       "market": "Sangamner",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35402,7 +35402,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Sinner",
+      "district": "Nashik",
       "market": "Sinner",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35447,7 +35447,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Vaduj",
+      "district": "Satara",
       "market": "Vaduj",
       "commodity": "Onion",
       "variety": "Red",
@@ -35492,7 +35492,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Dindori",
+      "district": "Nashik",
       "market": "Dindori",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35507,7 +35507,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Junnar",
+      "district": "Pune",
       "market": "Junnar",
       "commodity": "Onion",
       "variety": "Chinchwad",
@@ -35522,7 +35522,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Onion",
       "variety": "Other",
@@ -35537,7 +35537,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35552,7 +35552,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Lasalgaon",
+      "district": "Nashik",
       "market": "Lasalgaon",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35597,7 +35597,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Pimpalgaon Baswant",
+      "district": "Nashik",
       "market": "Pimpalgaon Baswant",
       "commodity": "Onion",
       "variety": "Unhali",
@@ -35777,7 +35777,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Peas Wet",
       "variety": "Other",
@@ -35837,7 +35837,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Peas Wet",
       "variety": "Other",
@@ -36032,7 +36032,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Potato",
       "variety": "Other",
@@ -36092,7 +36092,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Potato",
       "variety": "Other",
@@ -36152,7 +36152,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Vaduj",
+      "district": "Satara",
       "market": "Vaduj",
       "commodity": "Potato",
       "variety": "Local",
@@ -36197,7 +36197,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Potato",
       "variety": "Other",
@@ -36557,7 +36557,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Ridgeguard(Tori)",
       "variety": "Other",
@@ -36602,7 +36602,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Palus",
+      "district": "Sangli",
       "market": "Palus",
       "commodity": "Ridgeguard(Tori)",
       "variety": "Other",
@@ -36617,7 +36617,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Panvel",
+      "district": "Raigad",
       "market": "Panvel",
       "commodity": "Ridgeguard(Tori)",
       "variety": "Other",
@@ -36647,7 +36647,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Ridgeguard(Tori)",
       "variety": "Other",
@@ -36692,7 +36692,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Ridgeguard(Tori)",
       "variety": "Other",
@@ -36737,7 +36737,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Snakeguard",
       "variety": "Other",
@@ -36767,7 +36767,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Panvel",
+      "district": "Raigad",
       "market": "Panvel",
       "commodity": "Snakeguard",
       "variety": "Other",
@@ -36902,7 +36902,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Spinach",
       "variety": "Other",
@@ -36962,7 +36962,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Spinach",
       "variety": "Other",
@@ -37142,7 +37142,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Ghoti",
+      "district": "Nashik",
       "market": "Ghoti",
       "commodity": "Tomato",
       "variety": "Other",
@@ -37217,7 +37217,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Karad",
+      "district": "Satara",
       "market": "Karad",
       "commodity": "Tomato",
       "variety": "Other",
@@ -37232,7 +37232,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Tomato",
       "variety": "Local",
@@ -37307,7 +37307,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Pandharpur",
+      "district": "Solapur",
       "market": "Pandharpur",
       "commodity": "Tomato",
       "variety": "Other",
@@ -37322,7 +37322,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Panvel",
+      "district": "Raigad",
       "market": "Panvel",
       "commodity": "Tomato",
       "variety": "Other",
@@ -37352,7 +37352,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahata",
+      "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Tomato",
       "variety": "Other",
@@ -37367,7 +37367,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Rahuri",
+      "district": "Ahilyanagar",
       "market": "Rahuri",
       "commodity": "Tomato",
       "variety": "Other",
@@ -37412,7 +37412,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Sangamner",
+      "district": "Ahilyanagar",
       "market": "Sangamner",
       "commodity": "Tomato",
       "variety": "Other",
@@ -37457,7 +37457,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Vita",
+      "district": "Sangli",
       "market": "Vita",
       "commodity": "Tomato",
       "variety": "Other",
@@ -37487,7 +37487,7 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Khed",
+      "district": "Pune",
       "market": "Khed",
       "commodity": "Tomato",
       "variety": "Other",

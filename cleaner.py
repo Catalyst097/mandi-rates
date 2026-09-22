@@ -132,6 +132,65 @@ STATE_MAPPING: Dict[str, str] = {
     "daman and diu": "Daman and Diu",
 }
 
+TALUKA_TO_DISTRICT_MAPPING: Dict[str, str] = {
+    # Thane
+    "murbad": "Thane",
+    "kalyan": "Thane",
+    "ulhasnagar": "Thane",
+    "shahapur": "Thane",
+    "bhiwandi": "Thane",
+    "ambarnath": "Thane",
+    # Nashik
+    "lasalgaon": "Nashik",
+    "pimpalgaon baswant": "Nashik",
+    "malegaon": "Nashik",
+    "sinner": "Nashik",
+    "yeola": "Nashik",
+    "kalvan": "Nashik",
+    "chandwad": "Nashik",
+    "nampur": "Nashik",
+    "dindori": "Nashik",
+    "ghoti": "Nashik",
+    # Pune
+    "baramati": "Pune",
+    "junnar": "Pune",
+    "khed": "Pune",
+    "manchar": "Pune",
+    "nira": "Pune",
+    # Ahilyanagar (Ahmednagar)
+    "kopargaon": "Ahilyanagar",
+    "rahata": "Ahilyanagar",
+    "rahuri": "Ahilyanagar",
+    "sangamner": "Ahilyanagar",
+    "shrirampur": "Ahilyanagar",
+    "shevgaon": "Ahilyanagar",
+    "newasa": "Ahilyanagar",
+    "jamkhed": "Ahilyanagar",
+    # Satara
+    "karad": "Satara",
+    "vaduj": "Satara",
+    # Solapur
+    "pandharpur": "Solapur",
+    "barshi": "Solapur",
+    "sangola": "Solapur",
+    "karmala": "Solapur",
+    "dudhani": "Solapur",
+    # Sangli
+    "tasgaon": "Sangli",
+    "vita": "Sangli",
+    "palus": "Sangli",
+    # Raigad
+    "panvel": "Raigad",
+    "alibagh": "Raigad",
+    "pen": "Raigad",
+    "mangaon": "Raigad",
+    "roha": "Raigad",
+    "murud": "Raigad",
+    # Palghar
+    "vasai": "Palghar",
+    "palghar": "Palghar",
+}
+
 
 class DataCleaner:
     """Cleans and standardizes raw Agmarknet records."""
@@ -195,6 +254,14 @@ class DataCleaner:
         cleaned["market"] = cls.clean_market(raw_record.get("market", ""))
         cleaned["district"] = cls.clean_market(raw_record.get("district", ""))
         cleaned["state"] = cls.clean_state(raw_record.get("state", ""))
+
+        # Normalize known talukas/mandis to their true administrative districts (e.g. Murbad -> Thane, Lasalgaon -> Nashik)
+        dist_key = cleaned["district"].strip().lower()
+        market_key = cleaned["market"].strip().lower()
+        if dist_key in TALUKA_TO_DISTRICT_MAPPING:
+            cleaned["district"] = TALUKA_TO_DISTRICT_MAPPING[dist_key]
+        elif market_key in TALUKA_TO_DISTRICT_MAPPING:
+            cleaned["district"] = TALUKA_TO_DISTRICT_MAPPING[market_key]
 
         # Multi-key defensive price parsing
         for price_key in ["min_price", "max_price", "modal_price"]:
