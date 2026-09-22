@@ -1,51 +1,4 @@
-﻿{
-  "Murbad": [
-    {
-      "active": false,
-      "title": "मुरबाड किसान ऍग्रो",
-      "subtitle": "कांदा व सोयाबीन बियाणे उपलब्ध",
-      "phone": "9876543210",
-      "whatsapp": "9876543210",
-      "badge": "कृषि पार्टनर",
-      "end_date": "2026-12-31"
-    },
-    {
-      "active": false,
-      "title": "मुरबाड ट्रॅक्टर स्पेअर्स व सर्व्हिस",
-      "subtitle": "ट्रॅक्टर दुरुस्ती व अस्सल सुटे भाग",
-      "phone": "9123456789",
-      "whatsapp": "9123456789",
-      "badge": "अवजारे पार्टनर",
-      "end_date": "2026-12-31"
-    }
-  ],
-  "Thane": {
-    "active": false,
-    "title": "ठाणे जिल्हा कृषी केंद्र",
-    "subtitle": "सर्व अवजारे, खते व औषधे उपलब्ध",
-    "phone": "9876543210",
-    "whatsapp": "9876543210",
-    "badge": "जिल्हा पार्टनर",
-    "end_date": "2026-12-31"
-  },
-  "Maharashtra": {
-    "active": false,
-    "title": "सह्याद्री ऍग्रो केंद्र",
-    "subtitle": "कांदा व सोयाबीन बियाणे उपलब्ध",
-    "phone": "9876543210",
-    "whatsapp": "9876543210",
-    "badge": "कृषि पार्टनर",
-    "end_date": "2026-12-31"
-  },
-  "Madhya Pradesh": {
-    "active": false,
-    "title": "मालवा किसान सेवा",
-    "subtitle": "ट्रैक्टर स्पेयर पार्ट्स व उत्तम बीज",
-    "phone": "9876543210",
-    "whatsapp": "9876543210",
-    "badge": "कृषि पार्टनर",
-    "end_date": "2026-12-31"
-  },
+{
   "ALL": {
     "active": false,
     "title": "भारत मंडी पार्टनर",
@@ -53,6 +6,24 @@
     "phone": "9876543210",
     "whatsapp": "9876543210",
     "badge": "प्रचार / विज्ञापन",
+    "end_date": "2026-12-31"
+  },
+  "Murbad": {
+    "active": true,
+    "title": "Murbad tractor service",
+    "subtitle": "buy tractor in 5 % discount ",
+    "phone": "9999999999",
+    "whatsapp": "0000000000",
+    "badge": "Partner",
+    "end_date": "2026-10-25"
+  },
+  "Thane": {
+    "active": true,
+    "title": "Thane Bazar Peth",
+    "subtitle": "Buy varity of seed in our shops",
+    "phone": "9876543210",
+    "whatsapp": "9876543210",
+    "badge": "Seed partner",
     "end_date": "2026-12-31"
   }
 }
