@@ -10,6 +10,10 @@ on:
     - cron: '15 10 * * *'
   workflow_dispatch: # Allows manual 1-click trigger from GitHub UI
 
+concurrency:
+  group: daily-mandi-sync
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -44,9 +48,14 @@ jobs:
           gen_at = data.get('generated_at', '')
           print(f'Data Health Check: {len(records)} active mandi records present. Date: {gen_at}')
           now = datetime.datetime.now()
-          # On non-Sundays, ensure healthy record count (>= 2000)
+          # On non-Sundays, validate volume with soft-band for festive/low-volume days
           if now.weekday() != 6:
-              assert len(records) >= 2000, f'FATAL ERROR: Ingestion anomaly detected, only {len(records)} records!'
+              if len(records) < 200:
+                  raise AssertionError(f'FATAL ERROR: Ingestion anomaly detected, only {len(records)} records!')
+              elif len(records) < 2000:
+                  print(f'WARNING: Low trading volume detected ({len(records)} records). Proceeding for festive/partial trading day.')
+              else:
+                  print(f'SUCCESS: Healthy volume verified ({len(records)} records).')
           "
 
       - name: Commit & Push to Data Branch with Auto-Retry
@@ -61,14 +70,31 @@ jobs:
           git diff --staged --quiet || (
             git commit -m "Auto-update daily mandi rates [$(date +'%Y-%m-%d %H:%M')]"
             for i in 1 2 3; do
-              echo "Pushing to data branch (attempt $i)..."
+              echo "Pushing to primary data branch (attempt $i)..."
               git push origin data && break || (echo "Push failed, waiting 5s..." && sleep 5)
             done
           )
 
+      - name: Push to Backup Remote (Catalyst097)
+        if: env.BACKUP_PAT != ''
+        env:
+          BACKUP_PAT: ${{ secrets.BACKUP_PAT }}
+        run: |
+          git remote add backup https://x-access-token:${{ secrets.BACKUP_PAT }}@github.com/Catalyst097/mandi-rates.git || true
+          for i in 1 2 3; do
+            echo "Pushing to Catalyst097 data branch (attempt $i)..."
+            git push backup data:data --force && break || (echo "Backup push failed, waiting 5s..." && sleep 5)
+          done
+
       - name: Purge jsDelivr Edge Cache
         run: |
           for i in 1 2 3; do
-            echo "Purging jsDelivr cache for @data/today.json (attempt $i)..."
+            echo "Purging jsDelivr cache for systemiclogics-beep@data/today.json (attempt $i)..."
             curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@data/today.json" && break || sleep 3
           done
+          if [ -n "${{ secrets.BACKUP_PAT }}" ]; then
+            for i in 1 2 3; do
+              echo "Purging jsDelivr cache for Catalyst097@data/today.json (attempt $i)..."
+              curl -s "https://purge.jsdelivr.net/gh/Catalyst097/mandi-rates@data/today.json" && break || sleep 3
+            done
+          fi
