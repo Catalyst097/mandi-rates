@@ -77,7 +77,7 @@ jobs:
           )
 
       - name: Push to Backup Remote (Catalyst097)
-        if: env.BACKUP_PAT != ''
+        if: ${{ secrets.BACKUP_PAT != '' }}
         env:
           BACKUP_PAT: ${{ secrets.BACKUP_PAT }}
         run: |
