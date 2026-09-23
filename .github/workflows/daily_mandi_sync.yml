@@ -16,6 +16,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   sync:
@@ -98,3 +99,26 @@ jobs:
               curl -s "https://purge.jsdelivr.net/gh/Catalyst097/mandi-rates@data/today.json" && break || sleep 3
             done
           fi
+
+      - name: Alert on Failure (Telegram)
+        if: failure() && env.TG_BOT_TOKEN != '' && env.TG_CHAT_ID != ''
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TG_BOT_TOKEN }}/sendMessage" \
+            -d chat_id="${{ secrets.TG_CHAT_ID }}" \
+            -d text="🔴 BharatMandi daily rates scraper failed! Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
+
+      - name: Create GitHub Issue on Failure (Audit Trail)
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Daily Scraper Failure: Run ${context.runId}`,
+              body: `Automated daily rates sync failed on run ${context.runId}.\n\nInspect logs: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              labels: ['scraper-failure', 'automated']
+            });
