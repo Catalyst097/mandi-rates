@@ -33,18 +33,7 @@ jobs:
         run: |
           python sync.py
 
-      - name: Commit & Push Updated Data
-        run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git add today.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update daily mandi rates [$(date +'%Y-%m-%d %H:%M')]" && git pull --rebase origin main && git push)
-
-      - name: Purge jsDelivr Edge Cache
-        run: |
-          curl -s https://purge.jsdelivr.net/gh/${{ github.repository }}@main/today.json || true
-
-      - name: Verify CDN, Data Health & Freshness Check
+      - name: Verify Data Health & Freshness Gate
         run: |
           python -c "
           import json, os, datetime
@@ -53,13 +42,33 @@ jobs:
               data = json.load(f)
           records = data.get('records', [])
           gen_at = data.get('generated_at', '')
-          print(f'Data Health Check OK: {len(records)} active mandi records present. Date: {gen_at}')
-          assert len(records) >= 50, f'FATAL ERROR: Ingestion anomaly detected, only {len(records)} records!'
+          print(f'Data Health Check: {len(records)} active mandi records present. Date: {gen_at}')
           now = datetime.datetime.now()
-          today_str = now.strftime('%d-%m-%Y')
-          if now.weekday() != 6 and now.hour >= 6:
-              if today_str not in gen_at:
-                  print(f'[WARN] Freshness Alert: today.json date ({gen_at}) has not updated to today ({today_str}) yet.')
-              else:
-                  print(f'[OK] Freshness Verified: today.json matches today ({today_str}).')
+          # On non-Sundays, ensure healthy record count (>= 2000)
+          if now.weekday() != 6:
+              assert len(records) >= 2000, f'FATAL ERROR: Ingestion anomaly detected, only {len(records)} records!'
           "
+
+      - name: Commit & Push to Data Branch with Auto-Retry
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          cp today.json /tmp/today.json
+          git fetch origin data
+          git checkout data
+          mv /tmp/today.json today.json
+          git add today.json
+          git diff --staged --quiet || (
+            git commit -m "Auto-update daily mandi rates [$(date +'%Y-%m-%d %H:%M')]"
+            for i in 1 2 3; do
+              echo "Pushing to data branch (attempt $i)..."
+              git push origin data && break || (echo "Push failed, waiting 5s..." && sleep 5)
+            done
+          )
+
+      - name: Purge jsDelivr Edge Cache
+        run: |
+          for i in 1 2 3; do
+            echo "Purging jsDelivr cache for @data/today.json (attempt $i)..."
+            curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@data/today.json" && break || sleep 3
+          done
