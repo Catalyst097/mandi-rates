@@ -77,23 +77,28 @@ jobs:
           )
 
       - name: Push to Backup Remote (Catalyst097)
-        if: ${{ secrets.BACKUP_PAT != '' }}
         env:
           BACKUP_PAT: ${{ secrets.BACKUP_PAT }}
         run: |
-          git remote add backup https://x-access-token:${{ secrets.BACKUP_PAT }}@github.com/Catalyst097/mandi-rates.git || true
+          if [ -z "$BACKUP_PAT" ]; then
+            echo "BACKUP_PAT secret is not configured. Skipping secondary push."
+            exit 0
+          fi
+          git remote add backup https://x-access-token:${BACKUP_PAT}@github.com/Catalyst097/mandi-rates.git || true
           for i in 1 2 3; do
             echo "Pushing to Catalyst097 data branch (attempt $i)..."
             git push backup data:data --force && break || (echo "Backup push failed, waiting 5s..." && sleep 5)
           done
 
       - name: Purge jsDelivr Edge Cache
+        env:
+          BACKUP_PAT: ${{ secrets.BACKUP_PAT }}
         run: |
           for i in 1 2 3; do
             echo "Purging jsDelivr cache for systemiclogics-beep@data/today.json (attempt $i)..."
             curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@data/today.json" && break || sleep 3
           done
-          if [ -n "${{ secrets.BACKUP_PAT }}" ]; then
+          if [ -n "$BACKUP_PAT" ]; then
             for i in 1 2 3; do
               echo "Purging jsDelivr cache for Catalyst097@data/today.json (attempt $i)..."
               curl -s "https://purge.jsdelivr.net/gh/Catalyst097/mandi-rates@data/today.json" && break || sleep 3
@@ -101,13 +106,17 @@ jobs:
           fi
 
       - name: Alert on Failure (Telegram)
-        if: failure() && env.TG_BOT_TOKEN != '' && env.TG_CHAT_ID != ''
+        if: failure()
         env:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
         run: |
-          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TG_BOT_TOKEN }}/sendMessage" \
-            -d chat_id="${{ secrets.TG_CHAT_ID }}" \
+          if [ -z "$TG_BOT_TOKEN" ] || [ -z "$TG_CHAT_ID" ]; then
+            echo "Telegram credentials not configured. Skipping alert."
+            exit 0
+          fi
+          curl -s -X POST "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TG_CHAT_ID}" \
             -d text="🔴 BharatMandi daily rates scraper failed! Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
 
       - name: Create GitHub Issue on Failure (Audit Trail)
