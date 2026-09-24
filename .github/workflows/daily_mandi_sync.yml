@@ -68,8 +68,7 @@ jobs:
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           cp today.json /tmp/today.json
           git fetch origin data
-          git checkout data
-          git pull origin data
+          git checkout -B data FETCH_HEAD
           cp /tmp/today.json today.json
           git add today.json
           if ! git diff --staged --quiet; then
