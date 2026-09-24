@@ -63,13 +63,14 @@ jobs:
 
       - name: Commit & Push to Data Branch with Auto-Retry
         run: |
+          set -x
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           cp today.json /tmp/today.json
-          git fetch origin data:data || true
-          git checkout data || git checkout -b data origin/data
-          git reset --hard origin/data
-          mv /tmp/today.json today.json
+          git fetch origin data
+          git checkout data
+          git pull origin data
+          cp /tmp/today.json today.json
           git add today.json
           if ! git diff --staged --quiet; then
             git commit -m "Auto-update daily mandi rates [$(date +'%Y-%m-%d %H:%M')]"
