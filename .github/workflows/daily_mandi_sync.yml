@@ -24,6 +24,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -64,17 +66,18 @@ jobs:
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           cp today.json /tmp/today.json
-          git fetch origin data
-          git checkout data
+          git checkout -B data origin/data
           mv /tmp/today.json today.json
           git add today.json
-          git diff --staged --quiet || (
+          if ! git diff --staged --quiet; then
             git commit -m "Auto-update daily mandi rates [$(date +'%Y-%m-%d %H:%M')]"
             for i in 1 2 3; do
               echo "Pushing to primary data branch (attempt $i)..."
               git push origin data && break || (echo "Push failed, waiting 5s..." && sleep 5)
             done
-          )
+          else
+            echo "Data is already up to date, nothing to commit."
+          fi
 
       - name: Push to Backup Remote (Catalyst097)
         env:
