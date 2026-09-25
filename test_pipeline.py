@@ -124,6 +124,53 @@ class TestAnomalyDetector(unittest.TestCase):
         }
         self.assertIsNone(AnomalyDetector.validate_and_normalize_record(zero_prices))
 
+    def test_zero_arrival_ghost_rejection_vs_real_volume_spike(self):
+        """Tests that 0-arrival dummy typos are dropped, but real high-price trades are preserved."""
+        # Banthara ghost typo: Red Chilli at 94,999 with 0 arrivals -> REJECT
+        ghost_chilli = {
+            "commodity": "Red Chilli",
+            "state": "Uttar Pradesh",
+            "market": "Banthara",
+            "district": "Lucknow",
+            "min_price": 94999,
+            "max_price": 94999,
+            "modal_price": 94999,
+            "arrivals": 0
+        }
+        self.assertIsNone(AnomalyDetector.validate_and_normalize_record(ghost_chilli))
+
+        # Real market shortage spike: Red Chilli at 72,000 with 120 arrivals -> KEEP
+        real_spike = {
+            "commodity": "Red Chilli",
+            "state": "Andhra Pradesh",
+            "market": "Guntur",
+            "district": "Guntur",
+            "min_price": 65000,
+            "max_price": 78000,
+            "modal_price": 72000,
+            "arrivals": 120
+        }
+        clean_spike = AnomalyDetector.validate_and_normalize_record(real_spike)
+        self.assertIsNotNone(clean_spike)
+        self.assertEqual(clean_spike["modal_price"], 72000)
+
+    def test_spread_sanity_clerk_extra_zero(self):
+        """Tests that if a clerk types an extra zero on max price, it is sanitized without losing the record."""
+        clerk_typo = {
+            "commodity": "Apple",
+            "state": "Maharashtra",
+            "market": "Pune",
+            "district": "Pune",
+            "min_price": 2500,
+            "max_price": 100000,  # Typo: clerk meant 10000
+            "modal_price": 6200,
+            "arrivals": 200
+        }
+        clean = AnomalyDetector.validate_and_normalize_record(clerk_typo)
+        self.assertIsNotNone(clean)
+        self.assertEqual(clean["modal_price"], 6200)
+        self.assertLess(clean["max_price"], 10000)  # Sanitized from 100000 to reasonable bound
+
 
 class TestDataCleaner(unittest.TestCase):
 
@@ -134,6 +181,10 @@ class TestDataCleaner(unittest.TestCase):
         self.assertEqual(DataCleaner.clean_commodity("Mustard(Black)"), "Mustard")
         self.assertEqual(DataCleaner.clean_commodity("Cotton(Unginned)"), "Cotton")
         self.assertEqual(DataCleaner.clean_commodity("Onion(Red)"), "Onion")
+        self.assertEqual(DataCleaner.clean_commodity("Chili Red"), "Red Chilli")
+        self.assertEqual(DataCleaner.clean_commodity("chilli red"), "Red Chilli")
+        self.assertEqual(DataCleaner.clean_commodity("Dry Chillies"), "Red Chilli")
+        self.assertEqual(DataCleaner.clean_commodity("Green Chilli"), "Green Chilli")
 
     def test_market_normalization(self):
         """Tests that noisy market yard suffixes are stripped."""

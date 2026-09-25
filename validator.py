@@ -46,7 +46,10 @@ CROP_PRICE_BOUNDS: Dict[str, Tuple[float, float, float]] = {
     "Cumin Seed(Jeera)": (600.0, 8000.0, 80000.0),
     "Coriander(Seed)": (250.0, 2500.0, 25000.0),
     "Turmeric": (250.0, 3000.0, 28000.0),
-    "Red Chilli": (350.0, 4000.0, 45000.0),
+    "Red Chilli": (350.0, 4000.0, 75000.0),
+    "Chili Red": (350.0, 4000.0, 75000.0),
+    "Dry Chillies": (350.0, 4000.0, 75000.0),
+    "Green Chilli": (100.0, 1000.0, 30000.0),
     "Ginger(Green)": (150.0, 1500.0, 25000.0),
 
     # Fruits & Vegetables
@@ -117,10 +120,28 @@ class AnomalyDetector:
             min_p *= 100
             max_p *= 100
 
-        # --- SHIELD: HARD SANITY BOUNDS CHECK ---
-        if modal_p < min_valid or modal_p > max_valid:
-            # Beyond any reasonable biological/economic limit, reject anomaly
+        # Spread sanity: If clerk added extra zeros to max_p (e.g. > 4x modal_p), sanitize max_p
+        if max_p > modal_p * 4.0:
+            max_p = modal_p * 1.3
+        if min_p < modal_p * 0.2:
+            min_p = modal_p * 0.8
+
+        # --- SHIELD: REAL-WORLD SANITY BOUNDS WITH VOLUME PROTECTION ---
+        # 1. Extreme low bound (essentially zero / garbage test data)
+        if modal_p < min_valid:
             return None
+
+        # 2. High bound:
+        # If arrivals > 0, physical trading actually occurred! Allow generous spike room (up to 2.5x max_valid).
+        # If arrivals == 0, zero trading occurred. Any price above max_valid is a clerk dummy/test entry.
+        if arrivals > 0:
+            if modal_p > max_valid * 2.5:
+                # Beyond any physical reality (e.g. Wheat at ₹1,00,000 or Pumpkin at ₹2.2 Crore)
+                return None
+        else:
+            # 0 arrivals: reject if above normal bounds to eliminate dummy placeholder entries
+            if modal_p > max_valid:
+                return None
 
         clean_record = dict(record)
         clean_record["min_price"] = int(round(min_p))

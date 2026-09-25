@@ -115,6 +115,17 @@ COMMODITY_MAPPING: Dict[str, str] = {
     "red chilli": "Red Chilli",
     "chilli(red)": "Red Chilli",
     "mirchi": "Red Chilli",
+    "chili red": "Red Chilli",
+    "chilli red": "Red Chilli",
+    "dry chillies": "Red Chilli",
+    "dry chilli": "Red Chilli",
+    "dry chillies(red)": "Red Chilli",
+    "chilli": "Red Chilli",
+    "chili": "Red Chilli",
+    "lal mirch": "Red Chilli",
+    "green chilli": "Green Chilli",
+    "green chili": "Green Chilli",
+    "hari mirch": "Green Chilli",
 }
 
 STATE_MAPPING: Dict[str, str] = {
