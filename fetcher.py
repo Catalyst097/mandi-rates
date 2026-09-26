@@ -51,8 +51,6 @@ class MandiDataFetcher:
         No API key required.
         """
         ctx = ssl.create_default_context()
-        ctx.check_hostname = False
-        ctx.verify_mode = ssl.CERT_NONE
 
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) BharatMandi-Sync/2.0",
