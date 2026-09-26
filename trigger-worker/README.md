@@ -19,6 +19,7 @@ Automatically dispatches the GitHub Actions `daily_mandi_sync.yml` workflow via 
 3. Click **Edit code**, copy and paste the contents of `src/index.js`, and click **Deploy**.
 4. Go to **Settings** -> **Variables and Secrets**:
    - Add Secret: `GH_PAT` = your GitHub Personal Access Token (classic token with `repo` scope, or fine-grained token with `Actions: write`).
+   - Add Secret: `TRIGGER_SECRET` = your chosen secret password/passphrase (to protect the manual `/trigger` endpoint from public abuse).
 5. Go to **Settings** -> **Triggers** -> **Cron Triggers**:
    - Add Trigger: `45 5 * * *`
    - Add Trigger: `35 8 * * *`
@@ -28,11 +29,16 @@ Automatically dispatches the GitHub Actions `daily_mandi_sync.yml` workflow via 
 ```bash
 cd trigger-worker
 npx wrangler secret put GH_PAT
-# Paste your GitHub PAT when prompted
+npx wrangler secret put TRIGGER_SECRET
 npx wrangler deploy
 ```
 
-## Bonus: 1-Tap Mobile Trigger
-The worker exposes `GET /trigger`. You can bookmark:
-`https://mandi-trigger.<your-subdomain>.workers.dev/trigger`
-on your phone's browser or home screen to start an instant scrape anytime with a single tap!
+## Authenticated Manual Trigger (Protected)
+To prevent unauthorized users from draining your GitHub Action quotas, manual dispatch strictly requires your `TRIGGER_SECRET`:
+- **In browser**: `https://mandi-trigger.<your-subdomain>.workers.dev/trigger?key=YOUR_TRIGGER_SECRET`
+- **Via cURL / Header**:
+  ```bash
+  curl -X POST "https://mandi-trigger.<your-subdomain>.workers.dev/trigger" \
+       -H "X-Trigger-Key: YOUR_TRIGGER_SECRET"
+  ```
+Unauthenticated requests will receive `401 Unauthorized`, and unmapped routes return `404 Not Found`.
