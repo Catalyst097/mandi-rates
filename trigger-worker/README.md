@@ -11,6 +11,12 @@ Automatically dispatches the GitHub Actions `daily_mandi_sync.yml` workflow via 
 2. `35 8 * * *` -> 02:05 PM IST (Midday updates)
 3. `15 10 * * *` -> 03:45 PM IST (Afternoon auction closing)
 
+## Security Architecture: Pure Cron & Zero Public Surface
+- **HTTP fetch endpoint deliberately disabled (returns 404)**: No external web request can trigger scraping workflows.
+- **Internal Cron only**: Workflows are dispatched solely by Cloudflare's internal timer via `async scheduled()`.
+- **Manual Overrides**: Performed directly via the **GitHub Mobile App** or GitHub Actions web UI (`workflow_dispatch`), completely bypassing any public web endpoints.
+- **Secret Isolation**: `GH_PAT` is stored securely as an encrypted Cloudflare Secret, never exposed in code or history.
+
 ## Deployment Options
 
 ### Option 1: Via Cloudflare Dashboard (Easiest - 60 seconds)
@@ -18,8 +24,7 @@ Automatically dispatches the GitHub Actions `daily_mandi_sync.yml` workflow via 
 2. Name it `mandi-trigger` and click **Deploy**.
 3. Click **Edit code**, copy and paste the contents of `src/index.js`, and click **Deploy**.
 4. Go to **Settings** -> **Variables and Secrets**:
-   - Add Secret: `GH_PAT` = your GitHub Personal Access Token (classic token with `repo` scope, or fine-grained token with `Actions: write`).
-   - Add Secret: `TRIGGER_SECRET` = your chosen secret password/passphrase (to protect the manual `/trigger` endpoint from public abuse).
+   - Add Secret: `GH_PAT` = your GitHub Personal Access Token (fine-grained token with `Actions: write` on `mandi-rates` repository only).
 5. Go to **Settings** -> **Triggers** -> **Cron Triggers**:
    - Add Trigger: `45 5 * * *`
    - Add Trigger: `35 8 * * *`
@@ -29,16 +34,11 @@ Automatically dispatches the GitHub Actions `daily_mandi_sync.yml` workflow via 
 ```bash
 cd trigger-worker
 npx wrangler secret put GH_PAT
-npx wrangler secret put TRIGGER_SECRET
 npx wrangler deploy
 ```
 
-## Authenticated Manual Trigger (Protected)
-To prevent unauthorized users from draining your GitHub Action quotas, manual dispatch strictly requires your `TRIGGER_SECRET`:
-- **In browser**: `https://mandi-trigger.<your-subdomain>.workers.dev/trigger?key=YOUR_TRIGGER_SECRET`
-- **Via cURL / Header**:
-  ```bash
-  curl -X POST "https://mandi-trigger.<your-subdomain>.workers.dev/trigger" \
-       -H "X-Trigger-Key: YOUR_TRIGGER_SECRET"
-  ```
-Unauthenticated requests will receive `401 Unauthorized`, and unmapped routes return `404 Not Found`.
+## How to Trigger Manually
+Since public HTTP trigger endpoints are intentionally disabled for 100% security:
+1. Open the **GitHub Mobile App** (or visit `github.com/systemiclogics-beep/mandi-rates/actions`).
+2. Select **Daily Mandi Sync**.
+3. Tap **Run workflow** -> **Run workflow**.

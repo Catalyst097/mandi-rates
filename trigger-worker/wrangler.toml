@@ -2,6 +2,10 @@ name = "mandi-trigger"
 main = "src/index.js"
 compatibility_date = "2024-09-01"
 
+# Security Note: HTTP fetch endpoint deliberately disabled (returns 404).
+# All automated triggers run via internal Cloudflare Cron only.
+# Manual trigger overrides are performed directly via GitHub Mobile App / Actions UI.
+
 [triggers]
 # 05:45 UTC = 11:15 AM IST (morning mandi arrivals)
 # 08:35 UTC = 02:05 PM IST (midday updates)
