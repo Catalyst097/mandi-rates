@@ -1,29 +1,11 @@
 {
   "ALL": {
     "active": false,
-    "title": "भारत मंडी पार्टनर",
-    "subtitle": "यहाँ अपनी दुकान का विज्ञापन दें",
-    "phone": "9876543210",
-    "whatsapp": "9876543210",
+    "title": "Sponser Number",
+    "subtitle": "Get Listed on Bharat Mandi",
+    "phone": "9373612554",
+    "whatsapp": "9373612554",
     "badge": "प्रचार / विज्ञापन",
-    "end_date": "2026-12-31"
-  },
-  "Murbad": {
-    "active": true,
-    "title": "Murbad tractor service",
-    "subtitle": "buy tractor in 5 % discount ",
-    "phone": "9999999999",
-    "whatsapp": "0000000000",
-    "badge": "Partner",
-    "end_date": "2026-10-25"
-  },
-  "Thane": {
-    "active": true,
-    "title": "Thane Bazar Peth",
-    "subtitle": "Buy varity of seed in our shops",
-    "phone": "9876543210",
-    "whatsapp": "9876543210",
-    "badge": "Seed partner",
     "end_date": "2026-12-31"
   }
 }
