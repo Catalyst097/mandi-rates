@@ -7,5 +7,34 @@
     "whatsapp": "9373612554",
     "badge": "प्रचार / विज्ञापन",
     "end_date": "2026-12-31"
-  }
+  },
+  "Murbad": [
+    {
+      "active": true,
+      "title": "Murbad ads1 ",
+      "subtitle": "",
+      "phone": "",
+      "whatsapp": "9876543210",
+      "badge": "sponser",
+      "end_date": "2026-12-31"
+    },
+    {
+      "active": true,
+      "title": "Murbad ads2",
+      "subtitle": "Random ads 2",
+      "phone": "",
+      "whatsapp": "9876543210",
+      "badge": "कृषि पार्टनर",
+      "end_date": "2026-12-31"
+    },
+    {
+      "active": true,
+      "title": "murbad 3",
+      "subtitle": "खास सवलत व ऑफर",
+      "phone": "9876543210",
+      "whatsapp": "9876543210",
+      "badge": "कृषि पार्टनर",
+      "end_date": "2026-12-31"
+    }
+  ]
 }
