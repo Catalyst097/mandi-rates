@@ -100,10 +100,40 @@
       "min_price": 1500,
       "max_price": 2000,
       "modal_price": 2000,
-      "arrivals": 452,
+      "arrivals": 517,
       "trend": "up",
       "change_amount": 200,
       "id": "mandi_madhya_pradesh_anjad_maize_local"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Anjad",
+      "market": "Anjad",
+      "commodity": "Maize",
+      "variety": "Local",
+      "arrival_date": "04-10-2026",
+      "min_price": 2200,
+      "max_price": 2200,
+      "modal_price": 2200,
+      "arrivals": 12,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_anjad_maize_local"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Anjad",
+      "market": "Anjad",
+      "commodity": "Maize",
+      "variety": "Yellow",
+      "arrival_date": "04-10-2026",
+      "min_price": 1600,
+      "max_price": 1600,
+      "modal_price": 1600,
+      "arrivals": 115,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_anjad_maize_yellow"
     },
     {
       "state": "Madhya Pradesh",
@@ -122,17 +152,62 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Badwaha",
+      "market": "Badwaha",
+      "commodity": "Maize",
+      "variety": "Deshi Red",
+      "arrival_date": "04-10-2026",
+      "min_price": 1750,
+      "max_price": 1750,
+      "modal_price": 1750,
+      "arrivals": 59,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_badwaha_maize_deshi_red"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Badwani",
+      "market": "Badwani",
+      "commodity": "Maize",
+      "variety": "Yellow",
+      "arrival_date": "04-10-2026",
+      "min_price": 2000,
+      "max_price": 2000,
+      "modal_price": 2000,
+      "arrivals": 98,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_badwani_maize_yellow"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Bagli",
+      "market": "Bagli",
+      "commodity": "Maize",
+      "variety": "Yellow",
+      "arrival_date": "04-10-2026",
+      "min_price": 1615,
+      "max_price": 1615,
+      "modal_price": 1615,
+      "arrivals": 66,
+      "trend": "up",
+      "change_amount": 224,
+      "id": "mandi_madhya_pradesh_bagli_maize_yellow"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Bhikangaon",
       "market": "Bhikangaon",
       "commodity": "Maize",
       "variety": "Local",
       "arrival_date": "04-10-2026",
-      "min_price": 1840,
-      "max_price": 2300,
-      "modal_price": 2300,
-      "arrivals": 1106,
+      "min_price": 1800,
+      "max_price": 2100,
+      "modal_price": 2000,
+      "arrivals": 407,
       "trend": "up",
-      "change_amount": 720,
+      "change_amount": 420,
       "id": "mandi_madhya_pradesh_bhikangaon_maize_local"
     },
     {
@@ -142,12 +217,12 @@
       "commodity": "Maize",
       "variety": "Local",
       "arrival_date": "04-10-2026",
-      "min_price": 1938,
-      "max_price": 2100,
-      "modal_price": 2000,
-      "arrivals": 351,
-      "trend": "up",
-      "change_amount": 420,
+      "min_price": 1216,
+      "max_price": 2400,
+      "modal_price": 1520,
+      "arrivals": 3283,
+      "trend": "down",
+      "change_amount": 60,
       "id": "mandi_madhya_pradesh_bhikangaon_maize_local"
     },
     {
@@ -187,12 +262,12 @@
       "commodity": "Maize",
       "variety": "Local",
       "arrival_date": "04-10-2026",
-      "min_price": 1500,
+      "min_price": 1400,
       "max_price": 2050,
       "modal_price": 2050,
-      "arrivals": 219,
+      "arrivals": 297,
       "trend": "up",
-      "change_amount": 220,
+      "change_amount": 260,
       "id": "mandi_madhya_pradesh_gandhwani_maize_local"
     },
     {
@@ -235,7 +310,7 @@
       "min_price": 1400,
       "max_price": 1480,
       "modal_price": 1480,
-      "arrivals": 113,
+      "arrivals": 161,
       "trend": "up",
       "change_amount": 32,
       "id": "mandi_madhya_pradesh_kasrawad_maize_local"
@@ -325,25 +400,10 @@
       "min_price": 1300,
       "max_price": 1350,
       "modal_price": 1350,
-      "arrivals": 145,
+      "arrivals": 270,
       "trend": "down",
       "change_amount": 165,
       "id": "mandi_madhya_pradesh_loharda_maize_local"
-    },
-    {
-      "state": "Madhya Pradesh",
-      "district": "Manawar",
-      "market": "Manawar",
-      "commodity": "Maize",
-      "variety": "Local",
-      "arrival_date": "04-10-2026",
-      "min_price": 1550,
-      "max_price": 2400,
-      "modal_price": 1900,
-      "arrivals": 560,
-      "trend": "up",
-      "change_amount": 300,
-      "id": "mandi_madhya_pradesh_manawar_maize_local"
     },
     {
       "state": "Madhya Pradesh",
@@ -362,6 +422,21 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Manawar",
+      "market": "Manawar",
+      "commodity": "Maize",
+      "variety": "Local",
+      "arrival_date": "04-10-2026",
+      "min_price": 1500,
+      "max_price": 2400,
+      "modal_price": 1900,
+      "arrivals": 853,
+      "trend": "up",
+      "change_amount": 300,
+      "id": "mandi_madhya_pradesh_manawar_maize_local"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Segaon",
       "market": "Segaon",
       "commodity": "Maize",
@@ -370,7 +445,7 @@
       "min_price": 1500,
       "max_price": 2075,
       "modal_price": 1800,
-      "arrivals": 638,
+      "arrivals": 705,
       "trend": "up",
       "change_amount": 12,
       "id": "mandi_madhya_pradesh_segaon_maize_local"
@@ -412,12 +487,12 @@
       "commodity": "Paddy(Dhan)",
       "variety": "Common",
       "arrival_date": "04-10-2026",
-      "min_price": 2160,
+      "min_price": 2145,
       "max_price": 2175,
       "modal_price": 2170,
-      "arrivals": 360,
+      "arrivals": 452,
       "trend": "up",
-      "change_amount": 2,
+      "change_amount": 10,
       "id": "mandi_madhya_pradesh_bichhiya_paddydhan_common"
     },
     {
@@ -445,10 +520,25 @@
       "min_price": 1750,
       "max_price": 1750,
       "modal_price": 1750,
-      "arrivals": 60,
+      "arrivals": 265,
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_madhya_pradesh_sehora_paddydhan_paddy"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Alampur",
+      "market": "Alampur",
+      "commodity": "Wheat",
+      "variety": "Wheat",
+      "arrival_date": "04-10-2026",
+      "min_price": 2540,
+      "max_price": 2620,
+      "modal_price": 2560,
+      "arrivals": 268,
+      "trend": "down",
+      "change_amount": 20,
+      "id": "mandi_madhya_pradesh_alampur_wheat_wheat"
     },
     {
       "state": "Madhya Pradesh",
@@ -518,9 +608,9 @@
       "variety": "Wheat",
       "arrival_date": "04-10-2026",
       "min_price": 2600,
-      "max_price": 2675,
+      "max_price": 2700,
       "modal_price": 2645,
-      "arrivals": 445,
+      "arrivals": 573,
       "trend": "up",
       "change_amount": 25,
       "id": "mandi_madhya_pradesh_biaora_wheat_wheat"
@@ -535,10 +625,25 @@
       "min_price": 2500,
       "max_price": 2525,
       "modal_price": 2525,
-      "arrivals": 135,
+      "arrivals": 210,
       "trend": "up",
       "change_amount": 10,
       "id": "mandi_madhya_pradesh_budhar_wheat_mill_quality"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Burhanpur",
+      "market": "Burhanpur",
+      "commodity": "Wheat",
+      "variety": "Lokwan",
+      "arrival_date": "04-10-2026",
+      "min_price": 2400,
+      "max_price": 2415,
+      "modal_price": 2415,
+      "arrivals": 132,
+      "trend": "up",
+      "change_amount": 6,
+      "id": "mandi_madhya_pradesh_burhanpur_wheat_lokwan"
     },
     {
       "state": "Madhya Pradesh",
@@ -565,7 +670,7 @@
       "min_price": 2450,
       "max_price": 2520,
       "modal_price": 2510,
-      "arrivals": 750,
+      "arrivals": 1045,
       "trend": "up",
       "change_amount": 25,
       "id": "mandi_madhya_pradesh_damoh_wheat_mill_quality"
@@ -599,6 +704,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_madhya_pradesh_gandhwani_wheat_wheat"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Garoth",
+      "market": "Garoth",
+      "commodity": "Wheat",
+      "variety": "Wheat",
+      "arrival_date": "04-10-2026",
+      "min_price": 2481,
+      "max_price": 2481,
+      "modal_price": 2481,
+      "arrivals": 1,
+      "trend": "down",
+      "change_amount": 54,
+      "id": "mandi_madhya_pradesh_garoth_wheat_wheat"
     },
     {
       "state": "Madhya Pradesh",
@@ -652,12 +772,12 @@
       "commodity": "Wheat",
       "variety": "Wheat",
       "arrival_date": "04-10-2026",
-      "min_price": 1920,
+      "min_price": 2400,
       "max_price": 2400,
       "modal_price": 2400,
-      "arrivals": 2564,
-      "trend": "up",
-      "change_amount": 192,
+      "arrivals": 164,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_madhya_pradesh_harpalpur_wheat_wheat"
     },
     {
@@ -692,6 +812,36 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Kannod",
+      "market": "Kannod",
+      "commodity": "Wheat",
+      "variety": "Wheat",
+      "arrival_date": "04-10-2026",
+      "min_price": 2500,
+      "max_price": 2625,
+      "modal_price": 2625,
+      "arrivals": 185,
+      "trend": "up",
+      "change_amount": 50,
+      "id": "mandi_madhya_pradesh_kannod_wheat_wheat"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Katni",
+      "market": "Katni",
+      "commodity": "Wheat",
+      "variety": "Wheat",
+      "arrival_date": "04-10-2026",
+      "min_price": 2610,
+      "max_price": 2610,
+      "modal_price": 2610,
+      "arrivals": 150,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_katni_wheat_wheat"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Katni",
       "market": "Katni",
       "commodity": "Wheat",
@@ -713,11 +863,11 @@
       "variety": "Mill Quality",
       "arrival_date": "04-10-2026",
       "min_price": 2722,
-      "max_price": 2727,
-      "modal_price": 2727,
-      "arrivals": 68,
+      "max_price": 2737,
+      "modal_price": 2737,
+      "arrivals": 136,
       "trend": "down",
-      "change_amount": 13,
+      "change_amount": 3,
       "id": "mandi_madhya_pradesh_khandwa_wheat_mill_quality"
     },
     {
@@ -727,10 +877,10 @@
       "commodity": "Wheat",
       "variety": "Wheat",
       "arrival_date": "04-10-2026",
-      "min_price": 2600,
+      "min_price": 2420,
       "max_price": 2675,
       "modal_price": 2600,
-      "arrivals": 284,
+      "arrivals": 544,
       "trend": "down",
       "change_amount": 85,
       "id": "mandi_madhya_pradesh_kukshi_wheat_wheat"
@@ -767,6 +917,21 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Manawar",
+      "market": "Manawar",
+      "commodity": "Wheat",
+      "variety": "Wheat",
+      "arrival_date": "04-10-2026",
+      "min_price": 2700,
+      "max_price": 2700,
+      "modal_price": 2700,
+      "arrivals": 260,
+      "trend": "up",
+      "change_amount": 25,
+      "id": "mandi_madhya_pradesh_manawar_wheat_wheat"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Mandla",
       "market": "Mandla",
       "commodity": "Wheat",
@@ -788,11 +953,11 @@
       "variety": "Local",
       "arrival_date": "04-10-2026",
       "min_price": 2400,
-      "max_price": 2410,
+      "max_price": 2451,
       "modal_price": 2410,
-      "arrivals": 405,
-      "trend": "up",
-      "change_amount": 4,
+      "arrivals": 455,
+      "trend": "down",
+      "change_amount": 16,
       "id": "mandi_madhya_pradesh_mandla_wheat_local"
     },
     {
@@ -872,15 +1037,30 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Sarangpur",
+      "market": "Sarangpur",
+      "commodity": "Wheat",
+      "variety": "Mill Quality",
+      "arrival_date": "04-10-2026",
+      "min_price": 2625,
+      "max_price": 2625,
+      "modal_price": 2625,
+      "arrivals": 34,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_sarangpur_wheat_mill_quality"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Satna",
       "market": "Satna",
       "commodity": "Wheat",
       "variety": "Wheat",
       "arrival_date": "04-10-2026",
       "min_price": 2500,
-      "max_price": 2542,
+      "max_price": 2555,
       "modal_price": 2500,
-      "arrivals": 223,
+      "arrivals": 454,
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_madhya_pradesh_satna_wheat_wheat"
@@ -910,10 +1090,25 @@
       "min_price": 2400,
       "max_price": 2450,
       "modal_price": 2400,
-      "arrivals": 220,
+      "arrivals": 619,
       "trend": "down",
       "change_amount": 20,
       "id": "mandi_madhya_pradesh_sehora_wheat_mill_quality"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Sehore",
+      "market": "Sehore",
+      "commodity": "Wheat",
+      "variety": "Lokwan",
+      "arrival_date": "04-10-2026",
+      "min_price": 2475,
+      "max_price": 2475,
+      "modal_price": 2475,
+      "arrivals": 10,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_sehore_wheat_lokwan"
     },
     {
       "state": "Madhya Pradesh",
@@ -929,6 +1124,36 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_madhya_pradesh_shahagarh_wheat_mill_quality"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Shahdol",
+      "market": "Shahdol",
+      "commodity": "Wheat",
+      "variety": "Wheat",
+      "arrival_date": "04-10-2026",
+      "min_price": 2500,
+      "max_price": 2500,
+      "modal_price": 2500,
+      "arrivals": 300,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_shahdol_wheat_wheat"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Sidhi",
+      "market": "Sidhi",
+      "commodity": "Wheat",
+      "variety": "Wheat",
+      "arrival_date": "04-10-2026",
+      "min_price": 2400,
+      "max_price": 2405,
+      "modal_price": 2405,
+      "arrivals": 150,
+      "trend": "up",
+      "change_amount": 2,
+      "id": "mandi_madhya_pradesh_sidhi_wheat_wheat"
     },
     {
       "state": "Madhya Pradesh",
@@ -950,12 +1175,27 @@
       "district": "Umariya",
       "market": "Umariya",
       "commodity": "Wheat",
+      "variety": "Mill Quality",
+      "arrival_date": "04-10-2026",
+      "min_price": 2410,
+      "max_price": 2410,
+      "modal_price": 2410,
+      "arrivals": 78,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_umariya_wheat_mill_quality"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Umariya",
+      "market": "Umariya",
+      "commodity": "Wheat",
       "variety": "Wheat",
       "arrival_date": "04-10-2026",
       "min_price": 2450,
       "max_price": 2560,
       "modal_price": 2560,
-      "arrivals": 225,
+      "arrivals": 265,
       "trend": "up",
       "change_amount": 44,
       "id": "mandi_madhya_pradesh_umariya_wheat_wheat"
@@ -967,10 +1207,10 @@
       "commodity": "Cotton",
       "variety": "Without Ginned Cotton",
       "arrival_date": "04-10-2026",
-      "min_price": 7500,
+      "min_price": 6800,
       "max_price": 7550,
       "modal_price": 7500,
-      "arrivals": 158,
+      "arrivals": 211,
       "trend": "up",
       "change_amount": 790,
       "id": "mandi_madhya_pradesh_anjad_cotton_without_ginned_cotton"
@@ -983,9 +1223,9 @@
       "variety": "Without Ginned Cotton",
       "arrival_date": "04-10-2026",
       "min_price": 4900,
-      "max_price": 8000,
+      "max_price": 8051,
       "modal_price": 7400,
-      "arrivals": 435,
+      "arrivals": 531,
       "trend": "up",
       "change_amount": 690,
       "id": "mandi_madhya_pradesh_anjad_cotton_without_ginned_cotton"
@@ -1042,10 +1282,10 @@
       "commodity": "Cotton",
       "variety": "Without Ginned Cotton",
       "arrival_date": "04-10-2026",
-      "min_price": 7002,
-      "max_price": 8650,
+      "min_price": 7000,
+      "max_price": 8751,
       "modal_price": 8200,
-      "arrivals": 902,
+      "arrivals": 1437,
       "trend": "up",
       "change_amount": 1000,
       "id": "mandi_madhya_pradesh_bhikangaon_cotton_without_ginned_cotton"
@@ -1058,9 +1298,9 @@
       "variety": "Without Ginned Cotton",
       "arrival_date": "04-10-2026",
       "min_price": 7300,
-      "max_price": 7995,
+      "max_price": 8021,
       "modal_price": 7300,
-      "arrivals": 110,
+      "arrivals": 160,
       "trend": "down",
       "change_amount": 45,
       "id": "mandi_madhya_pradesh_dhamnod_cotton_without_ginned_cotton"
@@ -1075,7 +1315,7 @@
       "min_price": 6240,
       "max_price": 8000,
       "modal_price": 7800,
-      "arrivals": 493,
+      "arrivals": 621,
       "trend": "up",
       "change_amount": 700,
       "id": "mandi_madhya_pradesh_gandhwani_cotton_without_ginned_cotton"
@@ -1102,12 +1342,12 @@
       "commodity": "Cotton",
       "variety": "Without Ginned Cotton",
       "arrival_date": "04-10-2026",
-      "min_price": 7200,
-      "max_price": 7200,
-      "modal_price": 7200,
-      "arrivals": 24,
-      "trend": "down",
-      "change_amount": 600,
+      "min_price": 7000,
+      "max_price": 8000,
+      "modal_price": 8000,
+      "arrivals": 294,
+      "trend": "up",
+      "change_amount": 200,
       "id": "mandi_madhya_pradesh_kukshi_cotton_without_ginned_cotton"
     },
     {
@@ -1117,12 +1357,12 @@
       "commodity": "Cotton",
       "variety": "Without Ginned Cotton",
       "arrival_date": "04-10-2026",
-      "min_price": 7000,
-      "max_price": 8000,
-      "modal_price": 8000,
-      "arrivals": 294,
-      "trend": "up",
-      "change_amount": 200,
+      "min_price": 7200,
+      "max_price": 7200,
+      "modal_price": 7200,
+      "arrivals": 24,
+      "trend": "down",
+      "change_amount": 600,
       "id": "mandi_madhya_pradesh_kukshi_cotton_without_ginned_cotton"
     },
     {
@@ -1147,10 +1387,10 @@
       "commodity": "Cotton",
       "variety": "Without Ginned Cotton",
       "arrival_date": "04-10-2026",
-      "min_price": 7700,
+      "min_price": 7600,
       "max_price": 8500,
       "modal_price": 8450,
-      "arrivals": 267,
+      "arrivals": 338,
       "trend": "up",
       "change_amount": 1120,
       "id": "mandi_madhya_pradesh_manawar_cotton_without_ginned_cotton"
@@ -1162,12 +1402,12 @@
       "commodity": "Cotton",
       "variety": "Without Ginned Cotton",
       "arrival_date": "04-10-2026",
-      "min_price": 6780,
+      "min_price": 6480,
       "max_price": 7830,
       "modal_price": 7600,
-      "arrivals": 448,
+      "arrivals": 551,
       "trend": "up",
-      "change_amount": 295,
+      "change_amount": 445,
       "id": "mandi_madhya_pradesh_sanawad_cotton_without_ginned_cotton"
     },
     {
@@ -1184,6 +1424,96 @@
       "trend": "up",
       "change_amount": 120,
       "id": "mandi_madhya_pradesh_sanawad_cotton_without_ginned_cotton"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Apple",
+      "variety": "Apple",
+      "arrival_date": "04-10-2026",
+      "min_price": 8000,
+      "max_price": 8000,
+      "modal_price": 8000,
+      "arrivals": 2,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_apple_apple"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Banana",
+      "variety": "Banana - Ripe",
+      "arrival_date": "04-10-2026",
+      "min_price": 2300,
+      "max_price": 2300,
+      "modal_price": 2300,
+      "arrivals": 10,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_banana_banana__ripe"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Papaya",
+      "variety": "Papaya",
+      "arrival_date": "04-10-2026",
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000,
+      "arrivals": 3,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_papaya_papaya"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Pomegranate",
+      "variety": "Pomogranate",
+      "arrival_date": "04-10-2026",
+      "min_price": 7000,
+      "max_price": 7000,
+      "modal_price": 7000,
+      "arrivals": 2,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_pomegranate_pomogranate"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Badamalhera",
+      "market": "Badamalhera",
+      "commodity": "Mustard",
+      "variety": "Mustard",
+      "arrival_date": "04-10-2026",
+      "min_price": 5300,
+      "max_price": 5300,
+      "modal_price": 5300,
+      "arrivals": 87,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_badamalhera_mustard_mustard"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Chaakghat",
+      "market": "Chaakghat",
+      "commodity": "Mustard",
+      "variety": "Mustard",
+      "arrival_date": "04-10-2026",
+      "min_price": 7150,
+      "max_price": 7200,
+      "modal_price": 7200,
+      "arrivals": 75,
+      "trend": "up",
+      "change_amount": 20,
+      "id": "mandi_madhya_pradesh_chaakghat_mustard_mustard"
     },
     {
       "state": "Madhya Pradesh",
@@ -1209,11 +1539,26 @@
       "arrival_date": "04-10-2026",
       "min_price": 6500,
       "max_price": 7000,
-      "modal_price": 7000,
-      "arrivals": 250,
-      "trend": "up",
+      "modal_price": 6500,
+      "arrivals": 255,
+      "trend": "down",
       "change_amount": 200,
       "id": "mandi_madhya_pradesh_khargapur_mustard_mustard"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Lashkar",
+      "market": "Lashkar",
+      "commodity": "Mustard",
+      "variety": "Mustard",
+      "arrival_date": "04-10-2026",
+      "min_price": 7850,
+      "max_price": 7850,
+      "modal_price": 7850,
+      "arrivals": 25,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_lashkar_mustard_mustard"
     },
     {
       "state": "Madhya Pradesh",
@@ -1238,12 +1583,27 @@
       "variety": "Soyabeen",
       "arrival_date": "04-10-2026",
       "min_price": 2600,
-      "max_price": 5995,
-      "modal_price": 5891,
-      "arrivals": 2253,
+      "max_price": 6030,
+      "modal_price": 5831,
+      "arrivals": 2977,
       "trend": "up",
-      "change_amount": 296,
+      "change_amount": 236,
       "id": "mandi_madhya_pradesh_agar_soyabean_soyabeen"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Badnagar",
+      "market": "Badnagar",
+      "commodity": "Soyabean",
+      "variety": "Yellow",
+      "arrival_date": "04-10-2026",
+      "min_price": 4800,
+      "max_price": 5105,
+      "modal_price": 5105,
+      "arrivals": 71,
+      "trend": "down",
+      "change_amount": 395,
+      "id": "mandi_madhya_pradesh_badnagar_soyabean_yellow"
     },
     {
       "state": "Madhya Pradesh",
@@ -1297,12 +1657,12 @@
       "commodity": "Soyabean",
       "variety": "Soyabeen",
       "arrival_date": "04-10-2026",
-      "min_price": 5590,
-      "max_price": 5735,
-      "modal_price": 5735,
-      "arrivals": 34,
+      "min_price": 5270,
+      "max_price": 5830,
+      "modal_price": 5625,
+      "arrivals": 828,
       "trend": "up",
-      "change_amount": 58,
+      "change_amount": 75,
       "id": "mandi_madhya_pradesh_bhikangaon_soyabean_soyabeen"
     },
     {
@@ -1315,10 +1675,25 @@
       "min_price": 4650,
       "max_price": 5810,
       "modal_price": 5600,
-      "arrivals": 1883,
+      "arrivals": 2341,
       "trend": "down",
       "change_amount": 711,
       "id": "mandi_madhya_pradesh_biaora_soyabean_soyabeen"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Chhapiheda",
+      "market": "Chhapiheda",
+      "commodity": "Soyabean",
+      "variety": "Soyabeen",
+      "arrival_date": "04-10-2026",
+      "min_price": 5590,
+      "max_price": 5610,
+      "modal_price": 5610,
+      "arrivals": 42,
+      "trend": "up",
+      "change_amount": 8,
+      "id": "mandi_madhya_pradesh_chhapiheda_soyabean_soyabeen"
     },
     {
       "state": "Madhya Pradesh",
@@ -1327,12 +1702,12 @@
       "commodity": "Soyabean",
       "variety": "Soyabeen",
       "arrival_date": "04-10-2026",
-      "min_price": 4550,
-      "max_price": 5842,
-      "modal_price": 4700,
-      "arrivals": 859,
+      "min_price": 4500,
+      "max_price": 5845,
+      "modal_price": 4800,
+      "arrivals": 1694,
       "trend": "down",
-      "change_amount": 500,
+      "change_amount": 400,
       "id": "mandi_madhya_pradesh_dewas_soyabean_soyabeen"
     },
     {
@@ -1372,12 +1747,12 @@
       "commodity": "Soyabean",
       "variety": "Soyabeen",
       "arrival_date": "04-10-2026",
-      "min_price": 4750,
-      "max_price": 4800,
-      "modal_price": 4800,
-      "arrivals": 205,
-      "trend": "down",
-      "change_amount": 200,
+      "min_price": 4711,
+      "max_price": 5750,
+      "modal_price": 5500,
+      "arrivals": 691,
+      "trend": "up",
+      "change_amount": 500,
       "id": "mandi_madhya_pradesh_dhar_soyabean_soyabeen"
     },
     {
@@ -1387,12 +1762,12 @@
       "commodity": "Soyabean",
       "variety": "Soyabeen",
       "arrival_date": "04-10-2026",
-      "min_price": 4711,
-      "max_price": 5750,
-      "modal_price": 5250,
-      "arrivals": 469,
-      "trend": "up",
-      "change_amount": 250,
+      "min_price": 4750,
+      "max_price": 4800,
+      "modal_price": 4800,
+      "arrivals": 205,
+      "trend": "down",
+      "change_amount": 200,
       "id": "mandi_madhya_pradesh_dhar_soyabean_soyabeen"
     },
     {
@@ -1405,7 +1780,7 @@
       "min_price": 5250,
       "max_price": 5600,
       "modal_price": 5500,
-      "arrivals": 113,
+      "arrivals": 133,
       "trend": "up",
       "change_amount": 75,
       "id": "mandi_madhya_pradesh_gandhwani_soyabean_soyabeen"
@@ -1417,12 +1792,12 @@
       "commodity": "Soyabean",
       "variety": "Soyabeen",
       "arrival_date": "04-10-2026",
-      "min_price": 5716,
-      "max_price": 5779,
-      "modal_price": 5779,
-      "arrivals": 22,
+      "min_price": 2608,
+      "max_price": 5801,
+      "modal_price": 5801,
+      "arrivals": 184,
       "trend": "up",
-      "change_amount": 25,
+      "change_amount": 1277,
       "id": "mandi_madhya_pradesh_garoth_soyabean_soyabeen"
     },
     {
@@ -1439,6 +1814,21 @@
       "trend": "up",
       "change_amount": 825,
       "id": "mandi_madhya_pradesh_gautampura_soyabean_soyabeen"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Harsood",
+      "market": "Harsood",
+      "commodity": "Soyabean",
+      "variety": "Yellow",
+      "arrival_date": "04-10-2026",
+      "min_price": 5300,
+      "max_price": 5425,
+      "modal_price": 5425,
+      "arrivals": 50,
+      "trend": "up",
+      "change_amount": 50,
+      "id": "mandi_madhya_pradesh_harsood_soyabean_yellow"
     },
     {
       "state": "Madhya Pradesh",
@@ -1555,7 +1945,7 @@
       "min_price": 5200,
       "max_price": 5540,
       "modal_price": 5200,
-      "arrivals": 296,
+      "arrivals": 326,
       "trend": "down",
       "change_amount": 136,
       "id": "mandi_madhya_pradesh_khandwa_soyabean_soyabeen"
@@ -1584,10 +1974,10 @@
       "arrival_date": "04-10-2026",
       "min_price": 5245,
       "max_price": 5800,
-      "modal_price": 5800,
-      "arrivals": 157,
+      "modal_price": 5625,
+      "arrivals": 421,
       "trend": "up",
-      "change_amount": 222,
+      "change_amount": 102,
       "id": "mandi_madhya_pradesh_khilchipur_soyabean_soyabeen"
     },
     {
@@ -1597,10 +1987,10 @@
       "commodity": "Soyabean",
       "variety": "Soyabeen",
       "arrival_date": "04-10-2026",
-      "min_price": 5250,
+      "min_price": 5200,
       "max_price": 5500,
       "modal_price": 5500,
-      "arrivals": 63,
+      "arrivals": 74,
       "trend": "up",
       "change_amount": 344,
       "id": "mandi_madhya_pradesh_loharda_soyabean_soyabeen"
@@ -1612,12 +2002,12 @@
       "commodity": "Soyabean",
       "variety": "Soyabeen",
       "arrival_date": "04-10-2026",
-      "min_price": 5190,
+      "min_price": 3470,
       "max_price": 6001,
       "modal_price": 5820,
-      "arrivals": 270,
+      "arrivals": 384,
       "trend": "up",
-      "change_amount": 224,
+      "change_amount": 1012,
       "id": "mandi_madhya_pradesh_manasa_soyabean_soyabeen"
     },
     {
@@ -1642,12 +2032,12 @@
       "commodity": "Soyabean",
       "variety": "Soyabeen",
       "arrival_date": "04-10-2026",
-      "min_price": 3900,
+      "min_price": 2550,
       "max_price": 5550,
       "modal_price": 5195,
-      "arrivals": 1489,
+      "arrivals": 1654,
       "trend": "up",
-      "change_amount": 470,
+      "change_amount": 1145,
       "id": "mandi_madhya_pradesh_mundi_soyabean_soyabeen"
     },
     {
@@ -1660,7 +2050,7 @@
       "min_price": 5000,
       "max_price": 5950,
       "modal_price": 5600,
-      "arrivals": 569,
+      "arrivals": 960,
       "trend": "up",
       "change_amount": 125,
       "id": "mandi_madhya_pradesh_nalkheda_soyabean_soyabeen"
@@ -1687,21 +2077,6 @@
       "commodity": "Soyabean",
       "variety": "Soyabeen",
       "arrival_date": "04-10-2026",
-      "min_price": 5470,
-      "max_price": 5510,
-      "modal_price": 5500,
-      "arrivals": 65,
-      "trend": "up",
-      "change_amount": 10,
-      "id": "mandi_madhya_pradesh_rajgarh_soyabean_soyabeen"
-    },
-    {
-      "state": "Madhya Pradesh",
-      "district": "Rajgarh",
-      "market": "Rajgarh",
-      "commodity": "Soyabean",
-      "variety": "Soyabeen",
-      "arrival_date": "04-10-2026",
       "min_price": 5325,
       "max_price": 5375,
       "modal_price": 5375,
@@ -1712,17 +2087,32 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Rajgarh",
+      "market": "Rajgarh",
+      "commodity": "Soyabean",
+      "variety": "Soyabeen",
+      "arrival_date": "04-10-2026",
+      "min_price": 5470,
+      "max_price": 5510,
+      "modal_price": 5500,
+      "arrivals": 65,
+      "trend": "up",
+      "change_amount": 10,
+      "id": "mandi_madhya_pradesh_rajgarh_soyabean_soyabeen"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Ratlam",
       "market": "Ratlam",
       "commodity": "Soyabean",
       "variety": "Soyabeen",
       "arrival_date": "04-10-2026",
       "min_price": 5275,
-      "max_price": 5600,
-      "modal_price": 5600,
-      "arrivals": 49,
+      "max_price": 5650,
+      "modal_price": 5650,
+      "arrivals": 76,
       "trend": "up",
-      "change_amount": 100,
+      "change_amount": 150,
       "id": "mandi_madhya_pradesh_ratlam_soyabean_soyabeen"
     },
     {
@@ -1735,7 +2125,7 @@
       "min_price": 4711,
       "max_price": 5550,
       "modal_price": 4711,
-      "arrivals": 89,
+      "arrivals": 114,
       "trend": "down",
       "change_amount": 289,
       "id": "mandi_madhya_pradesh_sanwer_soyabean_soyabeen"
@@ -1749,10 +2139,10 @@
       "arrival_date": "04-10-2026",
       "min_price": 4600,
       "max_price": 5800,
-      "modal_price": 5800,
-      "arrivals": 194,
+      "modal_price": 5525,
+      "arrivals": 271,
       "trend": "up",
-      "change_amount": 480,
+      "change_amount": 325,
       "id": "mandi_madhya_pradesh_sarangpur_soyabean_soyabeen"
     },
     {
@@ -1765,7 +2155,7 @@
       "min_price": 5150,
       "max_price": 5150,
       "modal_price": 5150,
-      "arrivals": 9,
+      "arrivals": 29,
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_madhya_pradesh_sarangpur_soyabean_soyabeen"
@@ -1780,10 +2170,25 @@
       "min_price": 5300,
       "max_price": 5300,
       "modal_price": 5300,
-      "arrivals": 31,
+      "arrivals": 51,
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_madhya_pradesh_segaon_soyabean_soyabeen"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Sehore",
+      "market": "Sehore",
+      "commodity": "Soyabean",
+      "variety": "Soyabeen",
+      "arrival_date": "04-10-2026",
+      "min_price": 5406,
+      "max_price": 5702,
+      "modal_price": 5702,
+      "arrivals": 63,
+      "trend": "up",
+      "change_amount": 118,
+      "id": "mandi_madhya_pradesh_sehore_soyabean_soyabeen"
     },
     {
       "state": "Madhya Pradesh",
@@ -1824,10 +2229,10 @@
       "arrival_date": "04-10-2026",
       "min_price": 4950,
       "max_price": 5600,
-      "modal_price": 5200,
-      "arrivals": 123,
+      "modal_price": 5100,
+      "arrivals": 175,
       "trend": "down",
-      "change_amount": 356,
+      "change_amount": 456,
       "id": "mandi_madhya_pradesh_taal_soyabean_soyabeen"
     },
     {
@@ -1840,7 +2245,7 @@
       "min_price": 4870,
       "max_price": 5500,
       "modal_price": 5000,
-      "arrivals": 434,
+      "arrivals": 470,
       "trend": "down",
       "change_amount": 400,
       "id": "mandi_madhya_pradesh_tarana_soyabean_soyabeen"
@@ -1907,6 +2312,21 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Bhopal",
+      "market": "Bhopal",
+      "commodity": "Bengal Gram(Gram)",
+      "variety": "Gram",
+      "arrival_date": "04-10-2026",
+      "min_price": 6617,
+      "max_price": 6617,
+      "modal_price": 6617,
+      "arrivals": 266,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_bhopal_bengal_gramgram_gram"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Biaora",
       "market": "Biaora",
       "commodity": "Bengal Gram(Gram)",
@@ -1949,6 +2369,21 @@
       "trend": "up",
       "change_amount": 0,
       "id": "mandi_madhya_pradesh_mandla_bengal_gramgram_gram"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Garoth",
+      "market": "Garoth",
+      "commodity": "Bengal Gram(Gram)",
+      "variety": "Urda/Urd",
+      "arrival_date": "04-10-2026",
+      "min_price": 5901,
+      "max_price": 7000,
+      "modal_price": 7000,
+      "arrivals": 3,
+      "trend": "up",
+      "change_amount": 440,
+      "id": "mandi_madhya_pradesh_garoth_bengal_gramgram_urdaurd"
     },
     {
       "state": "Madhya Pradesh",
@@ -2042,6 +2477,21 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Nalkheda",
+      "market": "Nalkheda",
+      "commodity": "Lentil(Masur)(Whole)",
+      "variety": "Masur Dal",
+      "arrival_date": "04-10-2026",
+      "min_price": 6500,
+      "max_price": 6500,
+      "modal_price": 6500,
+      "arrivals": 8,
+      "trend": "down",
+      "change_amount": 440,
+      "id": "mandi_madhya_pradesh_nalkheda_lentilmasurwhole_masur_dal"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Indore",
       "market": "Indore",
       "commodity": "Bengal Gram(Gram)",
@@ -2107,13 +2557,28 @@
       "commodity": "Red Chilli",
       "variety": "Red",
       "arrival_date": "04-10-2026",
-      "min_price": 20500,
-      "max_price": 20600,
-      "modal_price": 20600,
-      "arrivals": 8,
-      "trend": "up",
-      "change_amount": 40,
+      "min_price": 10600,
+      "max_price": 22000,
+      "modal_price": 12100,
+      "arrivals": 527,
+      "trend": "down",
+      "change_amount": 4200,
       "id": "mandi_madhya_pradesh_bedia_red_chilli_red"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Ginger(Green)",
+      "variety": "Dry",
+      "arrival_date": "04-10-2026",
+      "min_price": 6000,
+      "max_price": 6000,
+      "modal_price": 6000,
+      "arrivals": 2,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_gingergreen_dry"
     },
     {
       "state": "Madhya Pradesh",
@@ -2129,6 +2594,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_madhya_pradesh_deori_bhindiladies_finger_bhindi"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Bhindi(Ladies Finger)",
+      "variety": "Bhindi",
+      "arrival_date": "04-10-2026",
+      "min_price": 2500,
+      "max_price": 2500,
+      "modal_price": 2500,
+      "arrivals": 10,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_bhindiladies_finger_bhindi"
     },
     {
       "state": "Madhya Pradesh",
@@ -2162,6 +2642,21 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Bottle Gourd",
+      "variety": "Bottle Gourd",
+      "arrival_date": "04-10-2026",
+      "min_price": 2000,
+      "max_price": 2000,
+      "modal_price": 2000,
+      "arrivals": 5,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_bottle_gourd_bottle_gourd"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Rehli",
       "market": "Rehli",
       "commodity": "Bottle Gourd",
@@ -2171,8 +2666,8 @@
       "max_price": 1500,
       "modal_price": 1400,
       "arrivals": 5,
-      "trend": "up",
-      "change_amount": 40,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_madhya_pradesh_rehli_bottle_gourd_bottle_gourd"
     },
     {
@@ -2204,6 +2699,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_madhya_pradesh_deori_brinjal_brinjal"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Brinjal",
+      "variety": "Brinjal",
+      "arrival_date": "04-10-2026",
+      "min_price": 1500,
+      "max_price": 1500,
+      "modal_price": 1500,
+      "arrivals": 28,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_brinjal_brinjal"
     },
     {
       "state": "Madhya Pradesh",
@@ -2252,6 +2762,21 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Cabbage",
+      "variety": "Cabbage",
+      "arrival_date": "04-10-2026",
+      "min_price": 2000,
+      "max_price": 2000,
+      "modal_price": 2000,
+      "arrivals": 2,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_cabbage_cabbage"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Sendhwa",
       "market": "Sendhwa",
       "commodity": "Cabbage",
@@ -2267,6 +2792,21 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Capsicum",
+      "variety": "Capsicum",
+      "arrival_date": "04-10-2026",
+      "min_price": 3000,
+      "max_price": 3000,
+      "modal_price": 3000,
+      "arrivals": 2,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_capsicum_capsicum"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Deori",
       "market": "Deori",
       "commodity": "Cauliflower",
@@ -2279,6 +2819,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_madhya_pradesh_deori_cauliflower_cauliflower"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Cauliflower",
+      "variety": "Cauliflower",
+      "arrival_date": "04-10-2026",
+      "min_price": 2000,
+      "max_price": 2000,
+      "modal_price": 2000,
+      "arrivals": 5,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_cauliflower_cauliflower"
     },
     {
       "state": "Madhya Pradesh",
@@ -2312,6 +2867,36 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Biaora",
+      "market": "Biaora",
+      "commodity": "Coriander(Seed)",
+      "variety": "Coriander",
+      "arrival_date": "04-10-2026",
+      "min_price": 13900,
+      "max_price": 13900,
+      "modal_price": 13900,
+      "arrivals": 2,
+      "trend": "down",
+      "change_amount": 550,
+      "id": "mandi_madhya_pradesh_biaora_corianderseed_coriander"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Coriander(Seed)",
+      "variety": "Coriander",
+      "arrival_date": "04-10-2026",
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000,
+      "arrivals": 6,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_corianderseed_coriander"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Deori",
       "market": "Deori",
       "commodity": "Cucumbar(Kheera)",
@@ -2336,8 +2921,8 @@
       "max_price": 1900,
       "modal_price": 1800,
       "arrivals": 8,
-      "trend": "down",
-      "change_amount": 50,
+      "trend": "up",
+      "change_amount": 40,
       "id": "mandi_madhya_pradesh_rehli_cucumbarkheera_cucumbar"
     },
     {
@@ -2380,10 +2965,25 @@
       "min_price": 2550,
       "max_price": 14700,
       "modal_price": 11800,
-      "arrivals": 72,
+      "arrivals": 80,
       "trend": "down",
       "change_amount": 4050,
       "id": "mandi_madhya_pradesh_biaora_garlic_garlic"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Green Chilli",
+      "variety": "Green Chilly",
+      "arrival_date": "04-10-2026",
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000,
+      "arrivals": 4,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_green_chilli_green_chilly"
     },
     {
       "state": "Madhya Pradesh",
@@ -2402,6 +3002,21 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Groundnut",
+      "variety": "Groundnut pods (raw)",
+      "arrival_date": "04-10-2026",
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000,
+      "arrivals": 2,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_groundnut_groundnut_pods_raw"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Sendhwa",
       "market": "Sendhwa",
       "commodity": "Groundnut",
@@ -2414,6 +3029,36 @@
       "trend": "down",
       "change_amount": 50,
       "id": "mandi_madhya_pradesh_sendhwa_groundnut_groundnut_pods_raw"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Onion",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000,
+      "arrivals": 10,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_onion_other"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Khandwa",
+      "market": "Khandwa",
+      "commodity": "Onion",
+      "variety": "Local",
+      "arrival_date": "04-10-2026",
+      "min_price": 1510,
+      "max_price": 3890,
+      "modal_price": 3260,
+      "arrivals": 280,
+      "trend": "up",
+      "change_amount": 560,
+      "id": "mandi_madhya_pradesh_khandwa_onion_local"
     },
     {
       "state": "Madhya Pradesh",
@@ -2459,6 +3104,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_madhya_pradesh_deori_potato_potato"
+    },
+    {
+      "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Potato",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 800,
+      "max_price": 800,
+      "modal_price": 800,
+      "arrivals": 48,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_potato_other"
     },
     {
       "state": "Madhya Pradesh",
@@ -2567,6 +3227,21 @@
     },
     {
       "state": "Madhya Pradesh",
+      "district": "Gadarwada",
+      "market": "Gadarwada",
+      "commodity": "Tomato",
+      "variety": "Tomato",
+      "arrival_date": "04-10-2026",
+      "min_price": 2300,
+      "max_price": 2300,
+      "modal_price": 2300,
+      "arrivals": 17,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_madhya_pradesh_gadarwada_tomato_tomato"
+    },
+    {
+      "state": "Madhya Pradesh",
       "district": "Rehli",
       "market": "Rehli",
       "commodity": "Tomato",
@@ -2632,6 +3307,21 @@
       "commodity": "Paddy(Dhan)",
       "variety": "Other",
       "arrival_date": "04-10-2026",
+      "min_price": 2600,
+      "max_price": 3750,
+      "modal_price": 3171,
+      "arrivals": 235,
+      "trend": "down",
+      "change_amount": 31,
+      "id": "mandi_maharashtra_armori_paddydhan_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Armori",
+      "market": "Armori",
+      "commodity": "Paddy(Dhan)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
       "min_price": 2000,
       "max_price": 2050,
       "modal_price": 2011,
@@ -2642,18 +3332,18 @@
     },
     {
       "state": "Maharashtra",
-      "district": "Armori",
-      "market": "Armori",
-      "commodity": "Paddy(Dhan)",
+      "district": "Katol",
+      "market": "Katol",
+      "commodity": "Wheat",
       "variety": "Other",
       "arrival_date": "04-10-2026",
-      "min_price": 2600,
-      "max_price": 3750,
-      "modal_price": 3171,
-      "arrivals": 235,
+      "min_price": 2585,
+      "max_price": 2667,
+      "modal_price": 2600,
+      "arrivals": 45,
       "trend": "down",
-      "change_amount": 31,
-      "id": "mandi_maharashtra_armori_paddydhan_other"
+      "change_amount": 26,
+      "id": "mandi_maharashtra_katol_wheat_other"
     },
     {
       "state": "Maharashtra",
@@ -2696,8 +3386,8 @@
       "max_price": 4000,
       "modal_price": 3500,
       "arrivals": 15,
-      "trend": "down",
-      "change_amount": 50,
+      "trend": "up",
+      "change_amount": 30,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_amlanelli_kai_other"
     },
     {
@@ -2727,7 +3417,7 @@
       "modal_price": 9250,
       "arrivals": 260,
       "trend": "down",
-      "change_amount": 30,
+      "change_amount": 10,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_apple_other"
     },
     {
@@ -2771,8 +3461,8 @@
       "max_price": 6000,
       "modal_price": 5500,
       "arrivals": 17,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_chikoossapota_other"
     },
     {
@@ -2801,8 +3491,8 @@
       "max_price": 9500,
       "modal_price": 7500,
       "arrivals": 46,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 20,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_guava_other"
     },
     {
@@ -2876,8 +3566,8 @@
       "max_price": 4000,
       "modal_price": 3250,
       "arrivals": 112,
-      "trend": "down",
-      "change_amount": 10,
+      "trend": "up",
+      "change_amount": 40,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_mousambisweet_lime_other"
     },
     {
@@ -2951,8 +3641,8 @@
       "max_price": 2500,
       "modal_price": 2000,
       "arrivals": 31,
-      "trend": "up",
-      "change_amount": 30,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_papaya_other"
     },
     {
@@ -3092,6 +3782,21 @@
     },
     {
       "state": "Maharashtra",
+      "district": "Katol",
+      "market": "Katol",
+      "commodity": "Soyabean",
+      "variety": "Yellow",
+      "arrival_date": "04-10-2026",
+      "min_price": 5330,
+      "max_price": 6071,
+      "modal_price": 5850,
+      "arrivals": 203,
+      "trend": "up",
+      "change_amount": 150,
+      "id": "mandi_maharashtra_katol_soyabean_yellow"
+    },
+    {
+      "state": "Maharashtra",
       "district": "Ahilyanagar",
       "market": "Shevgaon",
       "commodity": "Soyabean",
@@ -3137,6 +3842,21 @@
     },
     {
       "state": "Maharashtra",
+      "district": "Katol",
+      "market": "Katol",
+      "commodity": "Bengal Gram(Gram)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 7000,
+      "max_price": 7311,
+      "modal_price": 7100,
+      "arrivals": 140,
+      "trend": "down",
+      "change_amount": 56,
+      "id": "mandi_maharashtra_katol_bengal_gramgram_other"
+    },
+    {
+      "state": "Maharashtra",
       "district": "Ahilyanagar",
       "market": "Rahata",
       "commodity": "Green Peas",
@@ -3149,6 +3869,21 @@
       "trend": "up",
       "change_amount": 750,
       "id": "mandi_maharashtra_rahata_green_peas_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Katol",
+      "market": "Katol",
+      "commodity": "Bengal Gram(Gram)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 8950,
+      "max_price": 9661,
+      "modal_price": 9450,
+      "arrivals": 18,
+      "trend": "up",
+      "change_amount": 144,
+      "id": "mandi_maharashtra_katol_bengal_gramgram_other"
     },
     {
       "state": "Maharashtra",
@@ -3206,8 +3941,8 @@
       "max_price": 3000,
       "modal_price": 2500,
       "arrivals": 19,
-      "trend": "down",
-      "change_amount": 20,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_maharashtra_bhusaval_bhindiladies_finger_other"
     },
     {
@@ -3221,8 +3956,8 @@
       "max_price": 3500,
       "modal_price": 3000,
       "arrivals": 45,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_bhindiladies_finger_other"
     },
     {
@@ -3254,6 +3989,21 @@
       "trend": "up",
       "change_amount": 1250,
       "id": "mandi_maharashtra_rahata_bhindiladies_finger_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Bhindi(Ladies Finger)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 3000,
+      "max_price": 5000,
+      "modal_price": 4000,
+      "arrivals": 25,
+      "trend": "down",
+      "change_amount": 50,
+      "id": "mandi_maharashtra_satara_bhindiladies_finger_other"
     },
     {
       "state": "Maharashtra",
@@ -3377,6 +4127,21 @@
     },
     {
       "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Bitter Gourd",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 3000,
+      "max_price": 4000,
+      "modal_price": 3500,
+      "arrivals": 25,
+      "trend": "up",
+      "change_amount": 40,
+      "id": "mandi_maharashtra_satara_bitter_gourd_other"
+    },
+    {
+      "state": "Maharashtra",
       "district": "Pune",
       "market": "Pune",
       "commodity": "Bitter Gourd",
@@ -3401,8 +4166,8 @@
       "max_price": 1700,
       "modal_price": 1350,
       "arrivals": 27,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "up",
+      "change_amount": 10,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_bottle_gourd_other"
     },
     {
@@ -3419,6 +4184,21 @@
       "trend": "up",
       "change_amount": 350,
       "id": "mandi_maharashtra_rahata_bottle_gourd_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Bottle Gourd",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 800,
+      "max_price": 1500,
+      "modal_price": 1100,
+      "arrivals": 12,
+      "trend": "down",
+      "change_amount": 50,
+      "id": "mandi_maharashtra_satara_bottle_gourd_other"
     },
     {
       "state": "Maharashtra",
@@ -3461,8 +4241,8 @@
       "max_price": 3000,
       "modal_price": 2500,
       "arrivals": 68,
-      "trend": "down",
-      "change_amount": 10,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_maharashtra_bhusaval_brinjal_other"
     },
     {
@@ -3477,7 +4257,7 @@
       "modal_price": 1250,
       "arrivals": 32,
       "trend": "down",
-      "change_amount": 10,
+      "change_amount": 20,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_brinjal_other"
     },
     {
@@ -3491,8 +4271,8 @@
       "max_price": 3000,
       "modal_price": 2000,
       "arrivals": 35,
-      "trend": "down",
-      "change_amount": 30,
+      "trend": "up",
+      "change_amount": 20,
       "id": "mandi_maharashtra_kolhapur_brinjal_other"
     },
     {
@@ -3524,6 +4304,21 @@
       "trend": "up",
       "change_amount": 500,
       "id": "mandi_maharashtra_rahata_brinjal_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Brinjal",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 2000,
+      "max_price": 3000,
+      "modal_price": 2500,
+      "arrivals": 36,
+      "trend": "up",
+      "change_amount": 750,
+      "id": "mandi_maharashtra_satara_brinjal_other"
     },
     {
       "state": "Maharashtra",
@@ -3611,8 +4406,8 @@
       "max_price": 1000,
       "modal_price": 800,
       "arrivals": 119,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_maharashtra_kolhapur_cabbage_other"
     },
     {
@@ -3629,6 +4424,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_maharashtra_rahata_cabbage_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Cabbage",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 500,
+      "max_price": 1000,
+      "modal_price": 750,
+      "arrivals": 57,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_maharashtra_satara_cabbage_other"
     },
     {
       "state": "Maharashtra",
@@ -3687,7 +4497,7 @@
       "modal_price": 1400,
       "arrivals": 40,
       "trend": "down",
-      "change_amount": 20,
+      "change_amount": 10,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_carrot_other"
     },
     {
@@ -3704,6 +4514,21 @@
       "trend": "down",
       "change_amount": 500,
       "id": "mandi_maharashtra_rahata_carrot_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Carrot",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 2000,
+      "max_price": 3000,
+      "modal_price": 2500,
+      "arrivals": 13,
+      "trend": "up",
+      "change_amount": 20,
+      "id": "mandi_maharashtra_satara_carrot_other"
     },
     {
       "state": "Maharashtra",
@@ -3746,8 +4571,8 @@
       "max_price": 1200,
       "modal_price": 1000,
       "arrivals": 31,
-      "trend": "up",
-      "change_amount": 10,
+      "trend": "down",
+      "change_amount": 20,
       "id": "mandi_maharashtra_bhusaval_cauliflower_other"
     },
     {
@@ -3762,7 +4587,7 @@
       "modal_price": 1600,
       "arrivals": 107,
       "trend": "up",
-      "change_amount": 40,
+      "change_amount": 20,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_cauliflower_other"
     },
     {
@@ -3776,8 +4601,8 @@
       "max_price": 1250,
       "modal_price": 1000,
       "arrivals": 65,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_maharashtra_kolhapur_cauliflower_other"
     },
     {
@@ -3794,6 +4619,21 @@
       "trend": "up",
       "change_amount": 375,
       "id": "mandi_maharashtra_rahata_cauliflower_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Cauliflower",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 1000,
+      "max_price": 2500,
+      "modal_price": 1750,
+      "arrivals": 40,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_maharashtra_satara_cauliflower_other"
     },
     {
       "state": "Maharashtra",
@@ -3851,8 +4691,8 @@
       "max_price": 3700,
       "modal_price": 2950,
       "arrivals": 40,
-      "trend": "down",
-      "change_amount": 10,
+      "trend": "up",
+      "change_amount": 40,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_chilly_capsicum_other"
     },
     {
@@ -3866,9 +4706,24 @@
       "max_price": 3000,
       "modal_price": 2000,
       "arrivals": 16,
-      "trend": "up",
-      "change_amount": 40,
+      "trend": "down",
+      "change_amount": 20,
       "id": "mandi_maharashtra_rahata_chilly_capsicum_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Chilly Capsicum",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 2000,
+      "max_price": 3000,
+      "modal_price": 2500,
+      "arrivals": 24,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_maharashtra_satara_chilly_capsicum_other"
     },
     {
       "state": "Maharashtra",
@@ -3896,7 +4751,7 @@
       "max_price": 3500,
       "modal_price": 3000,
       "arrivals": 36,
-      "trend": "down",
+      "trend": "up",
       "change_amount": 20,
       "id": "mandi_maharashtra_bhusaval_corianderseed_other"
     },
@@ -3912,7 +4767,7 @@
       "modal_price": 3000,
       "arrivals": 33,
       "trend": "down",
-      "change_amount": 50,
+      "change_amount": 30,
       "id": "mandi_maharashtra_kolhapur_corianderseed_other"
     },
     {
@@ -3942,7 +4797,7 @@
       "modal_price": 1700,
       "arrivals": 83,
       "trend": "up",
-      "change_amount": 20,
+      "change_amount": 40,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_cucumbarkheera_other"
     },
     {
@@ -3974,6 +4829,21 @@
       "trend": "down",
       "change_amount": 250,
       "id": "mandi_maharashtra_rahata_cucumbarkheera_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Cucumbar(Kheera)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 1000,
+      "max_price": 2000,
+      "modal_price": 1500,
+      "arrivals": 30,
+      "trend": "up",
+      "change_amount": 20,
+      "id": "mandi_maharashtra_satara_cucumbarkheera_other"
     },
     {
       "state": "Maharashtra",
@@ -4032,7 +4902,7 @@
       "modal_price": 4550,
       "arrivals": 53,
       "trend": "up",
-      "change_amount": 20,
+      "change_amount": 30,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_drumstick_other"
     },
     {
@@ -4049,6 +4919,21 @@
       "trend": "up",
       "change_amount": 2000,
       "id": "mandi_maharashtra_rahata_drumstick_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Drumstick",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500,
+      "arrivals": 23,
+      "trend": "down",
+      "change_amount": 10,
+      "id": "mandi_maharashtra_satara_drumstick_other"
     },
     {
       "state": "Maharashtra",
@@ -4091,8 +4976,8 @@
       "max_price": 25000,
       "modal_price": 16500,
       "arrivals": 74,
-      "trend": "down",
-      "change_amount": 10,
+      "trend": "up",
+      "change_amount": 40,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_garlic_other"
     },
     {
@@ -4136,8 +5021,8 @@
       "max_price": 6500,
       "modal_price": 6000,
       "arrivals": 32,
-      "trend": "up",
-      "change_amount": 30,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_gingergreen_other"
     },
     {
@@ -4154,6 +5039,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_maharashtra_rahata_gingergreen_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Ginger(Green)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 5000,
+      "max_price": 12000,
+      "modal_price": 8500,
+      "arrivals": 25,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_maharashtra_satara_gingergreen_other"
     },
     {
       "state": "Maharashtra",
@@ -4196,8 +5096,8 @@
       "max_price": 5000,
       "modal_price": 4500,
       "arrivals": 11,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "up",
+      "change_amount": 30,
       "id": "mandi_maharashtra_bhusaval_green_chilli_other"
     },
     {
@@ -4212,7 +5112,7 @@
       "modal_price": 5500,
       "arrivals": 58,
       "trend": "down",
-      "change_amount": 30,
+      "change_amount": 20,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_green_chilli_other"
     },
     {
@@ -4259,6 +5159,21 @@
       "trend": "up",
       "change_amount": 500,
       "id": "mandi_maharashtra_rahata_green_chilli_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Green Chilli",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 2000,
+      "max_price": 4000,
+      "modal_price": 3000,
+      "arrivals": 29,
+      "trend": "up",
+      "change_amount": 20,
+      "id": "mandi_maharashtra_satara_green_chilli_other"
     },
     {
       "state": "Maharashtra",
@@ -4316,8 +5231,8 @@
       "max_price": 5200,
       "modal_price": 3900,
       "arrivals": 34,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 20,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_guar_other"
     },
     {
@@ -4337,6 +5252,21 @@
     },
     {
       "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Guar",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 4000,
+      "max_price": 7000,
+      "modal_price": 5000,
+      "arrivals": 35,
+      "trend": "down",
+      "change_amount": 500,
+      "id": "mandi_maharashtra_satara_guar_other"
+    },
+    {
+      "state": "Maharashtra",
       "district": "Vadgaonpeth",
       "market": "Vadgaonpeth",
       "commodity": "Guar",
@@ -4346,8 +5276,8 @@
       "max_price": 3500,
       "modal_price": 3000,
       "arrivals": 10,
-      "trend": "up",
-      "change_amount": 40,
+      "trend": "down",
+      "change_amount": 20,
       "id": "mandi_maharashtra_vadgaonpeth_guar_other"
     },
     {
@@ -4467,7 +5397,7 @@
       "modal_price": 3500,
       "arrivals": 13,
       "trend": "up",
-      "change_amount": 10,
+      "change_amount": 40,
       "id": "mandi_maharashtra_bhusaval_onion_unhali"
     },
     {
@@ -4481,8 +5411,8 @@
       "max_price": 4100,
       "modal_price": 3050,
       "arrivals": 4794,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "up",
+      "change_amount": 30,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_onion_other"
     },
     {
@@ -4499,6 +5429,21 @@
       "trend": "up",
       "change_amount": 750,
       "id": "mandi_maharashtra_rahata_onion_unhali"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Onion",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 2000,
+      "max_price": 4800,
+      "modal_price": 3400,
+      "arrivals": 230,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_maharashtra_satara_onion_other"
     },
     {
       "state": "Maharashtra",
@@ -4577,6 +5522,21 @@
     },
     {
       "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Peas Wet",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 5000,
+      "max_price": 8000,
+      "modal_price": 6500,
+      "arrivals": 14,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_maharashtra_satara_peas_wet_other"
+    },
+    {
+      "state": "Maharashtra",
       "district": "Pune",
       "market": "Pune",
       "commodity": "Peas Wet",
@@ -4632,7 +5592,7 @@
       "modal_price": 850,
       "arrivals": 1710,
       "trend": "up",
-      "change_amount": 20,
+      "change_amount": 10,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_potato_other"
     },
     {
@@ -4652,6 +5612,21 @@
     },
     {
       "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Potato",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 1000,
+      "max_price": 1400,
+      "modal_price": 1200,
+      "arrivals": 121,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_maharashtra_satara_potato_other"
+    },
+    {
+      "state": "Maharashtra",
       "district": "Vadgaonpeth",
       "market": "Vadgaonpeth",
       "commodity": "Potato",
@@ -4661,8 +5636,8 @@
       "max_price": 1900,
       "modal_price": 1800,
       "arrivals": 86,
-      "trend": "down",
-      "change_amount": 50,
+      "trend": "up",
+      "change_amount": 30,
       "id": "mandi_maharashtra_vadgaonpeth_potato_local"
     },
     {
@@ -4766,8 +5741,8 @@
       "max_price": 3000,
       "modal_price": 2000,
       "arrivals": 6,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "up",
+      "change_amount": 20,
       "id": "mandi_maharashtra_rahata_ridgeguardtori_other"
     },
     {
@@ -4932,7 +5907,7 @@
       "modal_price": 1050,
       "arrivals": 57,
       "trend": "up",
-      "change_amount": 40,
+      "change_amount": 30,
       "id": "mandi_maharashtra_chattrapati_sambhajinagar_tomato_other"
     },
     {
@@ -4946,8 +5921,8 @@
       "max_price": 2000,
       "modal_price": 1500,
       "arrivals": 141,
-      "trend": "up",
-      "change_amount": 40,
+      "trend": "down",
+      "change_amount": 10,
       "id": "mandi_maharashtra_kolhapur_tomato_other"
     },
     {
@@ -4994,6 +5969,21 @@
       "trend": "down",
       "change_amount": 250,
       "id": "mandi_maharashtra_rahuri_tomato_other"
+    },
+    {
+      "state": "Maharashtra",
+      "district": "Satara",
+      "market": "Satara",
+      "commodity": "Tomato",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 1000,
+      "max_price": 1500,
+      "modal_price": 1250,
+      "arrivals": 95,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_maharashtra_satara_tomato_other"
     },
     {
       "state": "Maharashtra",
@@ -5492,6 +6482,21 @@
     },
     {
       "state": "Rajasthan",
+      "district": "Malpura",
+      "market": "Malpura",
+      "commodity": "Bajra(Pearl Millet/Cumbu)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 2200,
+      "max_price": 2225,
+      "modal_price": 2210,
+      "arrivals": 510,
+      "trend": "down",
+      "change_amount": 2,
+      "id": "mandi_rajasthan_malpura_bajrapearl_milletcumbu_other"
+    },
+    {
+      "state": "Rajasthan",
       "district": "Surajgarh",
       "market": "Surajgarh",
       "commodity": "Bajra(Pearl Millet/Cumbu)",
@@ -5504,6 +6509,51 @@
       "trend": "up",
       "change_amount": 20,
       "id": "mandi_rajasthan_surajgarh_bajrapearl_milletcumbu_other"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Malpura",
+      "market": "Malpura",
+      "commodity": "Barley(Jau)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 2900,
+      "max_price": 2949,
+      "modal_price": 2935,
+      "arrivals": 7,
+      "trend": "up",
+      "change_amount": 10,
+      "id": "mandi_rajasthan_malpura_barleyjau_other"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Malpura",
+      "market": "Malpura",
+      "commodity": "Maize",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 3200,
+      "max_price": 3751,
+      "modal_price": 3600,
+      "arrivals": 19,
+      "trend": "up",
+      "change_amount": 124,
+      "id": "mandi_rajasthan_malpura_maize_other"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Malpura",
+      "market": "Malpura",
+      "commodity": "Wheat",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 2610,
+      "max_price": 2644,
+      "modal_price": 2635,
+      "arrivals": 105,
+      "trend": "up",
+      "change_amount": 8,
+      "id": "mandi_rajasthan_malpura_wheat_other"
     },
     {
       "state": "Rajasthan",
@@ -5522,6 +6572,66 @@
     },
     {
       "state": "Rajasthan",
+      "district": "Malpura",
+      "market": "Malpura",
+      "commodity": "Mustard",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 8000,
+      "max_price": 8701,
+      "modal_price": 8400,
+      "arrivals": 304,
+      "trend": "up",
+      "change_amount": 50,
+      "id": "mandi_rajasthan_malpura_mustard_other"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Malpura",
+      "market": "Malpura",
+      "commodity": "Bengal Gram(Gram)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 6700,
+      "max_price": 6813,
+      "modal_price": 6801,
+      "arrivals": 59,
+      "trend": "up",
+      "change_amount": 44,
+      "id": "mandi_rajasthan_malpura_bengal_gramgram_other"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Malpura",
+      "market": "Malpura",
+      "commodity": "Bengal Gram(Gram)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 7900,
+      "max_price": 8750,
+      "modal_price": 8451,
+      "arrivals": 361,
+      "trend": "up",
+      "change_amount": 126,
+      "id": "mandi_rajasthan_malpura_bengal_gramgram_other"
+    },
+    {
+      "state": "Rajasthan",
+      "district": "Malpura",
+      "market": "Malpura",
+      "commodity": "Bengal Gram(Gram)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 7000,
+      "max_price": 7700,
+      "modal_price": 7400,
+      "arrivals": 691,
+      "trend": "up",
+      "change_amount": 50,
+      "id": "mandi_rajasthan_malpura_bengal_gramgram_other"
+    },
+    {
+      "state": "Rajasthan",
       "district": "Jalore",
       "market": "Jalore",
       "commodity": "Beetroot",
@@ -5531,8 +6641,8 @@
       "max_price": 2200,
       "modal_price": 2000,
       "arrivals": 1,
-      "trend": "down",
-      "change_amount": 10,
+      "trend": "up",
+      "change_amount": 30,
       "id": "mandi_rajasthan_jalore_beetroot_other"
     },
     {
@@ -5681,8 +6791,8 @@
       "max_price": 4400,
       "modal_price": 4200,
       "arrivals": 2,
-      "trend": "down",
-      "change_amount": 20,
+      "trend": "up",
+      "change_amount": 40,
       "id": "mandi_rajasthan_jalore_gingergreen_other"
     },
     {
@@ -5741,8 +6851,8 @@
       "max_price": 1000,
       "modal_price": 900,
       "arrivals": 30,
-      "trend": "down",
-      "change_amount": 30,
+      "trend": "up",
+      "change_amount": 20,
       "id": "mandi_rajasthan_jalore_potato_potato"
     },
     {
@@ -5771,8 +6881,8 @@
       "max_price": 2400,
       "modal_price": 2200,
       "arrivals": 1,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "up",
+      "change_amount": 20,
       "id": "mandi_rajasthan_jalore_tinda_tinda"
     },
     {
@@ -5786,8 +6896,8 @@
       "max_price": 1600,
       "modal_price": 1500,
       "arrivals": 28,
-      "trend": "up",
-      "change_amount": 10,
+      "trend": "down",
+      "change_amount": 20,
       "id": "mandi_rajasthan_jalore_tomato_tomato"
     },
     {
@@ -9251,8 +10361,8 @@
       "max_price": 2000,
       "modal_price": 1900,
       "arrivals": 3,
-      "trend": "down",
-      "change_amount": 20,
+      "trend": "up",
+      "change_amount": 30,
       "id": "mandi_uttar_pradesh_ahirora_banana_banana__ripe"
     },
     {
@@ -9281,8 +10391,8 @@
       "max_price": 2200,
       "modal_price": 2000,
       "arrivals": 4,
-      "trend": "down",
-      "change_amount": 10,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_uttar_pradesh_shahaswan_water_melon_other"
     },
     {
@@ -9641,8 +10751,8 @@
       "max_price": 1600,
       "modal_price": 1500,
       "arrivals": 2,
-      "trend": "up",
-      "change_amount": 10,
+      "trend": "down",
+      "change_amount": 20,
       "id": "mandi_uttar_pradesh_ahirora_bhindiladies_finger_bhindi"
     },
     {
@@ -9717,7 +10827,7 @@
       "modal_price": 1500,
       "arrivals": 10,
       "trend": "up",
-      "change_amount": 40,
+      "change_amount": 10,
       "id": "mandi_uttar_pradesh_ahirora_brinjal_brinjal"
     },
     {
@@ -9791,8 +10901,8 @@
       "max_price": 1600,
       "modal_price": 1500,
       "arrivals": 3,
-      "trend": "up",
-      "change_amount": 40,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_uttar_pradesh_ahirora_cauliflower_cauliflower"
     },
     {
@@ -9836,8 +10946,8 @@
       "max_price": 1600,
       "modal_price": 1500,
       "arrivals": 2,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 10,
       "id": "mandi_uttar_pradesh_ahirora_cowpeaveg_cowpea_veg"
     },
     {
@@ -9852,7 +10962,7 @@
       "modal_price": 900,
       "arrivals": 4,
       "trend": "up",
-      "change_amount": 10,
+      "change_amount": 40,
       "id": "mandi_uttar_pradesh_ahirora_cucumbarkheera_cucumbar"
     },
     {
@@ -10616,7 +11726,7 @@
       "max_price": 1300,
       "modal_price": 1200,
       "arrivals": 9,
-      "trend": "up",
+      "trend": "down",
       "change_amount": 30,
       "id": "mandi_uttar_pradesh_gulavati_raddish_raddish"
     },
@@ -10631,8 +11741,8 @@
       "max_price": 700,
       "modal_price": 650,
       "arrivals": 100,
-      "trend": "down",
-      "change_amount": 20,
+      "trend": "up",
+      "change_amount": 25,
       "id": "mandi_uttar_pradesh_shadabad_raddish_raddish"
     },
     {
@@ -10647,7 +11757,7 @@
       "modal_price": 1500,
       "arrivals": 2,
       "trend": "down",
-      "change_amount": 30,
+      "change_amount": 20,
       "id": "mandi_uttar_pradesh_ahirora_sponge_gourd_sponge_gourd"
     },
     {
@@ -10847,6 +11957,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Dhuri",
+      "market": "Dhuri",
+      "commodity": "Paddy(Dhan)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 2461,
+      "max_price": 2461,
+      "modal_price": 2461,
+      "arrivals": 700,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_punjab_dhuri_paddydhan_other"
+    },
+    {
+      "state": "Punjab",
       "district": "Garh Shankar",
       "market": "Garh Shankar",
       "commodity": "Paddy(Dhan)",
@@ -10889,6 +12014,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_punjab_hathur_paddydhan_paddy"
+    },
+    {
+      "state": "Punjab",
+      "district": "Jaitu",
+      "market": "Jaitu",
+      "commodity": "Paddy(Dhan)",
+      "variety": "Paddy",
+      "arrival_date": "04-10-2026",
+      "min_price": 2461,
+      "max_price": 2461,
+      "modal_price": 2461,
+      "arrivals": 50,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_punjab_jaitu_paddydhan_paddy"
     },
     {
       "state": "Punjab",
@@ -11012,6 +12152,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Dhuri",
+      "market": "Dhuri",
+      "commodity": "Apple",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 8500,
+      "max_price": 10000,
+      "modal_price": 9000,
+      "arrivals": 2,
+      "trend": "down",
+      "change_amount": 250,
+      "id": "mandi_punjab_dhuri_apple_other"
+    },
+    {
+      "state": "Punjab",
       "district": "Dinanagar",
       "market": "Dinanagar",
       "commodity": "Apple",
@@ -11024,6 +12179,36 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_punjab_dinanagar_apple_apple"
+    },
+    {
+      "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Apple",
+      "variety": "Apple",
+      "arrival_date": "04-10-2026",
+      "min_price": 8000,
+      "max_price": 10000,
+      "modal_price": 9000,
+      "arrivals": 2,
+      "trend": "down",
+      "change_amount": 2000,
+      "id": "mandi_punjab_mukerian_apple_apple"
+    },
+    {
+      "state": "Punjab",
+      "district": "Rajpura",
+      "market": "Rajpura",
+      "commodity": "Apple",
+      "variety": "Apple",
+      "arrival_date": "04-10-2026",
+      "min_price": 18500,
+      "max_price": 20100,
+      "modal_price": 19500,
+      "arrivals": 1,
+      "trend": "up",
+      "change_amount": 200,
+      "id": "mandi_punjab_rajpura_apple_apple"
     },
     {
       "state": "Punjab",
@@ -11087,6 +12272,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Dhuri",
+      "market": "Dhuri",
+      "commodity": "Banana",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 2000,
+      "max_price": 2300,
+      "modal_price": 2200,
+      "arrivals": 5,
+      "trend": "up",
+      "change_amount": 50,
+      "id": "mandi_punjab_dhuri_banana_other"
+    },
+    {
+      "state": "Punjab",
       "district": "Dinanagar",
       "market": "Dinanagar",
       "commodity": "Banana",
@@ -11099,6 +12299,36 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_punjab_dinanagar_banana_medium"
+    },
+    {
+      "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Banana",
+      "variety": "Medium",
+      "arrival_date": "04-10-2026",
+      "min_price": 2000,
+      "max_price": 3000,
+      "modal_price": 2500,
+      "arrivals": 3,
+      "trend": "down",
+      "change_amount": 500,
+      "id": "mandi_punjab_mukerian_banana_medium"
+    },
+    {
+      "state": "Punjab",
+      "district": "Rajpura",
+      "market": "Rajpura",
+      "commodity": "Banana",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 3500,
+      "max_price": 3600,
+      "modal_price": 3550,
+      "arrivals": 15,
+      "trend": "down",
+      "change_amount": 25,
+      "id": "mandi_punjab_rajpura_banana_other"
     },
     {
       "state": "Punjab",
@@ -11142,7 +12372,7 @@
       "modal_price": 4250,
       "arrivals": 5,
       "trend": "down",
-      "change_amount": 10,
+      "change_amount": 20,
       "id": "mandi_punjab_bhawanigarh_mousambisweet_lime_other"
     },
     {
@@ -11171,8 +12401,8 @@
       "max_price": 3500,
       "modal_price": 3000,
       "arrivals": 1,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_punjab_sangrur_mousambisweet_lime_mousambi"
     },
     {
@@ -11219,6 +12449,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_punjab_dasuya_papaya_papaya"
+    },
+    {
+      "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Papaya",
+      "variety": "Papaya",
+      "arrival_date": "04-10-2026",
+      "min_price": 2000,
+      "max_price": 3000,
+      "modal_price": 2500,
+      "arrivals": 2,
+      "trend": "down",
+      "change_amount": 500,
+      "id": "mandi_punjab_mukerian_papaya_papaya"
     },
     {
       "state": "Punjab",
@@ -11276,8 +12521,8 @@
       "max_price": 3000,
       "modal_price": 2500,
       "arrivals": 10,
-      "trend": "up",
-      "change_amount": 30,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_punjab_sangrur_apple_pine_apple"
     },
     {
@@ -11312,6 +12557,36 @@
     },
     {
       "state": "Punjab",
+      "district": "Dhuri",
+      "market": "Dhuri",
+      "commodity": "Pomegranate",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 11000,
+      "max_price": 12000,
+      "modal_price": 11500,
+      "arrivals": 1,
+      "trend": "down",
+      "change_amount": 50,
+      "id": "mandi_punjab_dhuri_pomegranate_other"
+    },
+    {
+      "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Pomegranate",
+      "variety": "Pomogranate",
+      "arrival_date": "04-10-2026",
+      "min_price": 11000,
+      "max_price": 15000,
+      "modal_price": 13000,
+      "arrivals": 1,
+      "trend": "up",
+      "change_amount": 1000,
+      "id": "mandi_punjab_mukerian_pomegranate_pomogranate"
+    },
+    {
+      "state": "Punjab",
       "district": "Sangrur",
       "market": "Sangrur",
       "commodity": "Beetroot",
@@ -11321,8 +12596,8 @@
       "max_price": 2000,
       "modal_price": 1800,
       "arrivals": 1,
-      "trend": "down",
-      "change_amount": 20,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_punjab_sangrur_beetroot_beetroot"
     },
     {
@@ -11427,7 +12702,7 @@
       "modal_price": 2500,
       "arrivals": 1,
       "trend": "down",
-      "change_amount": 30,
+      "change_amount": 20,
       "id": "mandi_punjab_sangrur_bhindiladies_finger_bhindi"
     },
     {
@@ -11477,6 +12752,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Bitter Gourd",
+      "variety": "Bitter Gourd",
+      "arrival_date": "04-10-2026",
+      "min_price": 1500,
+      "max_price": 1900,
+      "modal_price": 1700,
+      "arrivals": 1,
+      "trend": "down",
+      "change_amount": 300,
+      "id": "mandi_punjab_mukerian_bitter_gourd_bitter_gourd"
+    },
+    {
+      "state": "Punjab",
       "district": "Sangrur",
       "market": "Sangrur",
       "commodity": "Bitter Gourd",
@@ -11517,7 +12807,7 @@
       "modal_price": 2800,
       "arrivals": 4,
       "trend": "up",
-      "change_amount": 20,
+      "change_amount": 30,
       "id": "mandi_punjab_bhawanigarh_bottle_gourd_other"
     },
     {
@@ -11672,6 +12962,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Brinjal",
+      "variety": "Brinjal",
+      "arrival_date": "04-10-2026",
+      "min_price": 1500,
+      "max_price": 2500,
+      "modal_price": 2000,
+      "arrivals": 1,
+      "trend": "up",
+      "change_amount": 200,
+      "id": "mandi_punjab_mukerian_brinjal_brinjal"
+    },
+    {
+      "state": "Punjab",
       "district": "Phillaur",
       "market": "Phillaur",
       "commodity": "Brinjal",
@@ -11726,7 +13031,7 @@
       "max_price": 3000,
       "modal_price": 2900,
       "arrivals": 2,
-      "trend": "down",
+      "trend": "up",
       "change_amount": 20,
       "id": "mandi_punjab_bhawanigarh_cabbage_other"
     },
@@ -11744,6 +13049,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_punjab_dasuya_cabbage_cabbage"
+    },
+    {
+      "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Cabbage",
+      "variety": "Cabbage",
+      "arrival_date": "04-10-2026",
+      "min_price": 1500,
+      "max_price": 2000,
+      "modal_price": 1800,
+      "arrivals": 2,
+      "trend": "up",
+      "change_amount": 50,
+      "id": "mandi_punjab_mukerian_cabbage_cabbage"
     },
     {
       "state": "Punjab",
@@ -11801,8 +13121,8 @@
       "max_price": 3500,
       "modal_price": 3250,
       "arrivals": 20,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "up",
+      "change_amount": 40,
       "id": "mandi_punjab_bhawanigarh_capsicum_other"
     },
     {
@@ -11876,8 +13196,8 @@
       "max_price": 3000,
       "modal_price": 2900,
       "arrivals": 5,
-      "trend": "down",
-      "change_amount": 10,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_punjab_bhawanigarh_carrot_other"
     },
     {
@@ -12002,6 +13322,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Cauliflower",
+      "variety": "Cauliflower",
+      "arrival_date": "04-10-2026",
+      "min_price": 3500,
+      "max_price": 5500,
+      "modal_price": 4500,
+      "arrivals": 3,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_punjab_mukerian_cauliflower_cauliflower"
+    },
+    {
+      "state": "Punjab",
       "district": "Phillaur",
       "market": "Phillaur",
       "commodity": "Cauliflower",
@@ -12032,6 +13367,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Sri Har Gobindpur",
+      "market": "Sri Har Gobindpur",
+      "commodity": "Cauliflower",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 3350,
+      "max_price": 3350,
+      "modal_price": 3350,
+      "arrivals": 1,
+      "trend": "down",
+      "change_amount": 50,
+      "id": "mandi_punjab_sri_har_gobindpur_cauliflower_other"
+    },
+    {
+      "state": "Punjab",
       "district": "Tanda Urmur",
       "market": "Tanda Urmur",
       "commodity": "Cauliflower",
@@ -12056,8 +13406,8 @@
       "max_price": 3000,
       "modal_price": 2900,
       "arrivals": 2,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 30,
       "id": "mandi_punjab_bhawanigarh_colacasia_other"
     },
     {
@@ -12116,8 +13466,8 @@
       "max_price": 3000,
       "modal_price": 2900,
       "arrivals": 2,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "down",
+      "change_amount": 10,
       "id": "mandi_punjab_bhawanigarh_cucumbarkheera_other"
     },
     {
@@ -12137,6 +13487,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Cucumbar(Kheera)",
+      "variety": "Cucumbar",
+      "arrival_date": "04-10-2026",
+      "min_price": 1500,
+      "max_price": 2100,
+      "modal_price": 1800,
+      "arrivals": 2,
+      "trend": "up",
+      "change_amount": 300,
+      "id": "mandi_punjab_mukerian_cucumbarkheera_cucumbar"
+    },
+    {
+      "state": "Punjab",
       "district": "Sangrur",
       "market": "Sangrur",
       "commodity": "Cucumbar(Kheera)",
@@ -12146,8 +13511,8 @@
       "max_price": 3000,
       "modal_price": 2500,
       "arrivals": 6,
-      "trend": "down",
-      "change_amount": 20,
+      "trend": "up",
+      "change_amount": 40,
       "id": "mandi_punjab_sangrur_cucumbarkheera_cucumbar"
     },
     {
@@ -12207,7 +13572,7 @@
       "modal_price": 3500,
       "arrivals": 1,
       "trend": "down",
-      "change_amount": 20,
+      "change_amount": 10,
       "id": "mandi_punjab_sangrur_french_beansfrasbean_other"
     },
     {
@@ -12267,7 +13632,7 @@
       "modal_price": 8100,
       "arrivals": 2,
       "trend": "down",
-      "change_amount": 30,
+      "change_amount": 10,
       "id": "mandi_punjab_bhawanigarh_gingergreen_green_ginger"
     },
     {
@@ -12311,8 +13676,8 @@
       "max_price": 3500,
       "modal_price": 3250,
       "arrivals": 2,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_punjab_bhawanigarh_green_chilli_green_chilly"
     },
     {
@@ -12359,6 +13724,21 @@
       "trend": "up",
       "change_amount": 150,
       "id": "mandi_punjab_kalanaur_green_chilli_green_chilly"
+    },
+    {
+      "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Green Chilli",
+      "variety": "Green Chilly",
+      "arrival_date": "04-10-2026",
+      "min_price": 3500,
+      "max_price": 5500,
+      "modal_price": 4500,
+      "arrivals": 2,
+      "trend": "up",
+      "change_amount": 1500,
+      "id": "mandi_punjab_mukerian_green_chilli_green_chilly"
     },
     {
       "state": "Punjab",
@@ -12477,7 +13857,7 @@
       "modal_price": 3750,
       "arrivals": 50,
       "trend": "down",
-      "change_amount": 20,
+      "change_amount": 10,
       "id": "mandi_punjab_bhawanigarh_onion_other"
     },
     {
@@ -12512,6 +13892,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Dhuri",
+      "market": "Dhuri",
+      "commodity": "Onion",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 4400,
+      "max_price": 4700,
+      "modal_price": 4600,
+      "arrivals": 10,
+      "trend": "up",
+      "change_amount": 50,
+      "id": "mandi_punjab_dhuri_onion_other"
+    },
+    {
+      "state": "Punjab",
       "district": "Dinanagar",
       "market": "Dinanagar",
       "commodity": "Onion",
@@ -12539,6 +13934,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_punjab_ghanaur_onion_other"
+    },
+    {
+      "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Onion",
+      "variety": "Onion",
+      "arrival_date": "04-10-2026",
+      "min_price": 4500,
+      "max_price": 5500,
+      "modal_price": 5000,
+      "arrivals": 29,
+      "trend": "up",
+      "change_amount": 600,
+      "id": "mandi_punjab_mukerian_onion_onion"
     },
     {
       "state": "Punjab",
@@ -12572,6 +13982,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Rajpura",
+      "market": "Rajpura",
+      "commodity": "Onion",
+      "variety": "Onion",
+      "arrival_date": "04-10-2026",
+      "min_price": 4500,
+      "max_price": 4750,
+      "modal_price": 4600,
+      "arrivals": 40,
+      "trend": "down",
+      "change_amount": 25,
+      "id": "mandi_punjab_rajpura_onion_onion"
+    },
+    {
+      "state": "Punjab",
       "district": "Sangrur",
       "market": "Sangrur",
       "commodity": "Onion",
@@ -12581,8 +14006,8 @@
       "max_price": 4000,
       "modal_price": 3500,
       "arrivals": 30,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_punjab_sangrur_onion_nasik"
     },
     {
@@ -12692,6 +14117,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Dhuri",
+      "market": "Dhuri",
+      "commodity": "Potato",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 600,
+      "max_price": 630,
+      "modal_price": 610,
+      "arrivals": 11,
+      "trend": "down",
+      "change_amount": 5,
+      "id": "mandi_punjab_dhuri_potato_other"
+    },
+    {
+      "state": "Punjab",
       "district": "Dinanagar",
       "market": "Dinanagar",
       "commodity": "Potato",
@@ -12737,6 +14177,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Potato",
+      "variety": "Potato",
+      "arrival_date": "04-10-2026",
+      "min_price": 1000,
+      "max_price": 1200,
+      "modal_price": 1100,
+      "arrivals": 29,
+      "trend": "up",
+      "change_amount": 200,
+      "id": "mandi_punjab_mukerian_potato_potato"
+    },
+    {
+      "state": "Punjab",
       "district": "Phillaur",
       "market": "Phillaur",
       "commodity": "Potato",
@@ -12752,6 +14207,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Rajpura",
+      "market": "Rajpura",
+      "commodity": "Potato",
+      "variety": "Local",
+      "arrival_date": "04-10-2026",
+      "min_price": 790,
+      "max_price": 890,
+      "modal_price": 820,
+      "arrivals": 60,
+      "trend": "up",
+      "change_amount": 20,
+      "id": "mandi_punjab_rajpura_potato_local"
+    },
+    {
+      "state": "Punjab",
       "district": "Sangrur",
       "market": "Sangrur",
       "commodity": "Potato",
@@ -12761,8 +14231,8 @@
       "max_price": 700,
       "modal_price": 600,
       "arrivals": 55,
-      "trend": "down",
-      "change_amount": 10,
+      "trend": "up",
+      "change_amount": 30,
       "id": "mandi_punjab_sangrur_potato_local"
     },
     {
@@ -12806,8 +14276,8 @@
       "max_price": 2000,
       "modal_price": 1900,
       "arrivals": 16,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "up",
+      "change_amount": 20,
       "id": "mandi_punjab_dinanagar_pumpkin_other"
     },
     {
@@ -12896,8 +14366,8 @@
       "max_price": 2000,
       "modal_price": 1900,
       "arrivals": 26,
-      "trend": "down",
-      "change_amount": 50,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_punjab_dinanagar_raddish_raddish"
     },
     {
@@ -12914,6 +14384,21 @@
       "trend": "down",
       "change_amount": 900,
       "id": "mandi_punjab_lohian_khas_raddish_other"
+    },
+    {
+      "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Raddish",
+      "variety": "Raddish",
+      "arrival_date": "04-10-2026",
+      "min_price": 1500,
+      "max_price": 2000,
+      "modal_price": 1800,
+      "arrivals": 2,
+      "trend": "up",
+      "change_amount": 50,
+      "id": "mandi_punjab_mukerian_raddish_raddish"
     },
     {
       "state": "Punjab",
@@ -13017,7 +14502,7 @@
       "modal_price": 2100,
       "arrivals": 2,
       "trend": "down",
-      "change_amount": 30,
+      "change_amount": 20,
       "id": "mandi_punjab_bhawanigarh_spinach_other"
     },
     {
@@ -13076,8 +14561,8 @@
       "max_price": 2700,
       "modal_price": 2600,
       "arrivals": 2,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_punjab_bhawanigarh_tomato_other"
     },
     {
@@ -13094,6 +14579,21 @@
       "trend": "up",
       "change_amount": 500,
       "id": "mandi_punjab_dasuya_tomato_tomato"
+    },
+    {
+      "state": "Punjab",
+      "district": "Dhuri",
+      "market": "Dhuri",
+      "commodity": "Tomato",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 2200,
+      "max_price": 2500,
+      "modal_price": 2400,
+      "arrivals": 2,
+      "trend": "up",
+      "change_amount": 50,
+      "id": "mandi_punjab_dhuri_tomato_other"
     },
     {
       "state": "Punjab",
@@ -13142,6 +14642,21 @@
     },
     {
       "state": "Punjab",
+      "district": "Mukerian",
+      "market": "Mukerian",
+      "commodity": "Tomato",
+      "variety": "Tomato",
+      "arrival_date": "04-10-2026",
+      "min_price": 1500,
+      "max_price": 2100,
+      "modal_price": 1800,
+      "arrivals": 29,
+      "trend": "up",
+      "change_amount": 300,
+      "id": "mandi_punjab_mukerian_tomato_tomato"
+    },
+    {
+      "state": "Punjab",
       "district": "Phillaur",
       "market": "Phillaur",
       "commodity": "Tomato",
@@ -13169,6 +14684,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_punjab_phillaur_tomato_other"
+    },
+    {
+      "state": "Punjab",
+      "district": "Rajpura",
+      "market": "Rajpura",
+      "commodity": "Tomato",
+      "variety": "Local",
+      "arrival_date": "04-10-2026",
+      "min_price": 2100,
+      "max_price": 2250,
+      "modal_price": 2200,
+      "arrivals": 17,
+      "trend": "down",
+      "change_amount": 200,
+      "id": "mandi_punjab_rajpura_tomato_local"
     },
     {
       "state": "Punjab",
@@ -13181,8 +14711,8 @@
       "max_price": 2000,
       "modal_price": 1800,
       "arrivals": 30,
-      "trend": "up",
-      "change_amount": 30,
+      "trend": "down",
+      "change_amount": 20,
       "id": "mandi_punjab_sangrur_tomato_tomato"
     },
     {
@@ -13211,8 +14741,8 @@
       "max_price": 6000,
       "modal_price": 5500,
       "arrivals": 1,
-      "trend": "down",
-      "change_amount": 50,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_punjab_tanda_urmur_yamratalu_other"
     },
     {
@@ -13226,8 +14756,8 @@
       "max_price": 4000,
       "modal_price": 3900,
       "arrivals": 3540,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "up",
+      "change_amount": 20,
       "id": "mandi_haryana_nissing_paddydhan_basmati_1509"
     },
     {
@@ -13631,8 +15161,8 @@
       "max_price": 2500,
       "modal_price": 2000,
       "arrivals": 50,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_haryana_sonepat_water_melon_other"
     },
     {
@@ -13856,8 +15386,8 @@
       "max_price": 1200,
       "modal_price": 1000,
       "arrivals": 190,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_haryana_gurgaon_bottle_gourd_bottle_gourd"
     },
     {
@@ -13901,8 +15431,8 @@
       "max_price": 1200,
       "modal_price": 1100,
       "arrivals": 61,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_haryana_sonepat_bottle_gourd_bottle_gourd"
     },
     {
@@ -13961,8 +15491,8 @@
       "max_price": 1500,
       "modal_price": 1250,
       "arrivals": 160,
-      "trend": "down",
-      "change_amount": 20,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_haryana_gurgaon_brinjal_brinjal"
     },
     {
@@ -14051,8 +15581,8 @@
       "max_price": 1200,
       "modal_price": 1000,
       "arrivals": 190,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "up",
+      "change_amount": 20,
       "id": "mandi_haryana_gurgaon_cabbage_other"
     },
     {
@@ -14156,8 +15686,8 @@
       "max_price": 3500,
       "modal_price": 3000,
       "arrivals": 140,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_haryana_gurgaon_capsicum_other"
     },
     {
@@ -14186,8 +15716,8 @@
       "max_price": 6000,
       "modal_price": 5000,
       "arrivals": 8,
-      "trend": "up",
-      "change_amount": 40,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_haryana_sonepat_capsicum_other"
     },
     {
@@ -14297,6 +15827,21 @@
     },
     {
       "state": "Haryana",
+      "district": "Sadhaura",
+      "market": "Sadhaura",
+      "commodity": "Cauliflower",
+      "variety": "Cauliflower",
+      "arrival_date": "04-10-2026",
+      "min_price": 3600,
+      "max_price": 3700,
+      "modal_price": 3650,
+      "arrivals": 20,
+      "trend": "up",
+      "change_amount": 50,
+      "id": "mandi_haryana_sadhaura_cauliflower_cauliflower"
+    },
+    {
+      "state": "Haryana",
       "district": "Sonepat",
       "market": "Sonepat",
       "commodity": "Cauliflower",
@@ -14306,8 +15851,8 @@
       "max_price": 3500,
       "modal_price": 3000,
       "arrivals": 28,
-      "trend": "down",
-      "change_amount": 30,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_haryana_sonepat_cauliflower_cauliflower"
     },
     {
@@ -14411,7 +15956,7 @@
       "max_price": 3500,
       "modal_price": 3000,
       "arrivals": 61,
-      "trend": "up",
+      "trend": "down",
       "change_amount": 10,
       "id": "mandi_haryana_sonepat_cucumbarkheera_cucumbar"
     },
@@ -14861,8 +16406,8 @@
       "max_price": 1200,
       "modal_price": 1100,
       "arrivals": 178,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_haryana_sonepat_potato_other"
     },
     {
@@ -15251,8 +16796,8 @@
       "max_price": 4000,
       "modal_price": 3500,
       "arrivals": 19,
-      "trend": "down",
-      "change_amount": 30,
+      "trend": "up",
+      "change_amount": 40,
       "id": "mandi_haryana_ganaur_tomato_tomato"
     },
     {
@@ -15992,6 +17537,21 @@
     },
     {
       "state": "Andhra Pradesh",
+      "district": "Venkatagiri",
+      "market": "Venkatagiri",
+      "commodity": "Paddy(Dhan)",
+      "variety": "MTU-1010",
+      "arrival_date": "04-10-2026",
+      "min_price": 2320,
+      "max_price": 2400,
+      "modal_price": 2380,
+      "arrivals": 0,
+      "trend": "down",
+      "change_amount": 20,
+      "id": "mandi_andhra_pradesh_venkatagiri_paddydhan_mtu1010"
+    },
+    {
+      "state": "Andhra Pradesh",
       "district": "Vijayawada",
       "market": "Vijayawada",
       "commodity": "Paddy(Dhan)",
@@ -16064,6 +17624,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_andhra_pradesh_tuni_cashewnuts_localraw"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Chilakaluripet",
+      "market": "Chilakaluripet",
+      "commodity": "Cotton",
+      "variety": "Cotton (Unginned)",
+      "arrival_date": "04-10-2026",
+      "min_price": 7000,
+      "max_price": 8200,
+      "modal_price": 7600,
+      "arrivals": 1,
+      "trend": "up",
+      "change_amount": 20,
+      "id": "mandi_andhra_pradesh_chilakaluripet_cotton_cotton_unginned"
     },
     {
       "state": "Andhra Pradesh",
@@ -16157,6 +17732,21 @@
     },
     {
       "state": "Andhra Pradesh",
+      "district": "Venkatagiri",
+      "market": "Venkatagiri",
+      "commodity": "Groundnut",
+      "variety": "Balli/Habbu",
+      "arrival_date": "04-10-2026",
+      "min_price": 5400,
+      "max_price": 7200,
+      "modal_price": 6500,
+      "arrivals": 0,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_andhra_pradesh_venkatagiri_groundnut_ballihabbu"
+    },
+    {
+      "state": "Andhra Pradesh",
       "district": "Anakapally",
       "market": "Anakapally",
       "commodity": "Gur(Jaggery)",
@@ -16232,6 +17822,21 @@
     },
     {
       "state": "Andhra Pradesh",
+      "district": "Venkatagiri",
+      "market": "Venkatagiri",
+      "commodity": "Bengal Gram(Gram)",
+      "variety": "Local",
+      "arrival_date": "04-10-2026",
+      "min_price": 7300,
+      "max_price": 8000,
+      "modal_price": 7700,
+      "arrivals": 0,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_andhra_pradesh_venkatagiri_bengal_gramgram_local"
+    },
+    {
+      "state": "Andhra Pradesh",
       "district": "Kanigiri",
       "market": "Kanigiri",
       "commodity": "Bengal Gram(Gram)",
@@ -16256,8 +17861,8 @@
       "max_price": 19000,
       "modal_price": 18500,
       "arrivals": 370,
-      "trend": "down",
-      "change_amount": 10,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_andhra_pradesh_mummidivaram_coconut_medium"
     },
     {
@@ -16304,6 +17909,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_andhra_pradesh_tiruvuru_red_chilli_dry_chillies"
+    },
+    {
+      "state": "Andhra Pradesh",
+      "district": "Kalikiri",
+      "market": "Kalikiri",
+      "commodity": "Tomato",
+      "variety": "Hybrid",
+      "arrival_date": "04-10-2026",
+      "min_price": 3300,
+      "max_price": 4100,
+      "modal_price": 3700,
+      "arrivals": 195,
+      "trend": "up",
+      "change_amount": 20,
+      "id": "mandi_andhra_pradesh_kalikiri_tomato_hybrid"
     },
     {
       "state": "Andhra Pradesh",
@@ -16391,7 +18011,7 @@
       "max_price": 2400,
       "modal_price": 2300,
       "arrivals": 2954,
-      "trend": "down",
+      "trend": "up",
       "change_amount": 10,
       "id": "mandi_telangana_yellandu_maize_local"
     },
@@ -16472,6 +18092,21 @@
     },
     {
       "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Banana - Green",
+      "variety": "Banana - Green",
+      "arrival_date": "04-10-2026",
+      "min_price": 1000,
+      "max_price": 1000,
+      "modal_price": 1000,
+      "arrivals": 22,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_banana__green_banana__green"
+    },
+    {
+      "state": "Telangana",
       "district": "Rythu Bazar Mehdipatnam",
       "market": "Rythu Bazar Mehdipatnam",
       "commodity": "Banana - Green",
@@ -16514,6 +18149,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_telangana_vanasthalipuramrbz_banana__green_banana__green"
+    },
+    {
+      "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Beetroot",
+      "variety": "Beetroot",
+      "arrival_date": "04-10-2026",
+      "min_price": 3300,
+      "max_price": 3300,
+      "modal_price": 3300,
+      "arrivals": 65,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_beetroot_beetroot"
     },
     {
       "state": "Telangana",
@@ -16571,8 +18221,8 @@
       "max_price": 4500,
       "modal_price": 4000,
       "arrivals": 3,
-      "trend": "down",
-      "change_amount": 10,
+      "trend": "up",
+      "change_amount": 40,
       "id": "mandi_telangana_siddipet_beetroot_beetroot"
     },
     {
@@ -16767,7 +18417,7 @@
       "modal_price": 5000,
       "arrivals": 7,
       "trend": "up",
-      "change_amount": 20,
+      "change_amount": 10,
       "id": "mandi_telangana_siddipet_bitter_gourd_bitter_gourd"
     },
     {
@@ -16784,6 +18434,21 @@
       "trend": "up",
       "change_amount": 1900,
       "id": "mandi_telangana_vanasthalipuramrbz_bitter_gourd_bitter_gourd"
+    },
+    {
+      "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Bottle Gourd",
+      "variety": "Bottle Gourd",
+      "arrival_date": "04-10-2026",
+      "min_price": 1500,
+      "max_price": 1500,
+      "modal_price": 1500,
+      "arrivals": 66,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_bottle_gourd_bottle_gourd"
     },
     {
       "state": "Telangana",
@@ -16842,7 +18507,7 @@
       "modal_price": 1500,
       "arrivals": 30,
       "trend": "down",
-      "change_amount": 10,
+      "change_amount": 30,
       "id": "mandi_telangana_siddipet_bottle_gourd_bottle_gourd"
     },
     {
@@ -16961,8 +18626,8 @@
       "max_price": 2800,
       "modal_price": 2400,
       "arrivals": 25,
-      "trend": "up",
-      "change_amount": 40,
+      "trend": "down",
+      "change_amount": 30,
       "id": "mandi_telangana_siddipet_brinjal_brinjal"
     },
     {
@@ -16991,8 +18656,8 @@
       "max_price": 2000,
       "modal_price": 1750,
       "arrivals": 12,
-      "trend": "down",
-      "change_amount": 50,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_telangana_vantamamidi_brinjal_brinjal"
     },
     {
@@ -17067,7 +18732,7 @@
       "modal_price": 2400,
       "arrivals": 10,
       "trend": "up",
-      "change_amount": 40,
+      "change_amount": 10,
       "id": "mandi_telangana_siddipet_cabbage_cabbage"
     },
     {
@@ -17096,8 +18761,8 @@
       "max_price": 1200,
       "modal_price": 1000,
       "arrivals": 8,
-      "trend": "up",
-      "change_amount": 10,
+      "trend": "down",
+      "change_amount": 20,
       "id": "mandi_telangana_vantamamidi_cabbage_cabbage"
     },
     {
@@ -17111,7 +18776,7 @@
       "max_price": 4500,
       "modal_price": 4000,
       "arrivals": 2,
-      "trend": "up",
+      "trend": "down",
       "change_amount": 30,
       "id": "mandi_telangana_siddipet_capsicum_capsicum"
     },
@@ -17327,6 +18992,21 @@
     },
     {
       "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Cluster Beans",
+      "variety": "Cluster Beans",
+      "arrival_date": "04-10-2026",
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500,
+      "arrivals": 65,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_cluster_beans_cluster_beans"
+    },
+    {
+      "state": "Telangana",
       "district": "Rythu Bazar Falaknuma",
       "market": "Rythu Bazar Falaknuma",
       "commodity": "Cluster Beans",
@@ -17402,6 +19082,21 @@
     },
     {
       "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Colacasia",
+      "variety": "Colacasia",
+      "arrival_date": "04-10-2026",
+      "min_price": 3500,
+      "max_price": 3500,
+      "modal_price": 3500,
+      "arrivals": 35,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_colacasia_colacasia"
+    },
+    {
+      "state": "Telangana",
       "district": "Rythu Bazar Falaknuma",
       "market": "Rythu Bazar Falaknuma",
       "commodity": "Colacasia",
@@ -17456,8 +19151,8 @@
       "max_price": 4500,
       "modal_price": 4000,
       "arrivals": 3,
-      "trend": "up",
-      "change_amount": 30,
+      "trend": "down",
+      "change_amount": 20,
       "id": "mandi_telangana_siddipet_colacasia_colacasia"
     },
     {
@@ -17474,6 +19169,21 @@
       "trend": "up",
       "change_amount": 700,
       "id": "mandi_telangana_vanasthalipuramrbz_colacasia_colacasia"
+    },
+    {
+      "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Cucumbar(Kheera)",
+      "variety": "Cucumbar",
+      "arrival_date": "04-10-2026",
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000,
+      "arrivals": 65,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_cucumbarkheera_cucumbar"
     },
     {
       "state": "Telangana",
@@ -17561,9 +19271,24 @@
       "max_price": 1800,
       "modal_price": 1500,
       "arrivals": 24,
+      "trend": "up",
+      "change_amount": 20,
+      "id": "mandi_telangana_vantamamidi_cucumbarkheera_cucumbar"
+    },
+    {
+      "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Drumstick",
+      "variety": "Drumstick",
+      "arrival_date": "04-10-2026",
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500,
+      "arrivals": 22,
       "trend": "stable",
       "change_amount": 0,
-      "id": "mandi_telangana_vantamamidi_cucumbarkheera_cucumbar"
+      "id": "mandi_telangana_kukatpallyrbz_drumstick_drumstick"
     },
     {
       "state": "Telangana",
@@ -17642,6 +19367,21 @@
     },
     {
       "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Field Bean(Anumulu)",
+      "variety": "Field Bean(Anumulu)",
+      "arrival_date": "04-10-2026",
+      "min_price": 6500,
+      "max_price": 6500,
+      "modal_price": 6500,
+      "arrivals": 35,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_field_beananumulu_field_beananumulu"
+    },
+    {
+      "state": "Telangana",
       "district": "Rythu Bazar Falaknuma",
       "market": "Rythu Bazar Falaknuma",
       "commodity": "Field Bean(Anumulu)",
@@ -17699,6 +19439,21 @@
       "trend": "up",
       "change_amount": 2000,
       "id": "mandi_telangana_rythu_bazar_mehdipatnam_field_pea_field_pea"
+    },
+    {
+      "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "French Beans(Frasbean)",
+      "variety": "French Beans (Frasbean)",
+      "arrival_date": "04-10-2026",
+      "min_price": 7500,
+      "max_price": 7500,
+      "modal_price": 7500,
+      "arrivals": 22,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_french_beansfrasbean_french_beans_frasbean"
     },
     {
       "state": "Telangana",
@@ -17927,6 +19682,21 @@
     },
     {
       "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Leafy Vegetable",
+      "variety": "Leafy Vegetables",
+      "arrival_date": "04-10-2026",
+      "min_price": 3000,
+      "max_price": 3000,
+      "modal_price": 3000,
+      "arrivals": 151,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_leafy_vegetable_leafy_vegetables"
+    },
+    {
+      "state": "Telangana",
       "district": "Rythu Bazar Falaknuma",
       "market": "Rythu Bazar Falaknuma",
       "commodity": "Leafy Vegetable",
@@ -18077,6 +19847,21 @@
     },
     {
       "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Onion",
+      "variety": "1st Sort",
+      "arrival_date": "04-10-2026",
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000,
+      "arrivals": 58,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_onion_1st_sort"
+    },
+    {
+      "state": "Telangana",
       "district": "Rythu Bazar Falaknuma",
       "market": "Rythu Bazar Falaknuma",
       "commodity": "Onion",
@@ -18131,8 +19916,8 @@
       "max_price": 5200,
       "modal_price": 4800,
       "arrivals": 28,
-      "trend": "up",
-      "change_amount": 40,
+      "trend": "down",
+      "change_amount": 30,
       "id": "mandi_telangana_siddipet_onion_onion"
     },
     {
@@ -18164,6 +19949,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_telangana_vantamamidi_onion_onion_green"
+    },
+    {
+      "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Other Green And Fresh Vegetables",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 2500,
+      "max_price": 2500,
+      "modal_price": 2500,
+      "arrivals": 262,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_other_green_and_fresh_vegetables_other"
     },
     {
       "state": "Telangana",
@@ -18431,9 +20231,24 @@
       "max_price": 3000,
       "modal_price": 2500,
       "arrivals": 43,
-      "trend": "up",
-      "change_amount": 10,
+      "trend": "down",
+      "change_amount": 30,
       "id": "mandi_telangana_vantamamidi_ridgeguardtori_ridgeguardtori"
+    },
+    {
+      "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Snakeguard",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 1800,
+      "max_price": 1800,
+      "modal_price": 1800,
+      "arrivals": 18,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_snakeguard_other"
     },
     {
       "state": "Telangana",
@@ -18476,8 +20291,8 @@
       "max_price": 5500,
       "modal_price": 5000,
       "arrivals": 2,
-      "trend": "down",
-      "change_amount": 30,
+      "trend": "up",
+      "change_amount": 10,
       "id": "mandi_telangana_siddipet_snakeguard_snakeguard"
     },
     {
@@ -18596,8 +20411,8 @@
       "max_price": 3600,
       "modal_price": 3200,
       "arrivals": 65,
-      "trend": "down",
-      "change_amount": 20,
+      "trend": "up",
+      "change_amount": 10,
       "id": "mandi_telangana_siddipet_tomato_local"
     },
     {
@@ -18632,6 +20447,21 @@
     },
     {
       "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Wild Cucumber",
+      "variety": "Wild Cucumber",
+      "arrival_date": "04-10-2026",
+      "min_price": 2800,
+      "max_price": 2800,
+      "modal_price": 2800,
+      "arrivals": 61,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_wild_cucumber_wild_cucumber"
+    },
+    {
+      "state": "Telangana",
       "district": "Rythu Bazar Mehdipatnam",
       "market": "Rythu Bazar Mehdipatnam",
       "commodity": "Wild Cucumber",
@@ -18662,6 +20492,21 @@
     },
     {
       "state": "Telangana",
+      "district": "Kukatpally,Rbz",
+      "market": "Kukatpally,Rbz",
+      "commodity": "Yam(Ratalu)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000,
+      "arrivals": 21,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_telangana_kukatpallyrbz_yamratalu_other"
+    },
+    {
+      "state": "Telangana",
       "district": "Saroornagar,Rbz",
       "market": "Saroornagar,Rbz",
       "commodity": "Yam(Ratalu)",
@@ -18674,6 +20519,51 @@
       "trend": "up",
       "change_amount": 1700,
       "id": "mandi_telangana_saroornagarrbz_yamratalu_yam_ratalu"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Birbhum",
+      "market": "Birbhum",
+      "commodity": "Paddy(Dhan)",
+      "variety": "Common",
+      "arrival_date": "04-10-2026",
+      "min_price": 2400,
+      "max_price": 2510,
+      "modal_price": 2490,
+      "arrivals": 620,
+      "trend": "up",
+      "change_amount": 35,
+      "id": "mandi_west_bengal_birbhum_paddydhan_common"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Bolpur",
+      "market": "Bolpur",
+      "commodity": "Paddy(Dhan)",
+      "variety": "Common",
+      "arrival_date": "04-10-2026",
+      "min_price": 2400,
+      "max_price": 2510,
+      "modal_price": 2490,
+      "arrivals": 600,
+      "trend": "up",
+      "change_amount": 35,
+      "id": "mandi_west_bengal_bolpur_paddydhan_common"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Bishnupur",
+      "market": "Bishnupur",
+      "commodity": "Paddy(Dhan)",
+      "variety": "Common",
+      "arrival_date": "04-10-2026",
+      "min_price": 3550,
+      "max_price": 3700,
+      "modal_price": 3600,
+      "arrivals": 3,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_west_bengal_bishnupur_paddydhan_common"
     },
     {
       "state": "West Bengal",
@@ -18692,18 +20582,18 @@
     },
     {
       "state": "West Bengal",
-      "district": "Bishnupur",
-      "market": "Bishnupur",
+      "district": "Bolpur",
+      "market": "Bolpur",
       "commodity": "Paddy(Dhan)",
       "variety": "Common",
       "arrival_date": "04-10-2026",
-      "min_price": 3550,
-      "max_price": 3700,
-      "modal_price": 3600,
-      "arrivals": 3,
-      "trend": "stable",
-      "change_amount": 0,
-      "id": "mandi_west_bengal_bishnupur_paddydhan_common"
+      "min_price": 3800,
+      "max_price": 4000,
+      "modal_price": 3900,
+      "arrivals": 310,
+      "trend": "up",
+      "change_amount": 30,
+      "id": "mandi_west_bengal_bolpur_paddydhan_common"
     },
     {
       "state": "West Bengal",
@@ -18737,6 +20627,51 @@
     },
     {
       "state": "West Bengal",
+      "district": "Birbhum",
+      "market": "Birbhum",
+      "commodity": "Mustard",
+      "variety": "Mustard Oil",
+      "arrival_date": "04-10-2026",
+      "min_price": 18600,
+      "max_price": 18800,
+      "modal_price": 18700,
+      "arrivals": 240,
+      "trend": "down",
+      "change_amount": 50,
+      "id": "mandi_west_bengal_birbhum_mustard_mustard_oil"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Sainthia",
+      "market": "Sainthia",
+      "commodity": "Mustard",
+      "variety": "Mustard Oil",
+      "arrival_date": "04-10-2026",
+      "min_price": 18500,
+      "max_price": 18700,
+      "modal_price": 18600,
+      "arrivals": 220,
+      "trend": "down",
+      "change_amount": 20,
+      "id": "mandi_west_bengal_sainthia_mustard_mustard_oil"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Birbhum",
+      "market": "Birbhum",
+      "commodity": "Masur Dal",
+      "variety": "Masur Dal",
+      "arrival_date": "04-10-2026",
+      "min_price": 14800,
+      "max_price": 14900,
+      "modal_price": 14850,
+      "arrivals": 210,
+      "trend": "down",
+      "change_amount": 25,
+      "id": "mandi_west_bengal_birbhum_masur_dal_masur_dal"
+    },
+    {
+      "state": "West Bengal",
       "district": "Bishnupur",
       "market": "Bishnupur",
       "commodity": "Masur Dal",
@@ -18764,6 +20699,21 @@
       "trend": "up",
       "change_amount": 100,
       "id": "mandi_west_bengal_habra_masur_dal_masur_dal"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Bolpur",
+      "market": "Bolpur",
+      "commodity": "Ginger(Green)",
+      "variety": "Big/Thick",
+      "arrival_date": "04-10-2026",
+      "min_price": 12500,
+      "max_price": 13000,
+      "modal_price": 12560,
+      "arrivals": 210,
+      "trend": "down",
+      "change_amount": 190,
+      "id": "mandi_west_bengal_bolpur_gingergreen_bigthick"
     },
     {
       "state": "West Bengal",
@@ -18812,6 +20762,21 @@
     },
     {
       "state": "West Bengal",
+      "district": "Birbhum",
+      "market": "Birbhum",
+      "commodity": "Brinjal",
+      "variety": "Brinjal",
+      "arrival_date": "04-10-2026",
+      "min_price": 6300,
+      "max_price": 6500,
+      "modal_price": 6350,
+      "arrivals": 230,
+      "trend": "down",
+      "change_amount": 50,
+      "id": "mandi_west_bengal_birbhum_brinjal_brinjal"
+    },
+    {
+      "state": "West Bengal",
       "district": "Bishnupur",
       "market": "Bishnupur",
       "commodity": "Brinjal",
@@ -18824,6 +20789,21 @@
       "trend": "up",
       "change_amount": 1000,
       "id": "mandi_west_bengal_bishnupur_brinjal_brinjal"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Bolpur",
+      "market": "Bolpur",
+      "commodity": "Brinjal",
+      "variety": "Brinjal",
+      "arrival_date": "04-10-2026",
+      "min_price": 6300,
+      "max_price": 6400,
+      "modal_price": 6350,
+      "arrivals": 220,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_west_bengal_bolpur_brinjal_brinjal"
     },
     {
       "state": "West Bengal",
@@ -18857,6 +20837,21 @@
     },
     {
       "state": "West Bengal",
+      "district": "Sainthia",
+      "market": "Sainthia",
+      "commodity": "Brinjal",
+      "variety": "Brinjal",
+      "arrival_date": "04-10-2026",
+      "min_price": 6100,
+      "max_price": 6300,
+      "modal_price": 6200,
+      "arrivals": 260,
+      "trend": "up",
+      "change_amount": 10,
+      "id": "mandi_west_bengal_sainthia_brinjal_brinjal"
+    },
+    {
+      "state": "West Bengal",
       "district": "Khatra",
       "market": "Khatra",
       "commodity": "Cucumbar(Kheera)",
@@ -18869,6 +20864,36 @@
       "trend": "up",
       "change_amount": 1400,
       "id": "mandi_west_bengal_khatra_cucumbarkheera_cucumbar"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Birbhum",
+      "market": "Birbhum",
+      "commodity": "Green Chilli",
+      "variety": "Green Chilly",
+      "arrival_date": "04-10-2026",
+      "min_price": 10900,
+      "max_price": 11000,
+      "modal_price": 10950,
+      "arrivals": 180,
+      "trend": "up",
+      "change_amount": 25,
+      "id": "mandi_west_bengal_birbhum_green_chilli_green_chilly"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Bolpur",
+      "market": "Bolpur",
+      "commodity": "Green Chilli",
+      "variety": "Green Chilly",
+      "arrival_date": "04-10-2026",
+      "min_price": 10900,
+      "max_price": 11000,
+      "modal_price": 10950,
+      "arrivals": 200,
+      "trend": "down",
+      "change_amount": 10,
+      "id": "mandi_west_bengal_bolpur_green_chilli_green_chilly"
     },
     {
       "state": "West Bengal",
@@ -18887,6 +20912,36 @@
     },
     {
       "state": "West Bengal",
+      "district": "Sainthia",
+      "market": "Sainthia",
+      "commodity": "Green Chilli",
+      "variety": "Green Chilly",
+      "arrival_date": "04-10-2026",
+      "min_price": 12800,
+      "max_price": 13000,
+      "modal_price": 12900,
+      "arrivals": 210,
+      "trend": "down",
+      "change_amount": 20,
+      "id": "mandi_west_bengal_sainthia_green_chilli_green_chilly"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Birbhum",
+      "market": "Birbhum",
+      "commodity": "Onion",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 4900,
+      "max_price": 5000,
+      "modal_price": 4960,
+      "arrivals": 250,
+      "trend": "up",
+      "change_amount": 10,
+      "id": "mandi_west_bengal_birbhum_onion_other"
+    },
+    {
+      "state": "West Bengal",
       "district": "Bishnupur",
       "market": "Bishnupur",
       "commodity": "Onion",
@@ -18899,6 +20954,21 @@
       "trend": "down",
       "change_amount": 200,
       "id": "mandi_west_bengal_bishnupur_onion_nasik"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Bolpur",
+      "market": "Bolpur",
+      "commodity": "Onion",
+      "variety": "Onion",
+      "arrival_date": "04-10-2026",
+      "min_price": 4900,
+      "max_price": 5000,
+      "modal_price": 4960,
+      "arrivals": 270,
+      "trend": "up",
+      "change_amount": 10,
+      "id": "mandi_west_bengal_bolpur_onion_onion"
     },
     {
       "state": "West Bengal",
@@ -18917,6 +20987,21 @@
     },
     {
       "state": "West Bengal",
+      "district": "Sainthia",
+      "market": "Sainthia",
+      "commodity": "Onion",
+      "variety": "Onion",
+      "arrival_date": "04-10-2026",
+      "min_price": 4900,
+      "max_price": 5000,
+      "modal_price": 4960,
+      "arrivals": 260,
+      "trend": "up",
+      "change_amount": 10,
+      "id": "mandi_west_bengal_sainthia_onion_onion"
+    },
+    {
+      "state": "West Bengal",
       "district": "Habra",
       "market": "Habra",
       "commodity": "Papaya(Raw)",
@@ -18932,6 +21017,21 @@
     },
     {
       "state": "West Bengal",
+      "district": "Birbhum",
+      "market": "Birbhum",
+      "commodity": "Potato",
+      "variety": "Potato",
+      "arrival_date": "04-10-2026",
+      "min_price": 950,
+      "max_price": 1080,
+      "modal_price": 1000,
+      "arrivals": 530,
+      "trend": "down",
+      "change_amount": 15,
+      "id": "mandi_west_bengal_birbhum_potato_potato"
+    },
+    {
+      "state": "West Bengal",
       "district": "Bishnupur",
       "market": "Bishnupur",
       "commodity": "Potato",
@@ -18944,6 +21044,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_west_bengal_bishnupur_potato_jyoti"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Bolpur",
+      "market": "Bolpur",
+      "commodity": "Potato",
+      "variety": "Potato",
+      "arrival_date": "04-10-2026",
+      "min_price": 950,
+      "max_price": 1080,
+      "modal_price": 1000,
+      "arrivals": 520,
+      "trend": "down",
+      "change_amount": 15,
+      "id": "mandi_west_bengal_bolpur_potato_potato"
     },
     {
       "state": "West Bengal",
@@ -18977,6 +21092,21 @@
     },
     {
       "state": "West Bengal",
+      "district": "Sainthia",
+      "market": "Sainthia",
+      "commodity": "Potato",
+      "variety": "Potato",
+      "arrival_date": "04-10-2026",
+      "min_price": 950,
+      "max_price": 1080,
+      "modal_price": 1000,
+      "arrivals": 510,
+      "trend": "down",
+      "change_amount": 15,
+      "id": "mandi_west_bengal_sainthia_potato_potato"
+    },
+    {
+      "state": "West Bengal",
       "district": "Habra",
       "market": "Habra",
       "commodity": "Pumpkin",
@@ -19007,6 +21137,36 @@
     },
     {
       "state": "West Bengal",
+      "district": "Birbhum",
+      "market": "Birbhum",
+      "commodity": "Tomato",
+      "variety": "Hybrid",
+      "arrival_date": "04-10-2026",
+      "min_price": 4900,
+      "max_price": 5000,
+      "modal_price": 4970,
+      "arrivals": 220,
+      "trend": "up",
+      "change_amount": 20,
+      "id": "mandi_west_bengal_birbhum_tomato_hybrid"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Bolpur",
+      "market": "Bolpur",
+      "commodity": "Tomato",
+      "variety": "Hybrid",
+      "arrival_date": "04-10-2026",
+      "min_price": 4900,
+      "max_price": 5000,
+      "modal_price": 4950,
+      "arrivals": 230,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_west_bengal_bolpur_tomato_hybrid"
+    },
+    {
+      "state": "West Bengal",
       "district": "Habra",
       "market": "Habra",
       "commodity": "Tomato",
@@ -19034,6 +21194,21 @@
       "trend": "up",
       "change_amount": 1000,
       "id": "mandi_west_bengal_khatra_tomato_tomato"
+    },
+    {
+      "state": "West Bengal",
+      "district": "Sainthia",
+      "market": "Sainthia",
+      "commodity": "Tomato",
+      "variety": "Hybrid",
+      "arrival_date": "04-10-2026",
+      "min_price": 4900,
+      "max_price": 5000,
+      "modal_price": 4970,
+      "arrivals": 520,
+      "trend": "up",
+      "change_amount": 20,
+      "id": "mandi_west_bengal_sainthia_tomato_hybrid"
     },
     {
       "state": "Bihar",
@@ -19527,7 +21702,7 @@
       "modal_price": 3100,
       "arrivals": 13,
       "trend": "up",
-      "change_amount": 10,
+      "change_amount": 30,
       "id": "mandi_odisha_junagarh_cabbage_other"
     },
     {
@@ -19586,8 +21761,8 @@
       "max_price": 4400,
       "modal_price": 4200,
       "arrivals": 11,
-      "trend": "down",
-      "change_amount": 50,
+      "trend": "up",
+      "change_amount": 30,
       "id": "mandi_odisha_junagarh_cauliflower_other"
     },
     {
@@ -19601,8 +21776,8 @@
       "max_price": 4400,
       "modal_price": 4200,
       "arrivals": 10,
-      "trend": "down",
-      "change_amount": 50,
+      "trend": "up",
+      "change_amount": 40,
       "id": "mandi_odisha_kalahandi_cauliflower_other"
     },
     {
@@ -19721,8 +21896,8 @@
       "max_price": 5600,
       "modal_price": 5300,
       "arrivals": 9,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 10,
       "id": "mandi_odisha_kalahandi_green_chilli_other"
     },
     {
@@ -19844,6 +22019,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_odisha_hindol_potato_potato"
+    },
+    {
+      "state": "Odisha",
+      "district": "Anandapur",
+      "market": "Anandapur",
+      "commodity": "Pumpkin",
+      "variety": "Pumpkin",
+      "arrival_date": "04-10-2026",
+      "min_price": 1100,
+      "max_price": 1100,
+      "modal_price": 1100,
+      "arrivals": 35,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_odisha_anandapur_pumpkin_pumpkin"
     },
     {
       "state": "Odisha",
@@ -20036,8 +22226,8 @@
       "max_price": 5500,
       "modal_price": 3500,
       "arrivals": 47,
-      "trend": "up",
-      "change_amount": 30,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_himachal_pradesh_smy_bhuntar_apple_other"
     },
     {
@@ -20681,8 +22871,8 @@
       "max_price": 65000,
       "modal_price": 60000,
       "arrivals": 100,
-      "trend": "down",
-      "change_amount": 20,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_jammu_and_kashmir_bumhama_kupwara_walnut_other"
     },
     {
@@ -20696,8 +22886,8 @@
       "max_price": 95000,
       "modal_price": 90000,
       "arrivals": 80,
-      "trend": "down",
-      "change_amount": 20,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_jammu_and_kashmir_bumhama_kupwara_walnut_other"
     },
     {
@@ -20711,8 +22901,8 @@
       "max_price": 13000,
       "modal_price": 10500,
       "arrivals": 188,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_delhi_keshopur_apple_other"
     },
     {
@@ -20741,8 +22931,8 @@
       "max_price": 10000,
       "modal_price": 8000,
       "arrivals": 20,
-      "trend": "down",
-      "change_amount": 10,
+      "trend": "up",
+      "change_amount": 30,
       "id": "mandi_delhi_keshopur_guava_other"
     },
     {
@@ -20756,7 +22946,7 @@
       "max_price": 4400,
       "modal_price": 3400,
       "arrivals": 11,
-      "trend": "up",
+      "trend": "down",
       "change_amount": 20,
       "id": "mandi_delhi_keshopur_mousambisweet_lime_other"
     },
@@ -20786,8 +22976,8 @@
       "max_price": 15000,
       "modal_price": 12500,
       "arrivals": 80,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 30,
       "id": "mandi_delhi_keshopur_pomegranate_other"
     },
     {
@@ -20801,8 +22991,8 @@
       "max_price": 12000,
       "modal_price": 10000,
       "arrivals": 20,
-      "trend": "up",
-      "change_amount": 40,
+      "trend": "down",
+      "change_amount": 10,
       "id": "mandi_delhi_keshopur_quincenakh_quincenakh"
     },
     {
@@ -20816,7 +23006,7 @@
       "max_price": 4000,
       "modal_price": 3400,
       "arrivals": 62,
-      "trend": "up",
+      "trend": "down",
       "change_amount": 20,
       "id": "mandi_delhi_keshopur_bhindiladies_finger_bhindi"
     },
@@ -20832,7 +23022,7 @@
       "modal_price": 2400,
       "arrivals": 19,
       "trend": "up",
-      "change_amount": 20,
+      "change_amount": 30,
       "id": "mandi_delhi_keshopur_bitter_gourd_bitter_gourd"
     },
     {
@@ -20861,8 +23051,8 @@
       "max_price": 2800,
       "modal_price": 2100,
       "arrivals": 239,
-      "trend": "up",
-      "change_amount": 10,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_delhi_keshopur_brinjal_brinjal"
     },
     {
@@ -20891,8 +23081,8 @@
       "max_price": 6500,
       "modal_price": 5350,
       "arrivals": 75,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "up",
+      "change_amount": 10,
       "id": "mandi_delhi_keshopur_capsicum_capsicum"
     },
     {
@@ -20922,7 +23112,7 @@
       "modal_price": 3600,
       "arrivals": 313,
       "trend": "down",
-      "change_amount": 30,
+      "change_amount": 10,
       "id": "mandi_delhi_keshopur_cauliflower_cauliflower"
     },
     {
@@ -20936,7 +23126,7 @@
       "max_price": 3600,
       "modal_price": 3100,
       "arrivals": 203,
-      "trend": "down",
+      "trend": "up",
       "change_amount": 20,
       "id": "mandi_delhi_keshopur_cucumbarkheera_cucumbar"
     },
@@ -20967,7 +23157,7 @@
       "modal_price": 1100,
       "arrivals": 2857,
       "trend": "up",
-      "change_amount": 10,
+      "change_amount": 40,
       "id": "mandi_delhi_keshopur_potato_other"
     },
     {
@@ -20981,8 +23171,8 @@
       "max_price": 2200,
       "modal_price": 1700,
       "arrivals": 297,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_delhi_keshopur_pumpkin_other"
     },
     {
@@ -20997,7 +23187,7 @@
       "modal_price": 1800,
       "arrivals": 91,
       "trend": "down",
-      "change_amount": 50,
+      "change_amount": 10,
       "id": "mandi_delhi_keshopur_raddish_other"
     },
     {
@@ -21026,7 +23216,7 @@
       "max_price": 7000,
       "modal_price": 6000,
       "arrivals": 4,
-      "trend": "down",
+      "trend": "up",
       "change_amount": 20,
       "id": "mandi_delhi_keshopur_tinda_other"
     },
@@ -21536,8 +23726,8 @@
       "max_price": 4800,
       "modal_price": 4700,
       "arrivals": 280,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 10,
       "id": "mandi_kerala_payyannur_coconut_seed_other"
     },
     {
@@ -21566,8 +23756,8 @@
       "max_price": 67000,
       "modal_price": 66000,
       "arrivals": 10,
-      "trend": "down",
-      "change_amount": 30,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_kerala_payyannur_black_pepper_other"
     },
     {
@@ -21657,7 +23847,7 @@
       "modal_price": 3900,
       "arrivals": 30,
       "trend": "up",
-      "change_amount": 20,
+      "change_amount": 30,
       "id": "mandi_kerala_payyannur_amaranthus_other"
     },
     {
@@ -21732,7 +23922,7 @@
       "modal_price": 2300,
       "arrivals": 40,
       "trend": "down",
-      "change_amount": 30,
+      "change_amount": 10,
       "id": "mandi_kerala_payyannur_ashgourd_other"
     },
     {
@@ -21777,7 +23967,7 @@
       "modal_price": 6000,
       "arrivals": 650,
       "trend": "down",
-      "change_amount": 30,
+      "change_amount": 50,
       "id": "mandi_kerala_payyannur_banana__green_other"
     },
     {
@@ -21941,8 +24131,8 @@
       "max_price": 6600,
       "modal_price": 6400,
       "arrivals": 2,
-      "trend": "down",
-      "change_amount": 20,
+      "trend": "up",
+      "change_amount": 30,
       "id": "mandi_kerala_parassala_bitter_gourd_bitter_gourd"
     },
     {
@@ -22091,8 +24281,8 @@
       "max_price": 3200,
       "modal_price": 3000,
       "arrivals": 2,
-      "trend": "down",
-      "change_amount": 10,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_kerala_parassala_cabbage_cabbage"
     },
     {
@@ -22751,8 +24941,8 @@
       "max_price": 7000,
       "modal_price": 6800,
       "arrivals": 2,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "up",
+      "change_amount": 10,
       "id": "mandi_kerala_parassala_onion_onion"
     },
     {
@@ -22856,8 +25046,8 @@
       "max_price": 2500,
       "modal_price": 2400,
       "arrivals": 30,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 20,
       "id": "mandi_kerala_payyannur_pumpkin_other"
     },
     {
@@ -22961,8 +25151,8 @@
       "max_price": 3200,
       "modal_price": 3000,
       "arrivals": 5,
-      "trend": "up",
-      "change_amount": 30,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_kerala_parassala_tapioca_tapioca"
     },
     {
@@ -22976,8 +25166,8 @@
       "max_price": 4500,
       "modal_price": 4400,
       "arrivals": 45,
-      "trend": "down",
-      "change_amount": 50,
+      "trend": "up",
+      "change_amount": 30,
       "id": "mandi_kerala_payyannur_tapioca_other"
     },
     {
@@ -23186,8 +25376,8 @@
       "max_price": 2500,
       "modal_price": 2000,
       "arrivals": 20,
-      "trend": "down",
-      "change_amount": 50,
+      "trend": "up",
+      "change_amount": 30,
       "id": "mandi_assam_tinsukia_ashgourd_ashgourd"
     },
     {
@@ -23246,8 +25436,8 @@
       "max_price": 4500,
       "modal_price": 4000,
       "arrivals": 30,
-      "trend": "up",
-      "change_amount": 20,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_assam_tinsukia_bhindiladies_finger_bhindi"
     },
     {
@@ -23427,7 +25617,7 @@
       "modal_price": 10000,
       "arrivals": 30,
       "trend": "up",
-      "change_amount": 30,
+      "change_amount": 40,
       "id": "mandi_assam_tinsukia_carrot_carrot"
     },
     {
@@ -23441,8 +25631,8 @@
       "max_price": 5000,
       "modal_price": 4500,
       "arrivals": 100,
-      "trend": "up",
-      "change_amount": 30,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_assam_pamohi_cauliflower_cauliflower"
     },
     {
@@ -23501,8 +25691,8 @@
       "max_price": 4500,
       "modal_price": 4000,
       "arrivals": 30,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_assam_tinsukia_cucumbarkheera_other"
     },
     {
@@ -23576,8 +25766,8 @@
       "max_price": 12000,
       "modal_price": 9000,
       "arrivals": 25,
-      "trend": "down",
-      "change_amount": 50,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_assam_tinsukia_gingergreen_green_ginger"
     },
     {
@@ -23621,8 +25811,8 @@
       "max_price": 500,
       "modal_price": 400,
       "arrivals": 480000,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 30,
       "id": "mandi_assam_pamohi_lemon_lemonorganic"
     },
     {
@@ -23756,8 +25946,8 @@
       "max_price": 900,
       "modal_price": 850,
       "arrivals": 120,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "down",
+      "change_amount": 25,
       "id": "mandi_assam_tinsukia_potato_potato"
     },
     {
@@ -23787,7 +25977,7 @@
       "modal_price": 1500,
       "arrivals": 25,
       "trend": "up",
-      "change_amount": 30,
+      "change_amount": 40,
       "id": "mandi_assam_tinsukia_pumpkin_other"
     },
     {
@@ -23846,8 +26036,8 @@
       "max_price": 5000,
       "modal_price": 4500,
       "arrivals": 15,
-      "trend": "up",
-      "change_amount": 40,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_assam_tinsukia_ridgeguardtori_ridgeguardtori"
     },
     {
@@ -23891,8 +26081,8 @@
       "max_price": 5000,
       "modal_price": 4500,
       "arrivals": 20,
-      "trend": "up",
-      "change_amount": 30,
+      "trend": "down",
+      "change_amount": 50,
       "id": "mandi_assam_tinsukia_sponge_gourd_sponge_gourd"
     },
     {
@@ -23951,8 +26141,8 @@
       "max_price": 3500,
       "modal_price": 3000,
       "arrivals": 30,
-      "trend": "down",
-      "change_amount": 30,
+      "trend": "up",
+      "change_amount": 40,
       "id": "mandi_assam_tinsukia_tomato_tomato"
     },
     {
@@ -24017,6 +26207,21 @@
     },
     {
       "state": "Uttarakhand",
+      "district": "Bhagwanpur",
+      "market": "Bhagwanpur",
+      "commodity": "Banana",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 800,
+      "max_price": 1000,
+      "modal_price": 900,
+      "arrivals": 160,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_uttarakhand_bhagwanpur_banana_other"
+    },
+    {
+      "state": "Uttarakhand",
       "district": "Haldwani",
       "market": "Haldwani",
       "commodity": "Banana",
@@ -24071,8 +26276,8 @@
       "max_price": 1600,
       "modal_price": 1550,
       "arrivals": 4,
-      "trend": "up",
-      "change_amount": 10,
+      "trend": "down",
+      "change_amount": 20,
       "id": "mandi_uttarakhand_jaspur_bhindiladies_finger_bhindi"
     },
     {
@@ -24104,6 +26309,21 @@
       "trend": "down",
       "change_amount": 700,
       "id": "mandi_uttarakhand_vikasnagar_bhindiladies_finger_other"
+    },
+    {
+      "state": "Uttarakhand",
+      "district": "Bhagwanpur",
+      "market": "Bhagwanpur",
+      "commodity": "Bitter Gourd",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 600,
+      "max_price": 800,
+      "modal_price": 700,
+      "arrivals": 90,
+      "trend": "stable",
+      "change_amount": 0,
+      "id": "mandi_uttarakhand_bhagwanpur_bitter_gourd_other"
     },
     {
       "state": "Uttarakhand",
@@ -24296,8 +26516,8 @@
       "max_price": 1500,
       "modal_price": 1450,
       "arrivals": 4,
-      "trend": "stable",
-      "change_amount": 0,
+      "trend": "up",
+      "change_amount": 10,
       "id": "mandi_uttarakhand_jaspur_cauliflower_other"
     },
     {
@@ -24329,6 +26549,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_uttarakhand_jaspur_colacasia_other"
+    },
+    {
+      "state": "Uttarakhand",
+      "district": "Bhagwanpur",
+      "market": "Bhagwanpur",
+      "commodity": "Cucumbar(Kheera)",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 600,
+      "max_price": 800,
+      "modal_price": 700,
+      "arrivals": 260,
+      "trend": "up",
+      "change_amount": 20,
+      "id": "mandi_uttarakhand_bhagwanpur_cucumbarkheera_other"
     },
     {
       "state": "Uttarakhand",
@@ -24437,6 +26672,21 @@
     },
     {
       "state": "Uttarakhand",
+      "district": "Bhagwanpur",
+      "market": "Bhagwanpur",
+      "commodity": "Onion",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 3100,
+      "max_price": 3300,
+      "modal_price": 3200,
+      "arrivals": 10,
+      "trend": "down",
+      "change_amount": 10,
+      "id": "mandi_uttarakhand_bhagwanpur_onion_other"
+    },
+    {
+      "state": "Uttarakhand",
       "district": "Haldwani",
       "market": "Haldwani",
       "commodity": "Onion",
@@ -24479,6 +26729,21 @@
       "trend": "up",
       "change_amount": 300,
       "id": "mandi_uttarakhand_vikasnagar_onion_other"
+    },
+    {
+      "state": "Uttarakhand",
+      "district": "Bhagwanpur",
+      "market": "Bhagwanpur",
+      "commodity": "Potato",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 500,
+      "max_price": 700,
+      "modal_price": 600,
+      "arrivals": 420,
+      "trend": "up",
+      "change_amount": 40,
+      "id": "mandi_uttarakhand_bhagwanpur_potato_other"
     },
     {
       "state": "Uttarakhand",
@@ -24566,8 +26831,8 @@
       "max_price": 1300,
       "modal_price": 1250,
       "arrivals": 4,
-      "trend": "up",
-      "change_amount": 10,
+      "trend": "stable",
+      "change_amount": 0,
       "id": "mandi_uttarakhand_jaspur_raddish_raddish"
     },
     {
@@ -24602,6 +26867,21 @@
     },
     {
       "state": "Uttarakhand",
+      "district": "Bhagwanpur",
+      "market": "Bhagwanpur",
+      "commodity": "Tomato",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 1000,
+      "max_price": 1400,
+      "modal_price": 1100,
+      "arrivals": 40,
+      "trend": "down",
+      "change_amount": 100,
+      "id": "mandi_uttarakhand_bhagwanpur_tomato_other"
+    },
+    {
+      "state": "Uttarakhand",
       "district": "Haldwani",
       "market": "Haldwani",
       "commodity": "Tomato",
@@ -24626,8 +26906,8 @@
       "max_price": 2800,
       "modal_price": 2750,
       "arrivals": 4,
-      "trend": "down",
-      "change_amount": 25,
+      "trend": "up",
+      "change_amount": 10,
       "id": "mandi_uttarakhand_jaspur_tomato_tomato"
     },
     {
@@ -24677,6 +26957,21 @@
     },
     {
       "state": "Tripura",
+      "district": "Jampuijala",
+      "market": "Jampuijala",
+      "commodity": "Paddy(Dhan)",
+      "variety": "Fine",
+      "arrival_date": "04-10-2026",
+      "min_price": 4000,
+      "max_price": 4400,
+      "modal_price": 4200,
+      "arrivals": 4,
+      "trend": "up",
+      "change_amount": 30,
+      "id": "mandi_tripura_jampuijala_paddydhan_fine"
+    },
+    {
+      "state": "Tripura",
       "district": "Kalyanpur",
       "market": "Kalyanpur",
       "commodity": "Banana",
@@ -24686,8 +26981,8 @@
       "max_price": 2200,
       "modal_price": 2100,
       "arrivals": 10,
-      "trend": "down",
-      "change_amount": 20,
+      "trend": "up",
+      "change_amount": 10,
       "id": "mandi_tripura_kalyanpur_banana_champa"
     },
     {
@@ -24761,8 +27056,8 @@
       "max_price": 6000,
       "modal_price": 5500,
       "arrivals": 20,
-      "trend": "down",
-      "change_amount": 10,
+      "trend": "up",
+      "change_amount": 40,
       "id": "mandi_tripura_kulai_cabbage_cabbage"
     },
     {
@@ -24777,8 +27072,38 @@
       "modal_price": 5800,
       "arrivals": 20,
       "trend": "up",
-      "change_amount": 40,
+      "change_amount": 20,
       "id": "mandi_tripura_kulai_cucumbarkheera_cucumbar"
+    },
+    {
+      "state": "Tripura",
+      "district": "Jampuijala",
+      "market": "Jampuijala",
+      "commodity": "Ginger(Green)",
+      "variety": "Green Ginger",
+      "arrival_date": "04-10-2026",
+      "min_price": 9000,
+      "max_price": 11000,
+      "modal_price": 10000,
+      "arrivals": 2,
+      "trend": "down",
+      "change_amount": 20,
+      "id": "mandi_tripura_jampuijala_gingergreen_green_ginger"
+    },
+    {
+      "state": "Tripura",
+      "district": "Jampuijala",
+      "market": "Jampuijala",
+      "commodity": "Green Chilli",
+      "variety": "Green Chilly",
+      "arrival_date": "04-10-2026",
+      "min_price": 9000,
+      "max_price": 11000,
+      "modal_price": 10000,
+      "arrivals": 4,
+      "trend": "up",
+      "change_amount": 30,
+      "id": "mandi_tripura_jampuijala_green_chilli_green_chilly"
     },
     {
       "state": "Tripura",
@@ -24794,6 +27119,21 @@
       "trend": "stable",
       "change_amount": 0,
       "id": "mandi_tripura_dasda_onion_onion"
+    },
+    {
+      "state": "Tripura",
+      "district": "Jampuijala",
+      "market": "Jampuijala",
+      "commodity": "Onion",
+      "variety": "Other",
+      "arrival_date": "04-10-2026",
+      "min_price": 4800,
+      "max_price": 5000,
+      "modal_price": 4900,
+      "arrivals": 3,
+      "trend": "down",
+      "change_amount": 20,
+      "id": "mandi_tripura_jampuijala_onion_other"
     },
     {
       "state": "Tripura",
@@ -24827,6 +27167,21 @@
     },
     {
       "state": "Tripura",
+      "district": "Jampuijala",
+      "market": "Jampuijala",
+      "commodity": "Potato",
+      "variety": "Jalander",
+      "arrival_date": "04-10-2026",
+      "min_price": 3800,
+      "max_price": 4000,
+      "modal_price": 3900,
+      "arrivals": 4,
+      "trend": "down",
+      "change_amount": 10,
+      "id": "mandi_tripura_jampuijala_potato_jalander"
+    },
+    {
+      "state": "Tripura",
       "district": "Kulai",
       "market": "Kulai",
       "commodity": "Pumpkin",
@@ -24856,9 +27211,9 @@
       "id": "mandi_tripura_kalyanpur_sponge_gourd_sponge_gourd"
     }
   ],
-  "generated_at": "04-10-2026 08:36:59",
-  "total": 1657,
+  "generated_at": "04-10-2026 10:16:58",
+  "total": 1814,
   "states_covered": 21,
-  "mandis_covered": 380,
-  "commodities_covered": 120
+  "mandis_covered": 407,
+  "commodities_covered": 121
 }
