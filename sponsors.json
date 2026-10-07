@@ -10,7 +10,7 @@
   },
   "Murbad": [
     {
-      "active": true,
+      "active": false,
       "title": "Murbad ads1 ",
       "subtitle": "",
       "phone": "",
@@ -19,7 +19,7 @@
       "end_date": "2026-12-31"
     },
     {
-      "active": true,
+      "active": false,
       "title": "Murbad ads2",
       "subtitle": "Random ads 2",
       "phone": "",
@@ -28,7 +28,7 @@
       "end_date": "2026-12-31"
     },
     {
-      "active": true,
+      "active": false,
       "title": "murbad 3",
       "subtitle": "खास सवलत व ऑफर",
       "phone": "9876543210",
