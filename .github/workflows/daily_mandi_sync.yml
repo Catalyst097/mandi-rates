@@ -61,6 +61,22 @@ jobs:
                   print(f'WARNING: Low trading volume detected ({len(records)} records). Proceeding for festive/partial trading day.')
               else:
                   print(f'SUCCESS: Healthy volume verified ({len(records)} records).')
+
+          # STRICT FRESHNESS GATE: Prevent stale historical data (> 3 days old) from ever touching CDN
+          dates_in_payload = [r.get('arrival_date') for r in records if r.get('arrival_date')]
+          if dates_in_payload:
+              parsed_dates = []
+              for d_str in dates_in_payload:
+                  try:
+                      parsed_dates.append(datetime.datetime.strptime(d_str, '%d-%m-%Y'))
+                  except Exception:
+                      pass
+              if parsed_dates:
+                  latest_date = max(parsed_dates)
+                  days_diff = (now - latest_date).days
+                  print(f'Freshness Gate: Latest arrival date in payload is {latest_date.strftime(\"%d-%m-%Y\")} (Age: {days_diff} days)')
+                  if days_diff > 3:
+                      raise AssertionError(f'FATAL ERROR: Stale data detected ({days_diff} days old). Aborting push to protect live app!')
           "
 
       - name: Commit & Push to Data Branch with Auto-Retry

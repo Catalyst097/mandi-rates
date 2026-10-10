@@ -12,6 +12,7 @@ Pulls daily mandi arrival and modal prices from:
 import os
 import json
 import ssl
+import time
 import urllib.request
 import urllib.parse
 from datetime import datetime, timedelta
@@ -49,12 +50,14 @@ class MandiDataFetcher:
         """
         Fetches live pan-India mandi records directly from the Agmarknet 2.0 API.
         No API key required.
+        Includes gentle pacing and exponential backoff retry to avoid Cloud Armor 429 rate limiting.
         """
         ctx = ssl.create_default_context()
 
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) BharatMandi-Sync/2.0",
-            "Accept": "application/json",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+            "Accept": "application/json, text/plain, */*",
+            "Accept-Language": "en-US,en;q=0.9",
             "Origin": "https://agmarknet.gov.in",
             "Referer": "https://agmarknet.gov.in/"
         }
@@ -75,35 +78,50 @@ class MandiDataFetcher:
             for s_id in PRIORITY_STATES:
                 s_name = STATE_MAP.get(s_id, f"State_{s_id}")
                 url = f"{AGMARKNET_BASE}?date={d_iso}&state={s_id}&includeExcel=false"
-                req = urllib.request.Request(url, headers=headers)
-                try:
-                    with urllib.request.urlopen(req, context=ctx, timeout=12) as resp:
-                        data = json.loads(resp.read().decode("utf-8"))
-                        for g in data.get("commodityGroups", []):
-                            for c in g.get("commodities", []):
-                                c_name = c.get("commodityName", "")
-                                for m in c.get("markets", []):
-                                    mkt = m.get("marketCenter", "")
-                                    for item in m.get("data", []):
-                                        modal_p = float(item.get("modalPrice") or 0)
-                                        if modal_p <= 0:
-                                            continue
-                                        records.append({
-                                            "state": s_name,
-                                            "district": mkt.replace(" APMC", "").split("(")[0].strip(),
-                                            "market": mkt.replace(" APMC", "").strip(),
-                                            "commodity": c_name,
-                                            "variety": item.get("variety", ""),
-                                            "arrival_date": date_display,
-                                            "min_price": float(item.get("minimumPrice") or modal_p),
-                                            "max_price": float(item.get("maximumPrice") or modal_p),
-                                            "modal_price": modal_p,
-                                            "arrivals": float(item.get("arrivals") or 0) * 10,
-                                            "trend": "stable",
-                                            "change_amount": 0
-                                        })
-                except Exception:
-                    pass
+
+                # Pacing delay between states (1.0s) to be polite to government server
+                time.sleep(1.0)
+
+                # Retry loop with exponential backoff on 429
+                max_retries = 3
+                for attempt in range(max_retries):
+                    req = urllib.request.Request(url, headers=headers)
+                    try:
+                        with urllib.request.urlopen(req, context=ctx, timeout=15) as resp:
+                            data = json.loads(resp.read().decode("utf-8"))
+                            for g in data.get("commodityGroups", []):
+                                for c in g.get("commodities", []):
+                                    c_name = c.get("commodityName", "")
+                                    for m in c.get("markets", []):
+                                        mkt = m.get("marketCenter", "")
+                                        for item in m.get("data", []):
+                                            modal_p = float(item.get("modalPrice") or 0)
+                                            if modal_p <= 0:
+                                                continue
+                                            records.append({
+                                                "state": s_name,
+                                                "district": mkt.replace(" APMC", "").split("(")[0].strip(),
+                                                "market": mkt.replace(" APMC", "").strip(),
+                                                "commodity": c_name,
+                                                "variety": item.get("variety", ""),
+                                                "arrival_date": date_display,
+                                                "min_price": float(item.get("minimumPrice") or modal_p),
+                                                "max_price": float(item.get("maximumPrice") or modal_p),
+                                                "modal_price": modal_p,
+                                                "arrivals": float(item.get("arrivals") or 0) * 10,
+                                                "trend": "stable",
+                                                "change_amount": 0
+                                            })
+                            break  # Success, exit retry loop
+                    except urllib.error.HTTPError as e:
+                        if e.code == 429:
+                            backoff = (attempt + 1) * 3
+                            print(f"[WARN] 429 Rate limited on state {s_name} ({s_id}). Backing off for {backoff}s...")
+                            time.sleep(backoff)
+                        else:
+                            break
+                    except Exception:
+                        break
 
             if len(records) >= 50:
                 print(f"[SUCCESS] Fetched {len(records)} verified records from Agmarknet 2.0 for {d_iso} across {len(set(r['state'] for r in records))} states!")
@@ -147,10 +165,11 @@ class MandiDataFetcher:
     @classmethod
     def fetch_all(cls) -> List[Dict[str, Any]]:
         """
-        Attempts primary sources:
-        1. Official Agmarknet 2.0 API (Zero Auth required)
+        Attempts live primary sources:
+        1. Official Agmarknet 2.0 API (Direct, paced)
         2. data.gov.in OGD API
-        3. Local verified seed fallback
+        NEVER falls back to stale outdated local files. If live sources fail,
+        returns empty list so the pipeline aborts safely without corrupting live CDN.
         """
         # 1. Primary: Direct Agmarknet 2.0 API
         records = cls.fetch_from_agmarknet()
@@ -162,16 +181,7 @@ class MandiDataFetcher:
         if records and len(records) >= 30:
             return records
 
-        # 3. Local seed fallback
-        local_today = os.path.join(os.path.dirname(os.path.abspath(__file__)), "today.json")
-        if os.path.exists(local_today):
-            try:
-                with open(local_today, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    cached = data.get("records", [])
-                    print(f"[INFO] Using {len(cached)} verified cached records as fallback.")
-                    return cached
-            except Exception as e:
-                print(f"[ERROR] Failed to read fallback cache: {e}")
-
+        # NEVER return stale local fallback — preserving live data branch is safer!
+        print("[WARN] All live sources unavailable. Returning empty to trigger safe abort.")
         return []
+
